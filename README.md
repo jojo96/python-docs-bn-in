@@ -1,4 +1,4 @@
-# python-docs-bn-in
+# পাইথন ডকুমেন্টেশনের বাংলা অনুবাদ
 
 Hello! This is the repository of the bn-in translation of the Python documentation.
 
