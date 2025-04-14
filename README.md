@@ -1,4 +1,4 @@
-# python-docs-bn-in
+# পাইথন ডকুমেন্টেশনের বাংলা অনুবাদ
 
 Hello! This is the repository of the bn-in translation of the Python documentation.
 
@@ -14,4 +14,4 @@ Python's documentation is maintained using a global network of volunteers. By po
 
 You signify acceptance of this agreement by submitting your work to the PSF for inclusion in the documentation.
 
-***Do not forget to replace this file with your own README that describes your translation and community, while keeping the above agreement!***
+## Contributing to the Translation
