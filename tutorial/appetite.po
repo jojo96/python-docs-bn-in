@@ -9,77 +9,80 @@ msgstr ""
 "Project-Id-Version: Python 3.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-10 20:08+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2025-04-15 12:13+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bn_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: tutorial/appetite.rst:5
 msgid "Whetting Your Appetite"
-msgstr ""
+msgstr "আপনার আগ্রহ জাগানো"
 
 #: tutorial/appetite.rst:7
 msgid "If you do much work on computers, eventually you find that there's some task you'd like to automate.  For example, you may wish to perform a search-and-replace over a large number of text files, or rename and rearrange a bunch of photo files in a complicated way. Perhaps you'd like to write a small custom database, or a specialized GUI application, or a simple game."
-msgstr ""
+msgstr "যদি আপনি কম্পিউটারে অনেক কাজ করেন, তাহলে এক সময় আপনি দেখবেন এমন কিছু কাজ আছে যা আপনি স্বয়ংক্রিয়ভাবে করতে চান। উদাহরণস্বরূপ, আপনি হয়তো অনেকগুলো টেক্সট ফাইলে একসাথে search-and-replace করতে চাইবেন, অথবা অনেক ছবি ফাইল জটিলভাবে rename এবং rearrange করতে চাইবেন। হয়তো আপনি একটি ছোট কাস্টম ডেটাবেস, একটি নির্দিষ্ট GUI অ্যাপ্লিকেশন, বা একটি সাধারণ গেম তৈরি করতে চাইছেন।"
 
 #: tutorial/appetite.rst:13
 msgid "If you're a professional software developer, you may have to work with several C/C++/Java libraries but find the usual write/compile/test/re-compile cycle is too slow.  Perhaps you're writing a test suite for such a library and find writing the testing code a tedious task.  Or maybe you've written a program that could use an extension language, and you don't want to design and implement a whole new language for your application."
-msgstr ""
+msgstr "আপনি যদি একজন পেশাদার সফটওয়্যার ডেভেলপার হন, তাহলে আপনাকে হয়তো একাধিক C/C++/Java লাইব্রেরির সঙ্গে কাজ করতে হয়, কিন্তু দেখেন যে সাধারণ write/compile/test/re-compile চক্রটি অনেক ধীর। হয়তো আপনি এমন একটি লাইব্রেরির জন্য test suite লিখছেন এবং দেখছেন যে টেস্টিং কোড লেখা একটি একঘেয়ে কাজ। অথবা আপনি এমন একটি প্রোগ্রাম লিখেছেন যেখানে একটি extension language ব্যবহার করা যেত, কিন্তু আপনি আপনার অ্যাপ্লিকেশনের জন্য একটি সম্পূর্ণ নতুন ভাষা ডিজাইন ও ইমপ্লিমেন্ট করতে চান না।"
 
 #: tutorial/appetite.rst:20
 msgid "Python is just the language for you."
-msgstr ""
+msgstr "পাইথন ঠিক আপনার জন্য উপযুক্ত ভাষা।"
 
 #: tutorial/appetite.rst:22
 msgid "You could write a Unix shell script or Windows batch files for some of these tasks, but shell scripts are best at moving around files and changing text data, not well-suited for GUI applications or games. You could write a C/C++/Java program, but it can take a lot of development time to get even a first-draft program.  Python is simpler to use, available on Windows, macOS, and Unix operating systems, and will help you get the job done more quickly."
-msgstr ""
+msgstr "আপনি এই কাজগুলোর কিছু করার জন্য একটি Unix shell script বা Windows batch file লিখতে পারেন, কিন্তু shell script মূলত ফাইল স্থানান্তর ও টেক্সট ডেটা পরিবর্তনের জন্য ভালো, GUI অ্যাপ্লিকেশন বা গেমের জন্য তেমন উপযুক্ত নয়। আপনি চাইলে C/C++/Java প্রোগ্রাম লিখতে পারেন, কিন্তু এমনকি একটি প্রাথমিক খসড়া প্রোগ্রাম তৈরি করতেও অনেক সময় লাগতে পারে। পাইথন ব্যবহার করা সহজ, এটি Windows, macOS, এবং Unix অপারেটিং সিস্টেমে উপলব্ধ, এবং এটি আপনাকে আরও দ্রুত কাজ সম্পন্ন করতে সাহায্য করবে।"
 
 #: tutorial/appetite.rst:29
 msgid "Python is simple to use, but it is a real programming language, offering much more structure and support for large programs than shell scripts or batch files can offer.  On the other hand, Python also offers much more error checking than C, and, being a *very-high-level language*, it has high-level data types built in, such as flexible arrays and dictionaries.  Because of its more general data types Python is applicable to a much larger problem domain than Awk or even Perl, yet many things are at least as easy in Python as in those languages."
-msgstr ""
+msgstr "পাইথন ব্যবহার করা সহজ, তবে এটি একটি পূর্ণাঙ্গ প্রোগ্রামিং ভাষা, যা shell script বা batch file-এর তুলনায় বড় প্রোগ্রামের জন্য অনেক বেশি গঠন ও সহায়তা প্রদান করে। অন্যদিকে, পাইথন C-এর তুলনায় অনেক বেশি ত্রুটি পরীক্ষা করে, এবং যেহেতু এটি একটি খুব উচ্চ স্তরের ভাষা, তাই এতে বিল্ট-ইন উচ্চ স্তরের ডেটা টাইপ রয়েছে, যেমন নমনীয় অ্যারে ও ডিকশনারি। এর আরও সাধারণ ডেটা টাইপ থাকার কারণে পাইথন Awk বা এমনকি Perl-এর তুলনায় অনেক বড় সমস্যার ক্ষেত্রে প্রয়োগযোগ্য, তবুও অনেক কাজ পাইথনে ঠিক ততটাই সহজ, যতটা ওই ভাষাগুলোতে।"
 
 #: tutorial/appetite.rst:37
 msgid "Python allows you to split your program into modules that can be reused in other Python programs.  It comes with a large collection of standard modules that you can use as the basis of your programs --- or as examples to start learning to program in Python.  Some of these modules provide things like file I/O, system calls, sockets, and even interfaces to graphical user interface toolkits like Tk."
-msgstr ""
+msgstr "পাইথন আপনাকে আপনার প্রোগ্রামটি মডিউলগুলিতে বিভক্ত করতে দেয়, যেগুলি আপনি অন্যান্য পাইথন প্রোগ্রামে পুনঃব্যবহার করতে পারেন। এটি একটি বড় সংগ্রহের স্ট্যান্ডার্ড মডিউল নিয়ে আসে যা আপনি আপনার প্রোগ্রামের ভিত্তি হিসেবে ব্যবহার করতে পারেন --- অথবা পাইথনে প্রোগ্রামিং শেখার জন্য উদাহরণ হিসেবে ব্যবহার করতে পারেন। এসব মডিউলের কিছু ফাইল I/O, সিস্টেম কল, সোকেট, এবং এমনকি গ্রাফিক্যাল ইউজার ইন্টারফেস টুলকিট যেমন Tk এর ইন্টারফেস প্রদান করে।"
 
 #: tutorial/appetite.rst:44
 msgid "Python is an interpreted language, which can save you considerable time during program development because no compilation and linking is necessary.  The interpreter can be used interactively, which makes it easy to experiment with features of the language, to write throw-away programs, or to test functions during bottom-up program development. It is also a handy desk calculator."
-msgstr ""
+msgstr "পাইথন একটি ইন্টারপ্রেটেড ভাষা, যা প্রোগ্রাম ডেভেলপমেন্টের সময় আপনার অনেকটা সময় বাঁচাতে পারে কারণ এখানে কম্পাইলেশন এবং লিঙ্কিংয়ের প্রয়োজন হয় না। ইন্টারপ্রেটারটি ইন্টারঅ্যাকটিভভাবে ব্যবহার করা যেতে পারে, যা ভাষার ফিচারগুলির সাথে এক্সপেরিমেন্ট করা, দ্রুত প্রোগ্রাম লেখা, বা বটম-আপ প্রোগ্রাম ডেভেলপমেন্টের সময় ফাংশন পরীক্ষা করা সহজ করে তোলে। এটি একটি সুবিধাজনক ডেস্ক ক্যালকুলেটর হিসেবেও ব্যবহার করা যেতে পারে।"
 
 #: tutorial/appetite.rst:50
 msgid "Python enables programs to be written compactly and readably.  Programs written in Python are typically much shorter than equivalent C,  C++, or Java programs, for several reasons:"
-msgstr ""
+msgstr "পাইথন প্রোগ্রামগুলিকে সংক্ষিপ্ত ও পাঠযোগ্যভাবে লেখা সম্ভব করে। পাইথনে লেখা প্রোগ্রামগুলি সাধারণত সমতুল্য C, C++, বা Java প্রোগ্রামগুলির চেয়ে অনেক ছোট হয়, কয়েকটি কারণে:"
 
 #: tutorial/appetite.rst:54
 msgid "the high-level data types allow you to express complex operations in a single statement;"
-msgstr ""
+msgstr "উচ্চ-স্তরের ডেটা টাইপগুলি আপনাকে একটি একক বিবৃতিতে জটিল অপারেশন প্রকাশ করতে সক্ষম করে;"
 
 #: tutorial/appetite.rst:57
 msgid "statement grouping is done by indentation instead of beginning and ending brackets;"
-msgstr ""
+msgstr "স্টেটমেন্ট গ্রুপিং ইনডেন্টেশন দ্বারা করা হয়, শুরু এবং শেষের ব্র্যাকেটের পরিবর্তে;"
 
 #: tutorial/appetite.rst:60
 msgid "no variable or argument declarations are necessary."
-msgstr ""
+msgstr "কোনও ভেরিয়েবল বা আর্গুমেন্ট ঘোষণা করা প্রয়োজন হয় না।"
 
 #: tutorial/appetite.rst:62
 msgid "Python is *extensible*: if you know how to program in C it is easy to add a new built-in function or module to the interpreter, either to perform critical operations at maximum speed, or to link Python programs to libraries that may only be available in binary form (such as a vendor-specific graphics library). Once you are really hooked, you can link the Python interpreter into an application written in C and use it as an extension or command language for that application."
-msgstr ""
+msgstr "পাইথন হল *এক্সটেনসিবল* (বিস্তৃতযোগ্য): যদি আপনি C-তে প্রোগ্রামিং করতে জানেন, তবে এটি ইন্টারপ্রেটারে একটি নতুন বিল্ট-ইন ফাংশন বা মডিউল যোগ করা সহজ, যা বা তো সর্বোচ্চ গতি সহ গুরুত্বপূর্ণ অপারেশন সম্পাদন করবে, অথবা পাইথন প্রোগ্রামগুলিকে এমন লাইব্রেরির সাথে লিঙ্ক করবে যা কেবল বাইনারি ফর্মে উপলব্ধ হতে পারে (যেমন একটি ভেন্ডর-নির্দিষ্ট গ্রাফিক্স লাইব্রেরি)। একবার আপনি সত্যিই আসক্ত হলে, আপনি C-তে লেখা একটি অ্যাপ্লিকেশনের মধ্যে পাইথন ইন্টারপ্রেটারটি লিঙ্ক করতে পারেন এবং সেটি ওই অ্যাপ্লিকেশনের জন্য একটি এক্সটেনশন বা কমান্ড ভাষা হিসেবে ব্যবহার করতে পারেন।"
 
 #: tutorial/appetite.rst:70
 msgid "By the way, the language is named after the BBC show \"Monty Python's Flying Circus\" and has nothing to do with reptiles.  Making references to Monty Python skits in documentation is not only allowed, it is encouraged!"
-msgstr ""
+msgstr "তাছাড়া, ভাষার নামকরণ করা হয়েছে BBC-এর শো \"Monty Python's Flying Circus\"-এর নামানুসারে এবং এর সাপের সাথে কোনো সম্পর্ক নেই। ডকুমেন্টেশনে Monty Python স্কিটের রেফারেন্স দেওয়া শুধু অনুমোদিত নয়, বরং উৎসাহিত করা হয়!"
 
 #: tutorial/appetite.rst:74
 msgid "Now that you are all excited about Python, you'll want to examine it in some more detail.  Since the best way to learn a language is to use it, the tutorial invites you to play with the Python interpreter as you read."
-msgstr ""
+msgstr "এখন আপনি যেহেতু পাইথন নিয়ে পুরোপুরি উত্তেজিত, আপনি এটি আরও বিস্তারিতভাবে পরীক্ষা করতে চাইবেন। যেহেতু একটি ভাষা শেখার সেরা উপায় হলো সেটি ব্যবহার করা, টিউটোরিয়ালটি আপনাকে পড়ার সময় পাইথন ইন্টারপ্রেটারের সাথে খেলার জন্য আমন্ত্রণ জানায়।"
 
 #: tutorial/appetite.rst:78
 msgid "In the next chapter, the mechanics of using the interpreter are explained.  This is rather mundane information, but essential for trying out the examples shown later."
-msgstr ""
+msgstr "পরবর্তী অধ্যায়ে, ইন্টারপ্রেটার ব্যবহারের মেকানিক্স ব্যাখ্যা করা হয়েছে। এটি কিছুটা সাধারণ তথ্য, কিন্তু পরবর্তীতে প্রদর্শিত উদাহরণগুলি চেষ্টা করার জন্য অত্যন্ত গুরুত্বপূর্ণ।"
 
 #: tutorial/appetite.rst:82
 msgid "The rest of the tutorial introduces various features of the Python language and system through examples, beginning with simple expressions, statements and data types, through functions and modules, and finally touching upon advanced concepts like exceptions and user-defined classes."
-msgstr ""
+msgstr "টিউটোরিয়ালের বাকি অংশটি পাইথন ভাষা এবং সিস্টেমের বিভিন্ন ফিচার উদাহরণের মাধ্যমে পরিচয় করিয়ে দেয়, শুরু হয় সোজা এক্সপ্রেশন, স্টেটমেন্ট এবং ডেটা টাইপ থেকে, তারপর ফাংশন এবং মডিউলস নিয়ে আলোচনা করা হয়, এবং শেষ পর্যন্ত এগুলি নিয়ে আলোচনা করা হয় যেমন এক্সসেপশন এবং ব্যবহারকারী-সংজ্ঞায়িত ক্লাসের মতো উন্নত ধারণাগুলি।"
