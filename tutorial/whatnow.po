@@ -79,7 +79,7 @@ msgstr "পাইথন-সংক্রান্ত প্রশ্ন এবং
 
 #: tutorial/whatnow.rst:64
 msgid "Before posting, be sure to check the list of :ref:`Frequently Asked Questions <faq-index>` (also called the FAQ).  The FAQ answers many of the questions that come up again and again, and may already contain the solution for your problem."
-msgstr "পোস্ট করার আগে, :ref:`Frequently Asked Questions <faq-index>` (যাকে FAQ বলা হয়) এর তালিকা দেখে নিন। FAQ এমন অনেক প্রশ্নের উত্তর দেয় যা বার বার উঠছে, এবং এটি আপনার সমস্যার সমাধানও থাকতে পারে।"
+msgstr "পাইথন-সংক্রান্ত প্রশ্ন এবং সমস্যা রিপোর্টের জন্য, আপনি নতুন গ্রুপ :newsgroup:`comp.lang.python`-এ পোস্ট করতে পারেন, অথবা মেইলিং লিস্টে পাঠাতে পারেন python-list@python.org। নতুন গ্রুপ এবং মেইলিং লিস্ট দুটি একে অপরের সঙ্গে সংযুক্ত, তাই একটি পোস্ট করা হলে তা স্বয়ংক্রিয়ভাবে অন্যটিতে ফরওয়ার্ড হয়ে যাবে। প্রতিদিন শত শত পোস্ট করা হয়, যেখানে প্রশ্ন করা (এবং উত্তর দেওয়া), নতুন ফিচার প্রস্তাব করা, এবং নতুন মডিউল ঘোষণা করা হয়। মেইলিং লিস্ট আর্কাইভ দেখতে পাবেন https://mail.python.org/pipermail/।"
 
 #: tutorial/whatnow.rst:70
 msgid "Footnotes"
