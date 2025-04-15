@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Python 3.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-10 20:08+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2025-04-15 15:30+0530\n" 
+"Last-Translator: Shibajyoti Majumder shibajyotim@gmail.com\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,67 +18,67 @@ msgstr ""
 
 #: tutorial/appendix.rst:5
 msgid "Appendix"
-msgstr ""
+msgstr "পরিশিষ্ট"
 
 #: tutorial/appendix.rst:11
 msgid "Interactive Mode"
-msgstr ""
+msgstr "ইন্টারেক্টিভ মোড"
 
 #: tutorial/appendix.rst:16
 msgid "Error Handling"
-msgstr ""
+msgstr "ত্রুটি পরিচালনা"
 
 #: tutorial/appendix.rst:18
 msgid "When an error occurs, the interpreter prints an error message and a stack trace. In interactive mode, it then returns to the primary prompt; when input came from a file, it exits with a nonzero exit status after printing the stack trace. (Exceptions handled by an :keyword:`except` clause in a :keyword:`try` statement are not errors in this context.)  Some errors are unconditionally fatal and cause an exit with a nonzero exit status; this applies to internal inconsistencies and some cases of running out of memory.  All error messages are written to the standard error stream; normal output from executed commands is written to standard output."
-msgstr ""
+msgstr "যখন একটি ত্রুটি ঘটে, ইন্টারপ্রেটার একটি ত্রুটি বার্তা এবং স্ট্যাক ট্রেস মুদ্রণ করে। ইন্টারেক্টিভ মোডে, এটি প্রাথমিক প্রম্পটে ফিরে আসে; ফাইল থেকে ইনপুট এলে, স্ট্যাক ট্রেস মুদ্রণের পরে এটি একটি ননজিরো এক্সিট স্ট্যাটাস সহ প্রস্থান করে। (:keyword:`try` বিবৃতিতে :keyword:`except` ক্লজ দ্বারা পরিচালিত ব্যতিক্রমগুলি এই প্রসঙ্গে ত্রুটি নয়।) কিছু ত্রুটি নিঃশর্তভাবে মারাত্মক এবং একটি ননজিরো এক্সিট স্ট্যাটাস সহ প্রস্থান ঘটায়; এটি অভ্যন্তরীণ অসঙ্গতি এবং মেমোরি শেষ হয়ে যাওয়ার কিছু ক্ষেত্রে প্রযোজ্য। সমস্ত ত্রুটি বার্তা স্ট্যান্ডার্ড ত্রুটি স্ট্রিমে লেখা হয়; কার্যকর করা কমান্ডগুলির স্বাভাবিক আউটপুট স্ট্যান্ডার্ড আউটপুটে লেখা হয়।"
 
 #: tutorial/appendix.rst:28
 msgid "Typing the interrupt character (usually :kbd:`Control-C` or :kbd:`Delete`) to the primary or secondary prompt cancels the input and returns to the primary prompt. [#]_ Typing an interrupt while a command is executing raises the :exc:`KeyboardInterrupt` exception, which may be handled by a :keyword:`try` statement."
-msgstr ""
+msgstr "প্রাথমিক বা গৌণ প্রম্পটে ইন্টারাপ্ট ক্যারেক্টার (সাধারণত :kbd:`Control-C` বা :kbd:`Delete`) টাইপ করলে ইনপুট বাতিল হয় এবং প্রাথমিক প্রম্পটে ফিরে আসে। [#]_ একটি কমান্ড কার্যকর হওয়ার সময় ইন্টারাপ্ট টাইপ করলে :exc:`KeyboardInterrupt` ব্যতিক্রম উত্থাপিত হয়, যা একটি :keyword:`try` বিবৃতির মাধ্যমে পরিচালিত হতে পারে।"
 
 #: tutorial/appendix.rst:38
 msgid "Executable Python Scripts"
-msgstr ""
+msgstr "এক্সিকিউটেবল পাইথন স্ক্রিপ্ট"
 
 #: tutorial/appendix.rst:40
 msgid "On BSD'ish Unix systems, Python scripts can be made directly executable, like shell scripts, by putting the line ::"
-msgstr ""
+msgstr "BSD-ধর্মী ইউনিক্স সিস্টেমে, পাইথন স্ক্রিপ্টগুলি শেল স্ক্রিপ্টের মতো সরাসরি এক্সিকিউটেবল করা যেতে পারে, এই লাইনটি যোগ করে ::"
 
 #: tutorial/appendix.rst:43
 msgid "#!/usr/bin/env python3"
-msgstr ""
+msgstr "#!/usr/bin/env python3"
 
 #: tutorial/appendix.rst:45
 msgid "(assuming that the interpreter is on the user's :envvar:`PATH`) at the beginning of the script and giving the file an executable mode.  The ``#!`` must be the first two characters of the file.  On some platforms, this first line must end with a Unix-style line ending (``'\\n'``), not a Windows (``'\\r\\n'``) line ending.  Note that the hash, or pound, character, ``'#'``, is used to start a comment in Python."
-msgstr ""
+msgstr "(ধরা হচ্ছে ইন্টারপ্রেটার ব্যবহারকারীর :envvar:`PATH`-এ রয়েছে) স্ক্রিপ্টের শুরুতে এবং ফাইলটিকে এক্সিকিউটেবল মোড দেওয়া। ``#!`` ফাইলের প্রথম দুটি অক্ষর হতে হবে। কিছু প্ল্যাটফর্মে, এই প্রথম লাইনটি ইউনিক্স-স্টাইল লাইনের শেষে (``'\\n'``) শেষ হতে হবে, উইন্ডোজ (``'\\r\\n'``) লাইনের শেষে নয়। মনে রাখবেন, হ্যাশ বা পাউন্ড ক্যারেক্টার, ``'#'``, পাইথনে একটি মন্তব্য শুরু করতে ব্যবহৃত হয়।"
 
 #: tutorial/appendix.rst:52
 msgid "The script can be given an executable mode, or permission, using the :program:`chmod` command."
-msgstr ""
+msgstr "স্ক্রিপ্টটিকে :program:`chmod` কমান্ড ব্যবহার করে এক্সিকিউটেবল মোড বা অনুমতি দেওয়া যেতে পারে।"
 
 #: tutorial/appendix.rst:55
 msgid "$ chmod +x myscript.py"
-msgstr ""
+msgstr "$ chmod +x myscript.py"
 
 #: tutorial/appendix.rst:59
 msgid "On Windows systems, there is no notion of an \"executable mode\".  The Python installer automatically associates ``.py`` files with ``python.exe`` so that a double-click on a Python file will run it as a script.  The extension can also be ``.pyw``, in that case, the console window that normally appears is suppressed."
-msgstr ""
+msgstr "উইন্ডোজ সিস্টেমে, \"এক্সিকিউটেবল মোড\" ধারণা নেই। পাইথন ইনস্টলার স্বয়ংক্রিয়ভাবে ``.py`` ফাইলগুলিকে ``python.exe``-এর সাথে যুক্ত করে যাতে একটি পাইথন ফাইলে ডাবল-ক্লিক করলে এটি একটি স্ক্রিপ্ট হিসাবে চালানো হয়। এক্সটেনশনটি ``.pyw`` হতে পারে, সেই ক্ষেত্রে, সাধারণত প্রদর্শিত কনসোল উইন্ডোটি দমন করা হয়।"
 
 #: tutorial/appendix.rst:69
 msgid "The Interactive Startup File"
-msgstr ""
+msgstr "ইন্টারেক্টিভ স্টার্টআপ ফাইল"
 
 #: tutorial/appendix.rst:71
 msgid "When you use Python interactively, it is frequently handy to have some standard commands executed every time the interpreter is started.  You can do this by setting an environment variable named :envvar:`PYTHONSTARTUP` to the name of a file containing your start-up commands.  This is similar to the :file:`.profile` feature of the Unix shells."
-msgstr ""
+msgstr "আপনি যখন ইন্টারেক্টিভভাবে পাইথন ব্যবহার করেন, তখন ইন্টারপ্রেটার শুরু হওয়ার সময় কিছু স্ট্যান্ডার্ড কমান্ড কার্যকর করা প্রায়ই সুবিধাজনক হয়। আপনি এটি করতে পারেন একটি পরিবেশ ভেরিয়েবল :envvar:`PYTHONSTARTUP`-এর নাম দিয়ে সেট করে, যা আপনার স্টার্ট-আপ কমান্ডগুলি ধারণকারী একটি ফাইলের নাম। এটি ইউনিক্স শেলের :file:`.profile` বৈশিষ্ট্যের অনুরূপ।"
 
 #: tutorial/appendix.rst:77
 msgid "This file is only read in interactive sessions, not when Python reads commands from a script, and not when :file:`/dev/tty` is given as the explicit source of commands (which otherwise behaves like an interactive session).  It is executed in the same namespace where interactive commands are executed, so that objects that it defines or imports can be used without qualification in the interactive session. You can also change the prompts ``sys.ps1`` and ``sys.ps2`` in this file."
-msgstr ""
+msgstr "এই ফাইলটি শুধুমাত্র ইন্টারেক্টিভ সেশনে পড়া হয়, যখন পাইথন একটি স্ক্রিপ্ট থেকে কমান্ড পড়ে তখন নয়, এবং যখন :file:`/dev/tty` স্পষ্ট উৎস হিসাবে দেওয়া হয় তখন নয় (যা অন্যথায় একটি ইন্টারেক্টিভ সেশনের মতো আচরণ করে)। এটি একই namespace-এ কার্যকর করা হয় যেখানে ইন্টারেক্টিভ কমান্ডগুলি কার্যকর করা হয়, যাতে এটি যে অবজেক্টগুলি সংজ্ঞায়িত করে বা ইম্পোর্ট করে সেগুলি ইন্টারেক্টিভ সেশনে যোগ্যতা ছাড়াই ব্যবহার করা যায়। আপনি এই ফাইলের মধ্যে ``sys.ps1`` এবং ``sys.ps2`` প্রম্পটগুলিও পরিবর্তন করতে পারেন।"
 
 #: tutorial/appendix.rst:85
 msgid "If you want to read an additional start-up file from the current directory, you can program this in the global start-up file using code like ``if os.path.isfile('.pythonrc.py'): exec(open('.pythonrc.py').read())``. If you want to use the startup file in a script, you must do this explicitly in the script::"
-msgstr ""
+msgstr "যদি আপনি বর্তমান ডিরেক্টরি থেকে একটি অতিরিক্ত স্টার্ট-আপ ফাইল পড়তে চান, আপনি গ্লোবাল স্টার্ট-আপ ফাইলে কোড ব্যবহার করে এটি প্রোগ্রাম করতে পারেন, যেমন ``if os.path.isfile('.pythonrc.py'): exec(open('.pythonrc.py').read())``। যদি আপনি একটি স্ক্রিপ্টে স্টার্ট-আপ ফাইলটি ব্যবহার করতে চান, তবে আপনাকে এটি স্পষ্টভাবে স্ক্রিপ্টে করতে হবে::"
 
 #: tutorial/appendix.rst:91
 msgid "import os\n"
@@ -91,30 +91,32 @@ msgstr ""
 
 #: tutorial/appendix.rst:102
 msgid "The Customization Modules"
-msgstr ""
+msgstr "কাস্টমাইজেশন মডিউলগুলি"
 
 #: tutorial/appendix.rst:104
 msgid "Python provides two hooks to let you customize it: :index:`sitecustomize` and :index:`usercustomize`.  To see how it works, you need first to find the location of your user site-packages directory.  Start Python and run this code::"
-msgstr ""
+msgstr "পাইথন আপনাকে এটি কাস্টমাইজ করার জন্য দুটি হুক প্রদান করে: :index:`sitecustomize` এবং :index:`usercustomize`। এটি কীভাবে কাজ করে তা দেখতে, আপনাকে প্রথমে আপনার ব্যবহারকারীর সাইট-প্যাকেজ ডিরেক্টরির অবস্থান খুঁজে বের করতে হবে। পাইথন শুরু করুন এবং এই কোডটি চালান::"
 
 #: tutorial/appendix.rst:108
 msgid ">>> import site\n"
 ">>> site.getusersitepackages()\n"
 "'/home/user/.local/lib/python3.x/site-packages'"
-msgstr ""
+msgstr ">>> import site\n"
+">>> site.getusersitepackages()\n"
+"'/home/user/.local/lib/python3.x/site-packages'"
 
 #: tutorial/appendix.rst:112
 msgid "Now you can create a file named :file:`usercustomize.py` in that directory and put anything you want in it.  It will affect every invocation of Python, unless it is started with the :option:`-s` option to disable the automatic import."
-msgstr ""
+msgstr "এখন আপনি সেই ডিরেক্টরিতে :file:`usercustomize.py` নামে একটি ফাইল তৈরি করতে পারেন এবং এতে আপনার যা ইচ্ছা তা রাখতে পারেন। এটি পাইথনের প্রতিটি আহ্বানে প্রভাব ফেলবে, যদি না এটি স্বয়ংক্রিয় ইম্পোর্ট নিষ্ক্রিয় করতে :option:`-s` অপশন দিয়ে শুরু করা হয়।"
 
 #: tutorial/appendix.rst:116
 msgid ":index:`sitecustomize` works in the same way, but is typically created by an administrator of the computer in the global site-packages directory, and is imported before :index:`usercustomize`.  See the documentation of the :mod:`site` module for more details."
-msgstr ""
+msgstr ":index:`sitecustomize` একইভাবে কাজ করে, তবে এটি সাধারণত কম্পিউটারের প্রশাসক দ্বারা গ্লোবাল সাইট-প্যাকেজ ডিরেক্টরিতে তৈরি করা হয় এবং এটি :index:`usercustomize` এর আগে ইম্পোর্ট করা হয়। আরও বিশদ বিবরণের জন্য :mod:`site` মডিউলের ডকুমেন্টেশন দেখুন।"
 
 #: tutorial/appendix.rst:123
 msgid "Footnotes"
-msgstr ""
+msgstr "ফুটনোট"
 
 #: tutorial/appendix.rst:124
 msgid "A problem with the GNU Readline package may prevent this."
-msgstr ""
+msgstr "GNU Readline প্যাকেজের একটি সমস্যা এটি প্রতিরোধ করতে পারে।"
