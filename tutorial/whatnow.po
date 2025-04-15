@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Ujjayanta <ujjayanta.bhaumik.18@ucl.ac.uk>, 2025.
 #
 #, fuzzy
 msgid ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-10 20:08+0200\n"
 "PO-Revision-Date: 2025-04-14 23:53+0200\n"
-"Last-Translator: \n"
+"Last-Translator: Ujjayanta\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +35,7 @@ msgstr ":ref:`library-index`:"
 
 #: tutorial/whatnow.rst:16
 msgid "You should browse through this manual, which gives complete (though terse) reference material about types, functions, and the modules in the standard library.  The standard Python distribution includes a *lot* of additional code. There are modules to read Unix mailboxes, retrieve documents via HTTP, generate random numbers, parse command-line options, compress data, and many other tasks. Skimming through the Library Reference will give you an idea of what's available."
-msgstr "আপনার এই ম্যানুয়ালটি ব্রাউজ করে দেখা উচিত, যা টাইপ, ফাংশন এবং স্ট্যান্ডার্ড লাইব্রেরির মডিউলগুলোর উপর একটি পূর্ণাঙ্গ (যদিও সংক্ষিপ্ত) রেফারেন্স উপস্থাপন করে। স্ট্যান্ডার্ড পাইথন ডিস্ট্রিবিউশনের সঙ্গে প্রচুর অতিরিক্ত কোড অন্তর্ভুক্ত থাকে। উদাহরণস্বরূপ, ইউনিক্স মেইলবক্স পড়া, এইচটিটিপি-র মাধ্যমে ডকুমেন্ট রিট্রিভ করা, এলোমেলো নাম্বার জেনারেট করা, কমান্ড-লাইন অপশন পার্স করা, ডেটা কমপ্রেস করা — এমন আরও অনেক কাজের জন্য মডিউল রয়েছে। লাইব্রেরি রেফারেন্সটি ঝটপট পড়ে নিলে আপনি বুঝতে পারবেন এতে কী কী রয়েছে।"
+msgstr "আপনার এই ম্যানুয়ালটি ব্রাউজ করে দেখা উচিত, যা টাইপ, ফাংশন এবং স্ট্যান্ডার্ড লাইব্রেরির মডিউলগুলোর উপর একটি পূর্ণাঙ্গ (যদিও সংক্ষিপ্ত) রেফারেন্স উপস্থাপন করে। স্ট্যান্ডার্ড পাইথন ডিস্ট্রিবিউশনের সঙ্গে প্রচুর অতিরিক্ত কোড অন্তর্ভুক্ত থাকে। লাইব্রেরি রেফারেন্সটি ঝটপট পড়ে নিলে আপনি বুঝতে পারবেন এতে কী কী রয়েছে।"
 
 #: tutorial/whatnow.rst:24
 msgid ":ref:`installing-index` explains how to install additional modules written by other Python users."
@@ -75,7 +75,7 @@ msgstr "https://scipy.org: সায়েন্টিফিক পাইথন 
 
 #: tutorial/whatnow.rst:56
 msgid "For Python-related questions and problem reports, you can post to the newsgroup :newsgroup:`comp.lang.python`, or send them to the mailing list at python-list@python.org.  The newsgroup and mailing list are gatewayed, so messages posted to one will automatically be forwarded to the other.  There are hundreds of postings a day, asking (and answering) questions, suggesting new features, and announcing new modules. Mailing list archives are available at https://mail.python.org/pipermail/."
-msgstr "পাইথন-সংক্রান্ত প্রশ্ন এবং সমস্যা রিপোর্টের জন্য, আপনি নতুন গ্রুপ :newsgroup:`comp.lang.python` এ পোস্ট করতে পারেন, অথবা মেইলিং লিস্টে পাঠাতে পারেন python-list@python.org নতুন গ্রুপ এবং মেইলিং লিস্ট দুটি একে অপরের সঙ্গে সংযুক্ত, তাই একটি পোস্ট করা হলে তা স্বয়ংক্রিয়ভাবে অন্যটিতে ফরওয়ার্ড হয়ে যাবে। প্রতিদিন শত শত পোস্ট করা হয়, যেখানে প্রশ্ন করা (এবং উত্তর দেওয়া), নতুন ফিচার প্রস্তাব করা, এবং নতুন মডিউল ঘোষণা করা হয়। মেইলিং লিস্ট আর্কাইভ দেখতে পাবেন"
+msgstr "পাইথন-সংক্রান্ত প্রশ্ন এবং সমস্যা রিপোর্টের জন্য, আপনি নতুন গ্রুপ :newsgroup:`comp.lang.python`-এ পোস্ট করতে পারেন, অথবা মেইলিং লিস্টে পাঠাতে পারেন python-list@python.org | নতুন গ্রুপ এবং মেইলিং লিস্ট দুটি একে অপরের সঙ্গে সংযুক্ত, তাই একটি পোস্ট করা হলে তা স্বয়ংক্রিয়ভাবে অন্যটিতে ফরওয়ার্ড হয়ে যাবে।"
 
 #: tutorial/whatnow.rst:64
 msgid "Before posting, be sure to check the list of :ref:`Frequently Asked Questions <faq-index>` (also called the FAQ).  The FAQ answers many of the questions that come up again and again, and may already contain the solution for your problem."
