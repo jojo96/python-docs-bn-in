@@ -1,7 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
+# Translated PO file
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Ujjayanta <ujjayanta.bhaumik@ucl.ac.uk>, 2025.
 #
 #, fuzzy
 msgid ""
@@ -9,8 +9,7 @@ msgstr ""
 "Project-Id-Version: Python 3.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-10 20:08+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Ujjayanta <ujjayanta.bhaumik@ucl.ac.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +18,11 @@ msgstr ""
 #: library/functions.rst:5
 #: library/functions.rst:11
 msgid "Built-in Functions"
-msgstr ""
+msgstr "অন্তর্নির্মিত ফাংশন"
 
 #: library/functions.rst:7
 msgid "The Python interpreter has a number of functions and types built into it that are always available.  They are listed here in alphabetical order."
-msgstr ""
+msgstr "পাইথন দোভাষীর মধ্যে অনেকগুলি ফাংশন এবং প্রকার রয়েছে যা সর্বদা উপলভ্য।এগুলি এখানে বর্ণানুক্রমিক ক্রমে তালিকাভুক্ত করা হয়েছে।"
 
 #: library/functions.rst:0
 msgid "**A**"
@@ -391,188 +390,188 @@ msgstr ""
 
 #: library/functions.rst:59
 msgid "Return the absolute value of a number.  The argument may be an integer, a floating-point number, or an object implementing :meth:`~object.__abs__`. If the argument is a complex number, its magnitude is returned."
-msgstr ""
+msgstr "একটি সংখ্যার পরম মান ফেরত দিন।যুক্তিটি একটি পূর্ণসংখ্যা, একটি ভাসমান-পয়েন্ট নম্বর বা প্রয়োগকারী কোনও বস্তু হতে পারে  :meth:`~object.__abs__` ।যুক্তি যদি একটি জটিল সংখ্যা হয় তবে এর দৈর্ঘ্যটি ফিরে আসে।"
 
 #: library/functions.rst:67
 msgid "Return an :term:`asynchronous iterator` for an :term:`asynchronous iterable`. Equivalent to calling ``x.__aiter__()``."
-msgstr ""
+msgstr "রিটার্ন  :term:`asynchronous iterator` এর জন্য  ``x.__aiter__()`` কল করার সমতুল্য `"
 
 #: library/functions.rst:70
 msgid "Note: Unlike :func:`iter`, :func:`aiter` has no 2-argument variant."
-msgstr ""
+msgstr "দ্রষ্টব্য: :func:`aiter` 2-আর্গুমেন্টের বৈকল্পিক নেই।"
 
 #: library/functions.rst:76
 msgid "Return ``True`` if all elements of the *iterable* are true (or if the iterable is empty).  Equivalent to::"
 msgstr ""
 
 #: library/functions.rst:79
-msgid "def all(iterable):\n"
-"    for element in iterable:\n"
-"        if not element:\n"
-"            return False\n"
-"    return True"
+msgid "def all(iterable):
+    for element in iterable:
+        if not element:
+            return False
+    return True"
 msgstr ""
 
 #: library/functions.rst:89
 msgid "When awaited, return the next item from the given :term:`asynchronous iterator`, or *default* if given and the iterator is exhausted."
-msgstr ""
+msgstr "যখন অপেক্ষা করা হয়, প্রদত্ত থেকে পরবর্তী আইটেমটি ফিরিয়ে দিন :term:`asynchronous iterator`, বা *default* দেওয়া হলে এবং পুনরাবৃত্তিটি শেষ হয়ে যায়।"
 
 #: library/functions.rst:92
 msgid "This is the async variant of the :func:`next` builtin, and behaves similarly."
-msgstr ""
+msgstr "এটি এর অ্যাসিঙ্ক বৈকল্পিক :func:`next` বিল্টিন এবং একইভাবে আচরণ করে।"
 
 #: library/functions.rst:95
 msgid "This calls the :meth:`~object.__anext__` method of *async_iterator*, returning an :term:`awaitable`. Awaiting this returns the next value of the iterator. If *default* is given, it is returned if the iterator is exhausted, otherwise :exc:`StopAsyncIteration` is raised."
-msgstr ""
+msgstr "এটি কল করে  :meth:`~object.__anext__` এর জন্য অপেক্ষা করা পুনরাবৃত্তির পরবর্তী মান।যদি *default* দেওয়া হয়, তবে পুনরাবৃত্তকারীটি ক্লান্ত হয়ে গেলে এটি ফিরে আসে, অন্যথায় :exc:`StopAsyncIteration` উত্থাপিত হয়।"
 
 #: library/functions.rst:104
 msgid "Return ``True`` if any element of the *iterable* is true.  If the iterable is empty, return ``False``.  Equivalent to::"
 msgstr ""
 
 #: library/functions.rst:107
-msgid "def any(iterable):\n"
-"    for element in iterable:\n"
-"        if element:\n"
-"            return True\n"
-"    return False"
+msgid "def any(iterable):
+    for element in iterable:
+        if element:
+            return True
+    return False"
 msgstr ""
 
 #: library/functions.rst:116
-msgid "As :func:`repr`, return a string containing a printable representation of an object, but escape the non-ASCII characters in the string returned by :func:`repr` using ``\\x``, ``\\u``, or ``\\U`` escapes.  This generates a string similar to that returned by :func:`repr` in Python 2."
-msgstr ""
+msgid "As :func:`repr`, return a string containing a printable representation of an object, but escape the non-ASCII characters in the string returned by :func:`repr` using ``\x``, ``\u``, or ``\U`` escapes.  This generates a string similar to that returned by :func:`repr` in Python 2."
+msgstr ":func:`repr`, কোনও বস্তুর মুদ্রণযোগ্য উপস্থাপনা সম্বলিত একটি স্ট্রিং ফিরিয়ে দিন, তবে স্ট্রিংয়ে অ-ASCII অক্ষরগুলি এড়িয়ে চলুন: ফানক:` reper` `\ x``,` `\ u``, বা ``\U`` এটি প্রত্যাবর্তনের অনুরূপ একটি স্ট্রিং উত্পন্ন করে  :func:`repr` পাইথন 2 -এ"
 
 #: library/functions.rst:124
-msgid "Convert an integer number to a binary string prefixed with \"0b\". The result is a valid Python expression. If *x* is not a Python :class:`int` object, it has to define an :meth:`~object.__index__` method that returns an integer. Some examples:"
-msgstr ""
+msgid "Convert an integer number to a binary string prefixed with "0b". The result is a valid Python expression. If *x* is not a Python :class:`int` object, it has to define an :meth:`~object.__index__` method that returns an integer. Some examples:"
+msgstr ""0b" দিয়ে উপসর্গযুক্ত একটি বাইনারি স্ট্রিংয়ে একটি পূর্ণসংখ্যা নম্বর রূপান্তর করুন।ফলাফলটি একটি বৈধ পাইথন এক্সপ্রেশন।যদি *x* পাইথন :class:`int` না হয়, এটি একটি সংজ্ঞায়িত করতে হবে :meth:`~object.__index__` পদ্ধতি যা একটি পূর্ণসংখ্যা দেয়।কিছু উদাহরণ:"
 
 #: library/functions.rst:134
-msgid "If the prefix \"0b\" is desired or not, you can use either of the following ways."
-msgstr ""
+msgid "If the prefix "0b" is desired or not, you can use either of the following ways."
+msgstr "যদি "0b" উপসর্গটি পছন্দসই হয় বা না হয় তবে আপনি নিম্নলিখিত দুটি উপায় ব্যবহার করতে পারেন।"
 
 #: library/functions.rst:141
 #: library/functions.rst:921
 #: library/functions.rst:1260
 msgid "See also :func:`format` for more information."
-msgstr ""
+msgstr "দেখুন :func:`format` আরও তথ্যের জন্য।"
 
 #: library/functions.rst:146
 msgid "Return a Boolean value, i.e. one of ``True`` or ``False``.  The argument is converted using the standard :ref:`truth testing procedure <truth>`. If the argument is false or omitted, this returns ``False``; otherwise, it returns ``True``.  The :class:`bool` class is a subclass of :class:`int` (see :ref:`typesnumeric`). It cannot be subclassed further.  Its only instances are ``False`` and ``True`` (see :ref:`typebool`)."
-msgstr ""
+msgstr ":class:`bool` class ক্লাসটি একটি সাবক্লাস।এটি আরও সাবক্লাস করা যায় না।এর কেবলমাত্র উদাহরণগুলি হল  ``False`` এবং ``True``।"
 
 #: library/functions.rst:156
 #: library/functions.rst:786
 msgid "The parameter is now positional-only."
-msgstr ""
+msgstr "প্যারামিটারটি এখন কেবল অবস্থানগত।"
 
 #: library/functions.rst:161
 msgid "This function drops you into the debugger at the call site.  Specifically, it calls :func:`sys.breakpointhook`, passing ``args`` and ``kws`` straight through.  By default, ``sys.breakpointhook()`` calls :func:`pdb.set_trace` expecting no arguments.  In this case, it is purely a convenience function so you don't have to explicitly import :mod:`pdb` or type as much code to enter the debugger.  However, :func:`sys.breakpointhook` can be set to some other function and :func:`breakpoint` will automatically call that, allowing you to drop into the debugger of choice. If :func:`sys.breakpointhook` is not accessible, this function will raise :exc:`RuntimeError`."
-msgstr ""
+msgstr "এই ফাংশনটি আপনাকে কল সাইটে ডিবাগারে ফেলে দেয়।"
 
 #: library/functions.rst:173
 msgid "By default, the behavior of :func:`breakpoint` can be changed with the :envvar:`PYTHONBREAKPOINT` environment variable. See :func:`sys.breakpointhook` for usage details."
-msgstr ""
+msgstr "ডিফল্টরূপে, এর আচরণ :func:`breakpoint` এর সাথে পরিবর্তন করা যেতে পারে :envvar:`PYTHONBREAKPOINT` environment variable পরিবর্তনশীল।দেখুন :func:`sys.breakpointhook`।"
 
 #: library/functions.rst:177
 msgid "Note that this is not guaranteed if :func:`sys.breakpointhook` has been replaced."
-msgstr ""
+msgstr "মনে রাখবেন যে এটি গ্যারান্টিযুক্ত নয় যদি :func:`sys.breakpointhook` প্রতিস্থাপন করা হয়েছে।"
 
 #: library/functions.rst:180
 msgid "Raises an :ref:`auditing event <auditing>` ``builtins.breakpoint`` with argument ``breakpointhook``."
-msgstr ""
+msgstr "উত্থাপন একটি :ref:`auditing event <auditing>` ``builtins.breakpoint`` যুক্তি সহ  ``breakpointhook``"
 
 #: library/functions.rst:190
 msgid "Return a new array of bytes.  The :class:`bytearray` class is a mutable sequence of integers in the range 0 <= x < 256.  It has most of the usual methods of mutable sequences, described in :ref:`typesseq-mutable`, as well as most methods that the :class:`bytes` type has, see :ref:`bytes-methods`."
-msgstr ""
+msgstr "বাইটের একটি নতুন অ্যারে ফিরিয়ে দিন। :class:`bytearray` শ্রেণি 0 <= x <256 রেঞ্জের পূর্ণসংখ্যার একটি পরিবর্তনশীল ক্রম"
 
 #: library/functions.rst:195
 msgid "The optional *source* parameter can be used to initialize the array in a few different ways:"
-msgstr ""
+msgstr "*source* প্যারামিটারটি কয়েকটি ভিন্ন উপায়ে অ্যারে আরম্ভ করতে ব্যবহার করা যেতে পারে:"
 
 #: library/functions.rst:198
 msgid "If it is a *string*, you must also give the *encoding* (and optionally, *errors*) parameters; :func:`bytearray` then converts the string to bytes using :meth:`str.encode`."
-msgstr ""
+msgstr "যদি এটি একটি *স্ট্রিং *হয় তবে আপনাকে অবশ্যই *encoding* পরামিতি দিতে হবে; :func:`bytearray` `বাইটাররে` তারপরে স্ট্রিংটিকে বাইট ব্যবহার করে রূপান্তর করে :meth:`str.encode`"
 
 #: library/functions.rst:202
 msgid "If it is an *integer*, the array will have that size and will be initialized with null bytes."
-msgstr ""
+msgstr "যদি এটি একটি  *integer* হয় তবে অ্যারেটির আকারটি থাকবে এবং নাল বাইট দিয়ে আরম্ভ করা হবে।"
 
 #: library/functions.rst:205
 msgid "If it is an object conforming to the :ref:`buffer interface <bufferobjects>`, a read-only buffer of the object will be used to initialize the bytes array."
-msgstr ""
+msgstr "যদি এটি কোনও অবজেক্ট হয় :ref:`buffer interface <bufferobjects>`, অবজেক্টের কেবল একটি পঠনযোগ্য বাফার বাইটস অ্যারে আরম্ভ করতে ব্যবহৃত হবে।"
 
 #: library/functions.rst:208
 msgid "If it is an *iterable*, it must be an iterable of integers in the range ``0 <= x < 256``, which are used as the initial contents of the array."
-msgstr ""
+msgstr "যদি এটি একটি *iterable* হয়  তবে এটি অবশ্যই  ``0 <= x < 256``"
 
 #: library/functions.rst:211
 msgid "Without an argument, an array of size 0 is created."
-msgstr ""
+msgstr "কোনও যুক্তি ছাড়াই 0 আকারের একটি অ্যারে তৈরি করা হয়।"
 
 #: library/functions.rst:213
 msgid "See also :ref:`binaryseq` and :ref:`typebytearray`."
-msgstr ""
+msgstr "আরও দেখুন :ref:`binaryseq`,:ref:`typebytearray`"
 
 #: library/functions.rst:222
-msgid "Return a new \"bytes\" object which is an immutable sequence of integers in the range ``0 <= x < 256``.  :class:`bytes` is an immutable version of :class:`bytearray` -- it has the same non-mutating methods and the same indexing and slicing behavior."
-msgstr ""
+msgid "Return a new "bytes" object which is an immutable sequence of integers in the range ``0 <= x < 256``.  :class:`bytes` is an immutable version of :class:`bytearray` -- it has the same non-mutating methods and the same indexing and slicing behavior."
+msgstr "একটি নতুন "বাইটস" অবজেক্টটি ফিরিয়ে দিন যা  ``0 <= x < 256`` পরিসরে পূর্ণসংখ্যার একটি অপরিবর্তনীয় ক্রম"
 
 #: library/functions.rst:227
 msgid "Accordingly, constructor arguments are interpreted as for :func:`bytearray`."
-msgstr ""
+msgstr "তদনুসারে, কনস্ট্রাক্টর আর্গুমেন্টগুলি হিসাবে ব্যাখ্যা করা হয় :func:`bytearray`"
 
 #: library/functions.rst:229
 msgid "Bytes objects can also be created with literals, see :ref:`strings`."
-msgstr ""
+msgstr "বাইটস অবজেক্টগুলিও আক্ষরিকতার সাথে তৈরি করা যেতে পারে, দেখুন :ref:`strings`"
 
 #: library/functions.rst:231
 msgid "See also :ref:`binaryseq`, :ref:`typebytes`, and :ref:`bytes-methods`."
-msgstr ""
+msgstr "আরও দেখুন :ref:`binaryseq`, :ref:`typebytes`, :ref:`bytes-methods`"
 
 #: library/functions.rst:236
 msgid "Return :const:`True` if the *object* argument appears callable, :const:`False` if not.  If this returns ``True``, it is still possible that a call fails, but if it is ``False``, calling *object* will never succeed. Note that classes are callable (calling a class returns a new instance); instances are callable if their class has a :meth:`~object.__call__` method."
-msgstr ""
+msgstr "Return :const:`True` if the *object* argument appears callable, :const:`False` if not"
 
 #: library/functions.rst:242
 msgid "This function was first removed in Python 3.0 and then brought back in Python 3.2."
-msgstr ""
+msgstr "এই ফাংশনটি প্রথমে পাইথন 3.0 এ সরানো হয়েছিল এবং তারপরে পাইথন 3.2 এ ফিরিয়ে আনা হয়েছিল।"
 
 #: library/functions.rst:249
 msgid "Return the string representing a character whose Unicode code point is the integer *i*.  For example, ``chr(97)`` returns the string ``'a'``, while ``chr(8364)`` returns the string ``'€'``. This is the inverse of :func:`ord`."
-msgstr ""
+msgstr "এমন একটি চরিত্রের প্রতিনিধিত্ব করে স্ট্রিংটি ফিরিয়ে দিন যার ইউনিকোড কোড পয়েন্টটি হল পূর্ণসংখ্যা  *i*"
 
 #: library/functions.rst:253
 msgid "The valid range for the argument is from 0 through 1,114,111 (0x10FFFF in base 16).  :exc:`ValueError` will be raised if *i* is outside that range."
-msgstr ""
+msgstr "আর্গুমেন্টের বৈধ পরিসীমা 0 থেকে 1,114,111 (বেস 16 এ 0x10FFFF) থেকে। :exc:`ValueError` উত্থাপিত হবে যদি *i* সেই সীমার বাইরে থাকি।"
 
 #: library/functions.rst:259
 msgid "Transform a method into a class method."
-msgstr ""
+msgstr "একটি পদ্ধতি একটি শ্রেণি পদ্ধতিতে রূপান্তর করুন।"
 
 #: library/functions.rst:261
 msgid "A class method receives the class as an implicit first argument, just like an instance method receives the instance. To declare a class method, use this idiom::"
-msgstr ""
+msgstr "একটি শ্রেণি পদ্ধতি ক্লাসকে একটি অন্তর্নিহিত প্রথম যুক্তি হিসাবে গ্রহণ করে, ঠিক যেমন উদাহরণ পদ্ধতিটি উদাহরণটি গ্রহণ করে।একটি শ্রেণি পদ্ধতি ঘোষণা করতে, এই প্রতিমাটি ব্যবহার করুন ::"
 
 #: library/functions.rst:265
-msgid "class C:\n"
-"    @classmethod\n"
-"    def f(cls, arg1, arg2): ..."
+msgid "class C:
+    @classmethod
+    def f(cls, arg1, arg2): ..."
 msgstr ""
 
 #: library/functions.rst:269
 msgid "The ``@classmethod`` form is a function :term:`decorator` -- see :ref:`function` for details."
-msgstr ""
+msgstr "``@classmethod`` ফর্মটি একটি ফাংশন :term:`decorator`।"
 
 #: library/functions.rst:272
 msgid "A class method can be called either on the class (such as ``C.f()``) or on an instance (such as ``C().f()``).  The instance is ignored except for its class. If a class method is called for a derived class, the derived class object is passed as the implied first argument."
-msgstr ""
+msgstr "ক্লাসে একটি শ্রেণি পদ্ধতি বলা যেতে পারে (যেমন ``C.f()``) বা একটি উদাহরণে (যেমন ` ``C().f()``)।উদাহরণটি এর শ্রেণি বাদে উপেক্ষা করা হয়।যদি কোনও শ্রেণিক পদ্ধতিটি উদ্ভূত শ্রেণীর জন্য ডাকা হয় তবে উত্পন্ন শ্রেণীর অবজেক্টটি অন্তর্নিহিত প্রথম যুক্তি হিসাবে পাস করা হয়।"
 
 #: library/functions.rst:277
 msgid "Class methods are different than C++ or Java static methods. If you want those, see :func:`staticmethod` in this section. For more information on class methods, see :ref:`types`."
-msgstr ""
+msgstr "শ্রেণি পদ্ধতিগুলি C++ বা জাভা স্ট্যাটিক পদ্ধতির চেয়ে আলাদা।আপনি যদি সেগুলি চান তবে দেখুন :func:`staticmethod`।শ্রেণি পদ্ধতি সম্পর্কে আরও তথ্যের জন্য, দেখুন :ref:`types`"
 
 #: library/functions.rst:281
 msgid "Class methods can now wrap other :term:`descriptors <descriptor>` such as :func:`property`."
-msgstr ""
+msgstr "শ্রেণীর পদ্ধতিগুলি এখন অন্যকে মোড়ানো করতে পারে :term:`descriptors <descriptor>`"
 
 #: library/functions.rst:285
 msgid "Class methods now inherit the method attributes (:attr:`~function.__module__`, :attr:`~function.__name__`, :attr:`~function.__qualname__`, :attr:`~function.__doc__` and :attr:`~function.__annotations__`) and have a new ``__wrapped__`` attribute."
@@ -580,207 +579,207 @@ msgstr ""
 
 #: library/functions.rst:292
 msgid "Class methods can no longer wrap other :term:`descriptors <descriptor>` such as :func:`property`."
-msgstr ""
+msgstr "শ্রেণীর পদ্ধতিগুলি আর অন্যকে মোড়ানো করতে পারে না :term:`descriptors <descriptor>`"
 
 #: library/functions.rst:299
 msgid "Compile the *source* into a code or AST object.  Code objects can be executed by :func:`exec` or :func:`eval`.  *source* can either be a normal string, a byte string, or an AST object.  Refer to the :mod:`ast` module documentation for information on how to work with AST objects."
-msgstr ""
+msgstr "একটি কোড বা এএসটি অবজেক্টে *source* সংকলন করুন।"
 
 #: library/functions.rst:304
 msgid "The *filename* argument should give the file from which the code was read; pass some recognizable value if it wasn't read from a file (``'<string>'`` is commonly used)."
-msgstr ""
+msgstr " *filename* আর্গুমেন্টটি সেই ফাইলটি প্রদান করা উচিত যেখান থেকে কোডটি পড়া হয়েছে; যদি এটি কোনো ফাইল থেকে না পড়া হয়, তবে কিছু পরিচিত মান পাস করুন (``'<string>'`` সাধারণত ব্যবহৃত হয়)।"
 
 #: library/functions.rst:308
 msgid "The *mode* argument specifies what kind of code must be compiled; it can be ``'exec'`` if *source* consists of a sequence of statements, ``'eval'`` if it consists of a single expression, or ``'single'`` if it consists of a single interactive statement (in the latter case, expression statements that evaluate to something other than ``None`` will be printed)."
-msgstr ""
+msgstr "*mode* আর্গুমেন্টটি কোন ধরনের কোড কম্পাইল করতে হবে তা নির্দিষ্ট করে; এটি ``'exec'`` হতে পারে যদি *source* বিবৃতির একটি ক্রম থাকে, ``'eval'`` যদি এটি একটি একক এক্সপ্রেশন থাকে, অথবা ``'single'`` যদি এটি একটি একক ইন্টারেকটিভ বিবৃতি থাকে (পরবর্তীতে, এক্সপ্রেশন স্টেটমেন্টগুলি যদি ``None`` ছাড়া অন্য কিছুতে মূল্যায়িত হয় তবে সেগুলি মুদ্রিত হবে)।"
 
 #: library/functions.rst:314
 msgid "The optional arguments *flags* and *dont_inherit* control which :ref:`compiler options <ast-compiler-flags>` should be activated and which :ref:`future features <future>` should be allowed. If neither is present (or both are zero) the code is compiled with the same flags that affect the code that is calling :func:`compile`. If the *flags* argument is given and *dont_inherit* is not (or is zero) then the compiler options and the future statements specified by the *flags* argument are used in addition to those that would be used anyway. If *dont_inherit* is a non-zero integer then the *flags* argument is it -- the flags (future features and compiler options) in the surrounding code are ignored."
-msgstr ""
+msgstr "ঐচ্ছিক আর্গুমেন্ট *flags* এবং *dont_inherit* নির্ধারণ করে যে কোন :ref:`compiler options <ast-compiler-flags>` সক্রিয় করা উচিত এবং কোন :ref:`future features <future>` অনুমোদিত হওয়া উচিত। যদি কোনটিই উপস্থিত না থাকে (অথবা উভয়ই শূন্য থাকে) তবে কোডটি একই ফ্ল্যাগস সহ কম্পাইল করা হয় যা কোডটি কল করছে :func:`compile`। যদি *flags* আর্গুমেন্ট দেওয়া হয় এবং *dont_inherit* দেওয়া না থাকে (অথবা শূন্য থাকে) তবে *flags* আর্গুমেন্ট দ্বারা নির্ধারিত কম্পাইলার অপশন এবং ভবিষ্যৎ বিবৃতিগুলি সেইগুলি ব্যবহৃত হয় যা যেভাবে ব্যবহৃত হত তাতে যোগ করা হয়। যদি *dont_inherit* একটি অ-শূন্য পূর্ণসংখ্যা হয় তবে *flags* আর্গুমেন্টটি সেটি -- চারপাশের কোডের ফ্ল্যাগস (ভবিষ্যৎ বৈশিষ্ট্য এবং কম্পাইলার অপশন) উপেক্ষা করা হয়।"
 
 #: library/functions.rst:325
 msgid "Compiler options and future statements are specified by bits which can be bitwise ORed together to specify multiple options. The bitfield required to specify a given future feature can be found as the :attr:`~__future__._Feature.compiler_flag` attribute on the :class:`~__future__._Feature` instance in the :mod:`__future__` module. :ref:`Compiler flags <ast-compiler-flags>` can be found in :mod:`ast` module, with ``PyCF_`` prefix."
-msgstr ""
+msgstr "কম্পাইলার অপশন এবং ভবিষ্যৎ বিবৃতিগুলি বিট দ্বারা নির্দিষ্ট করা হয়, যেগুলি একাধিক অপশন নির্দিষ্ট করতে বিটওয়াইজ OR করা যায়। একটি নির্দিষ্ট ভবিষ্যৎ বৈশিষ্ট্য নির্দিষ্ট করতে প্রয়োজনীয় বিটফিল্ডটি পাওয়া যায় :class:`~__future__._Feature` ইনস্ট্যান্সের :attr:`~__future__._Feature.compiler_flag` অ্যাট্রিবিউটে, যা :mod:`__future__` মডিউলে থাকে। :ref:`কম্পাইলার ফ্ল্যাগস <ast-compiler-flags>` পাওয়া যাবে :mod:`ast` মডিউলে, যার ``PyCF_`` প্রিফিক্স থাকে।"
 
 #: library/functions.rst:333
 msgid "The argument *optimize* specifies the optimization level of the compiler; the default value of ``-1`` selects the optimization level of the interpreter as given by :option:`-O` options.  Explicit levels are ``0`` (no optimization; ``__debug__`` is true), ``1`` (asserts are removed, ``__debug__`` is false) or ``2`` (docstrings are removed too)."
-msgstr ""
+msgstr "অর্গুমেন্ট *optimize* কম্পাইলারের অপ্টিমাইজেশন স্তর নির্দিষ্ট করে; ``-1`` এর ডিফল্ট মানটি ইন্টারপ্রেটারের অপ্টিমাইজেশন স্তর নির্বাচন করে যেমন :option:`-O` অপশন দ্বারা প্রদত্ত। স্পষ্ট স্তরগুলি হল ``0`` (কোনও অপ্টিমাইজেশন নেই; ``__debug__`` সত্য), ``1`` (অ্যাসার্টগুলি সরানো হয়, ``__debug__`` মিথ্যা) বা ``2`` (ডকস্ট্রিংগুলি অপসারণ করা হয়)।"
 
 #: library/functions.rst:339
 msgid "This function raises :exc:`SyntaxError` if the compiled source is invalid, and :exc:`ValueError` if the source contains null bytes."
-msgstr ""
+msgstr "এই ফাংশনটি :exc:`SyntaxError` তোলার কারণ যদি কম্পাইল করা সোর্স অবৈধ হয়, এবং :exc:`ValueError` যদি সোর্সে নাল বাইট থাকে।"
 
 #: library/functions.rst:342
 msgid "If you want to parse Python code into its AST representation, see :func:`ast.parse`."
-msgstr ""
+msgstr "আপনি যদি পাইথন কোডটিকে তার এএসটি উপস্থাপনায় পার্স করতে চান তবে দেখুন :func:`ast.parse`"
 
 #: library/functions.rst:345
 #: library/functions.rst:347
 msgid "Raises an :ref:`auditing event <auditing>` ``compile`` with arguments ``source`` and ``filename``. This event may also be raised by implicit compilation."
-msgstr ""
+msgstr "এটি একটি :ref:`অডিটিং ইভেন্ট <auditing>` ``compile`` উত্থাপন করে যার আর্গুমেন্ট ``source`` এবং ``filename``। এই ইভেন্টটি ইমপ্লিসিট কম্পাইলেশন দ্বারাও উত্থাপিত হতে পারে।"
 
 #: library/functions.rst:353
 msgid "When compiling a string with multi-line code in ``'single'`` or ``'eval'`` mode, input must be terminated by at least one newline character.  This is to facilitate detection of incomplete and complete statements in the :mod:`code` module."
-msgstr ""
+msgstr "``'single'`` বা ``'eval'`` মোডে একাধিক লাইনের কোড সহ একটি স্ট্রিং কম্পাইল করার সময়, ইনপুটটি কমপক্ষে একটি নিউলাইন ক্যারেক্টার দ্বারা শেষ হতে হবে। এটি :mod:`code` মডিউলে অসম্পূর্ণ এবং সম্পূর্ণ বিবৃতিগুলি সনাক্তকরণের সুবিধার্থে।"
 
 #: library/functions.rst:360
 msgid "It is possible to crash the Python interpreter with a sufficiently large/complex string when compiling to an AST object due to stack depth limitations in Python's AST compiler."
-msgstr ""
+msgstr "পাইথনের AST কম্পাইলারের স্ট্যাক গভীরতার সীমাবদ্ধতার কারণে, একটি যথেষ্ট বড়/জটিল স্ট্রিং কম্পাইল করার সময় AST অবজেক্টে পাইথন ইন্টারপ্রেটার ক্র্যাশ হতে পারে।"
 
 #: library/functions.rst:364
 msgid "Allowed use of Windows and Mac newlines.  Also, input in ``'exec'`` mode does not have to end in a newline anymore.  Added the *optimize* parameter."
-msgstr ""
+msgstr "উইন্ডোজ এবং ম্যাক নিউলাইনগুলির ব্যবহারের অনুমোদিত।এছাড়াও, ``'exec'`` মোডে ইনপুট আর কোনও নতুন লাইনে শেষ করতে হবে না। *optimize* প্যারামিটার যুক্ত করেছেন।"
 
 #: library/functions.rst:368
 msgid "Previously, :exc:`TypeError` was raised when null bytes were encountered in *source*."
-msgstr ""
+msgstr "পূর্বে, যখন *source* এ null বাইট পাওয়া যেত, তখন :exc:`TypeError` উত্থাপিত হতো।"
 
 #: library/functions.rst:372
 msgid "``ast.PyCF_ALLOW_TOP_LEVEL_AWAIT`` can now be passed in flags to enable support for top-level ``await``, ``async for``, and ``async with``."
-msgstr ""
+msgstr "এখন ``ast.PyCF_ALLOW_TOP_LEVEL_AWAIT`` ফ্ল্যাগে পাস করা যেতে পারে যাতে টপ-লেভেল ``await``, ``async for``, এবং ``async with`` এর সমর্থন সক্রিয় হয়।"
 
 #: library/functions.rst:381
 msgid "Convert a single string or number to a complex number, or create a complex number from real and imaginary parts."
-msgstr ""
+msgstr "একটি একক স্ট্রিং বা নম্বরকে একটি জটিল সংখ্যায় রূপান্তর করুন, বা বাস্তব এবং কাল্পনিক অংশগুলি থেকে একটি জটিল সংখ্যা তৈরি করুন।"
 
 #: library/functions.rst:384
 #: library/functions.rst:731
 #: library/functions.rst:977
 msgid "Examples:"
-msgstr ""
+msgstr "উদাহরণ:"
 
 #: library/functions.rst:386
-msgid ">>> complex('+1.23')\n"
-"(1.23+0j)\n"
-">>> complex('-4.5j')\n"
-"-4.5j\n"
-">>> complex('-1.23+4.5j')\n"
-"(-1.23+4.5j)\n"
-">>> complex('\\t( -1.23+4.5J )\\n')\n"
-"(-1.23+4.5j)\n"
-">>> complex('-Infinity+NaNj')\n"
-"(-inf+nanj)\n"
-">>> complex(1.23)\n"
-"(1.23+0j)\n"
-">>> complex(imag=-4.5)\n"
-"-4.5j\n"
-">>> complex(-1.23, 4.5)\n"
-"(-1.23+4.5j)"
+msgid ">>> complex('+1.23')
+(1.23+0j)
+>>> complex('-4.5j')
+-4.5j
+>>> complex('-1.23+4.5j')
+(-1.23+4.5j)
+>>> complex('\t( -1.23+4.5J )\n')
+(-1.23+4.5j)
+>>> complex('-Infinity+NaNj')
+(-inf+nanj)
+>>> complex(1.23)
+(1.23+0j)
+>>> complex(imag=-4.5)
+-4.5j
+>>> complex(-1.23, 4.5)
+(-1.23+4.5j)"
 msgstr ""
 
 #: library/functions.rst:405
 msgid "If the argument is a string, it must contain either a real part (in the same format as for :func:`float`) or an imaginary part (in the same format but with a ``'j'`` or ``'J'`` suffix), or both real and imaginary parts (the sign of the imaginary part is mandatory in this case). The string can optionally be surrounded by whitespaces and the round parentheses ``'('`` and ``')'``, which are ignored. The string must not contain whitespace between ``'+'``, ``'-'``, the ``'j'`` or ``'J'`` suffix, and the decimal number. For example, ``complex('1+2j')`` is fine, but ``complex('1 + 2j')`` raises :exc:`ValueError`. More precisely, the input must conform to the :token:`~float:complexvalue` production rule in the following grammar, after parentheses and leading and trailing whitespace characters are removed:"
-msgstr ""
+msgstr "যদি আর্গুমেন্টটি একটি স্ট্রিং হয়, তবে এতে অবশ্যই একটি বাস্তব অংশ (যা :func:`float` এর জন্য একই ফরম্যাটে) অথবা একটি কাল্পনিক অংশ (যা একই ফরম্যাটে তবে ``'j'`` বা ``'J'`` সাফিক্স সহ) অথবা উভয় বাস্তব এবং কাল্পনিক অংশ থাকতে হবে (এই ক্ষেত্রে কাল্পনিক অংশের চিহ্ন আবশ্যক)। স্ট্রিংটি ঐচ্ছিকভাবে শ্বেতপদ বা গোলাকার বন্ধনী ``'('`` এবং ``')'`` দ্বারা ঘেরাও হতে পারে, যা উপেক্ষা করা হয়। স্ট্রিংয়ে ``'+'``, ``'-'``, ``'j'`` বা ``'J'`` সাফিক্স এবং দশমিক সংখ্যার মধ্যে শ্বেতপদ থাকা উচিত নয়। উদাহরণস্বরূপ, ``complex('1+2j')`` ঠিক আছে, কিন্তু ``complex('1 + 2j')`` :exc:`ValueError` উত্থাপন করবে। আরও সঠিকভাবে, ইনপুটটি :token:`~float:complexvalue` প্রোডাকশন নিয়ম অনুসরণ করতে হবে নিম্নলিখিত ব্যাকরণে, প্যারেনথেসিস এবং শীর্ষ ও ট্রেইলিং শ্বেতপদ চিহ্নগুলি সরানোর পর:"
 
 #: library/functions.rst:424
 msgid "If the argument is a number, the constructor serves as a numeric conversion like :class:`int` and :class:`float`. For a general Python object ``x``, ``complex(x)`` delegates to ``x.__complex__()``. If :meth:`~object.__complex__` is not defined then it falls back to :meth:`~object.__float__`. If :meth:`!__float__` is not defined then it falls back to :meth:`~object.__index__`."
-msgstr ""
+msgstr "যদি আর্গুমেন্টটি একটি সংখ্যা হয়, তবে কনস্ট্রাক্টরটি :class:`int` এবং :class:`float` এর মতো একটি সংখ্যাগত রূপান্তরের কাজ করে। একটি সাধারণ পাইথন অবজেক্ট ``x`` এর জন্য, ``complex(x)`` ``x.__complex__()`` এ ডেলিগেট করে। যদি :meth:`~object.__complex__` সংজ্ঞায়িত না থাকে তবে এটি :meth:`~object.__float__` এ ফিরে আসে। যদি :meth:`!__float__` সংজ্ঞায়িত না থাকে তবে এটি :meth:`~object.__index__` এ ফিরে আসে।"
 
 #: library/functions.rst:433
 msgid "If two arguments are provided or keyword arguments are used, each argument may be any numeric type (including complex). If both arguments are real numbers, return a complex number with the real component *real* and the imaginary component *imag*. If both arguments are complex numbers, return a complex number with the real component ``real.real-imag.imag`` and the imaginary component ``real.imag+imag.real``. If one of arguments is a real number, only its real component is used in the above expressions."
-msgstr ""
+msgstr "যদি দুটি আর্গুমেন্ট প্রদান করা হয় বা কীওয়ার্ড আর্গুমেন্টগুলি ব্যবহৃত হয়, তবে প্রতিটি আর্গুমেন্ট যেকোনো সংখ্যাগত ধরনের হতে পারে (যাতে জটিল সংখ্যা অন্তর্ভুক্ত থাকে)। যদি উভয় আর্গুমেন্ট বাস্তব সংখ্যা হয়, তবে একটি জটিল সংখ্যা ফেরত দেওয়া হবে যার বাস্তব উপাদান *real* এবং কাল্পনিক উপাদান *imag*। যদি উভয় আর্গুমেন্ট জটিল সংখ্যা হয়, তবে একটি জটিল সংখ্যা ফেরত দেওয়া হবে যার বাস্তব উপাদান ``real.real-imag.imag`` এবং কাল্পনিক উপাদান ``real.imag+imag.real``। যদি কোন একটি আর্গুমেন্ট বাস্তব সংখ্যা হয়, তবে শুধুমাত্র তার বাস্তব উপাদান উপরের প্রকাশনাগুলিতে ব্যবহৃত হবে।"
 
 #: library/functions.rst:443
 msgid "If all arguments are omitted, returns ``0j``."
-msgstr ""
+msgstr "যদি সমস্ত যুক্তি বাদ দেওয়া হয়, তবে ``0j`` ফেরত দেয় `"
 
 #: library/functions.rst:445
 msgid "The complex type is described in :ref:`typesnumeric`."
-msgstr ""
+msgstr "জটিল প্রকারটি এতে বর্ণিত হয়েছে :ref:`typesnumeric`"
 
 #: library/functions.rst:447
 #: library/functions.rst:783
 #: library/functions.rst:1026
 msgid "Grouping digits with underscores as in code literals is allowed."
-msgstr ""
+msgstr "কোড আক্ষরিক হিসাবে যেমন আন্ডারস্কোরগুলির সাথে সংখ্যাগুলি গ্রুপিং করা অনুমোদিত।"
 
 #: library/functions.rst:450
 msgid "Falls back to :meth:`~object.__index__` if :meth:`~object.__complex__` and :meth:`~object.__float__` are not defined."
-msgstr ""
+msgstr ":meth:`~object.__complex__` এবং :meth:`~object.__float__` সংজ্ঞায়িত না হলে এটি :meth:`~object.__index__` এ ফিরে আসে।"
 
 #: library/functions.rst:457
 msgid "This is a relative of :func:`setattr`.  The arguments are an object and a string.  The string must be the name of one of the object's attributes.  The function deletes the named attribute, provided the object allows it.  For example, ``delattr(x, 'foobar')`` is equivalent to ``del x.foobar``. *name* need not be a Python identifier (see :func:`setattr`)."
-msgstr ""
+msgstr ":func:`setattr` এর একটি আত্মীয়। আর্গুমেন্টগুলি একটি অবজেক্ট এবং একটি স্ট্রিং। স্ট্রিংটি অবজেক্টের একটি অ্যাট্রিবিউটের নাম হতে হবে। ফাংশনটি নামকৃত অ্যাট্রিবিউটটি মুছে দেয়, যদি অবজেক্ট এটি অনুমতি দেয়। উদাহরণস্বরূপ, ``delattr(x, 'foobar')`` ``del x.foobar`` এর সমান। *নাম* পাইথন আইডেন্টিফায়ার হতে হবে না (দেখুন :func:`setattr`)।"
 
 #: library/functions.rst:470
 msgid "Create a new dictionary.  The :class:`dict` object is the dictionary class. See :class:`dict` and :ref:`typesmapping` for documentation about this class."
-msgstr ""
+msgstr "নতুন একটি ডিকশনারি তৈরি করুন। :class:`dict` অবজেক্ট হল ডিকশনারি ক্লাস। এই ক্লাস সম্পর্কিত ডকুমেন্টেশনের জন্য :class:`dict` এবং :ref:`typesmapping` দেখুন।"
 
 #: library/functions.rst:473
 msgid "For other containers see the built-in :class:`list`, :class:`set`, and :class:`tuple` classes, as well as the :mod:`collections` module."
-msgstr ""
+msgstr "অন্যান্য কন্টেইনারের জন্য বিল্ট-ইন :class:`list`, :class:`set`, এবং :class:`tuple` ক্লাসগুলি, পাশাপাশি :mod:`collections` মডিউল দেখুন।"
 
 #: library/functions.rst:480
 msgid "Without arguments, return the list of names in the current local scope.  With an argument, attempt to return a list of valid attributes for that object."
-msgstr ""
+msgstr "যুক্তি ছাড়াই বর্তমান স্থানীয় সুযোগে নামের তালিকা ফিরিয়ে দিন।একটি যুক্তি দিয়ে, সেই বস্তুর জন্য বৈধ বৈশিষ্ট্যের একটি তালিকা ফিরিয়ে দেওয়ার চেষ্টা করুন।"
 
 #: library/functions.rst:483
 msgid "If the object has a method named :meth:`~object.__dir__`, this method will be called and must return the list of attributes. This allows objects that implement a custom :func:`~object.__getattr__` or :func:`~object.__getattribute__` function to customize the way :func:`dir` reports their attributes."
-msgstr ""
+msgstr "যদি অবজেক্টটির একটি পদ্ধতি থাকে যার নাম :meth:`~object.__dir__`, তাহলে এই পদ্ধতিটি কল করা হবে এবং এটিকে বৈশিষ্ট্যের একটি তালিকা ফেরত দিতে হবে। এটি এমন অবজেক্টগুলিকে অনুমতি দেয় যারা কাস্টম :func:`~object.__getattr__` অথবা :func:`~object.__getattribute__` ফাংশন বাস্তবায়ন করে, তাদের বৈশিষ্ট্যগুলি কিভাবে :func:`dir` রিপোর্ট করে তা কাস্টমাইজ করতে।"
 
 #: library/functions.rst:490
 msgid "If the object does not provide :meth:`~object.__dir__`, the function tries its best to gather information from the object's :attr:`~object.__dict__` attribute, if defined, and from its type object.  The resulting list is not necessarily complete and may be inaccurate when the object has a custom :func:`~object.__getattr__`."
-msgstr ""
+msgstr "যদি অবজেক্টটি :meth:`~object.__dir__` প্রদান না করে, তাহলে ফাংশনটি অবজেক্টটির :attr:`~object.__dict__` বৈশিষ্ট্য থেকে (যদি এটি সংজ্ঞায়িত থাকে) এবং এর টাইপ অবজেক্ট থেকে তথ্য সংগ্রহ করতে সর্বোচ্চ চেষ্টা করবে। ফলস্বরূপ তালিকা প্রয়োজনীয়ভাবে পূর্ণ হতে নাও পারে এবং এটি ভুল হতে পারে যদি অবজেক্টটির একটি কাস্টম :func:`~object.__getattr__` থাকে।"
 
 #: library/functions.rst:496
 msgid "The default :func:`dir` mechanism behaves differently with different types of objects, as it attempts to produce the most relevant, rather than complete, information:"
-msgstr ""
+msgstr "ডিফল্ট  :func:`dir` প্রক্রিয়া বিভিন্ন ধরণের অবজেক্টের সাথে আলাদাভাবে আচরণ করে, কারণ এটি সম্পূর্ণ, তথ্য না করে সর্বাধিক প্রাসঙ্গিক উত্পাদন করার চেষ্টা করে:"
 
 #: library/functions.rst:500
 msgid "If the object is a module object, the list contains the names of the module's attributes."
-msgstr ""
+msgstr "যদি অবজেক্টটি কোনও মডিউল অবজেক্ট হয় তবে তালিকায় মডিউলটির বৈশিষ্ট্যের নাম রয়েছে।"
 
 #: library/functions.rst:503
 msgid "If the object is a type or class object, the list contains the names of its attributes, and recursively of the attributes of its bases."
-msgstr ""
+msgstr "যদি অবজেক্টটি কোনও প্রকার বা শ্রেণি অবজেক্ট হয় তবে তালিকায় এর বৈশিষ্ট্যগুলির নাম এবং এর ঘাঁটিগুলির বৈশিষ্ট্যগুলির পুনরাবৃত্তভাবে রয়েছে।"
 
 #: library/functions.rst:506
 msgid "Otherwise, the list contains the object's attributes' names, the names of its class's attributes, and recursively of the attributes of its class's base classes."
-msgstr ""
+msgstr "অন্যথায়, তালিকায় অবজেক্টের বৈশিষ্ট্যগুলির নাম, এর শ্রেণীর বৈশিষ্ট্যগুলির নাম এবং এর শ্রেণীর বেস শ্রেণীর বৈশিষ্ট্যগুলির পুনরাবৃত্তভাবে রয়েছে।"
 
 #: library/functions.rst:510
 msgid "The resulting list is sorted alphabetically.  For example:"
-msgstr ""
+msgstr "ফলাফল তালিকা বর্ণানুক্রমিকভাবে বাছাই করা হয়।উদাহরণস্বরূপ:"
 
 #: library/functions.rst:530
 msgid "Because :func:`dir` is supplied primarily as a convenience for use at an interactive prompt, it tries to supply an interesting set of names more than it tries to supply a rigorously or consistently defined set of names, and its detailed behavior may change across releases.  For example, metaclass attributes are not in the result list when the argument is a class."
-msgstr ""
+msgstr "কারণ :func:`dir` মূলত একটি ইন্টারেক্টিভ প্রম্পটে ব্যবহারের সুবিধার্থে সরবরাহ করা হয়, এটি একটি আকর্ষণীয় নামের সেট সরবরাহ করার চেষ্টা করে যা এটি একটি কঠোরভাবে বা ধারাবাহিকভাবে সংজ্ঞায়িত নামের সেট সরবরাহ করার চেষ্টা করে এবং এর বিশদ আচরণ রিলিজ জুড়ে পরিবর্তিত হতে পারে।উদাহরণস্বরূপ, যুক্তি যখন কোনও শ্রেণি হয় তখন মেটাক্লাস বৈশিষ্ট্যগুলি ফলাফলের তালিকায় থাকে না।"
 
 #: library/functions.rst:540
 msgid "Take two (non-complex) numbers as arguments and return a pair of numbers consisting of their quotient and remainder when using integer division.  With mixed operand types, the rules for binary arithmetic operators apply.  For integers, the result is the same as ``(a // b, a % b)``. For floating-point numbers the result is ``(q, a % b)``, where *q* is usually ``math.floor(a / b)`` but may be 1 less than that.  In any case ``q * b + a % b`` is very close to *a*, if ``a % b`` is non-zero it has the same sign as *b*, and ``0 <= abs(a % b) < abs(b)``."
-msgstr ""
+msgstr "দুটি (অকম্প্লেক্স) সংখ্যা আর্গুমেন্ট হিসেবে নিন এবং সেগুলোর ভাগফল এবং অবশিষ্টাংশের একটি জোড়া ফিরিয়ে দিন যখন পূর্ণসংখ্যা বিভাগের ব্যবহার করা হয়। মিশ্র অপার্যান্ড প্রকারের জন্য, বাইনারি গাণিতিক অপারেটরগুলির জন্য নিয়ম প্রযোজ্য। পূর্ণসংখ্যাগুলির জন্য, ফলাফল একই হবে যেমন ``(a // b, a % b)``। ভাসমান-পয়েন্ট সংখ্যাগুলির জন্য, ফলাফল হবে ``(q, a % b)``, যেখানে *q* সাধারণত ``math.floor(a / b)`` হবে কিন্তু তার চেয়ে 1 কম হতে পারে। যাই হোক, ``q * b + a % b`` *a*-এর খুব কাছাকাছি হবে, যদি ``a % b`` শূন্য না হয় তবে এটি *b* এর মতো একই চিহ্ন থাকবে, এবং ``0 <= abs(a % b) < abs(b)``।"
 
 #: library/functions.rst:552
 msgid "Return an enumerate object. *iterable* must be a sequence, an :term:`iterator`, or some other object which supports iteration. The :meth:`~iterator.__next__` method of the iterator returned by :func:`enumerate` returns a tuple containing a count (from *start* which defaults to 0) and the values obtained from iterating over *iterable*."
-msgstr ""
+msgstr "একটি enumerate অবজেক্ট ফেরত দিন। *iterable* একটি সিকোয়েন্স, একটি :term:`iterator`, অথবা অন্য কোনো অবজেক্ট হতে হবে যা পুনরাবৃত্তি সমর্থন করে। :func:`enumerate` দ্বারা ফেরত দেওয়া iterator-এর :meth:`~iterator.__next__` পদ্ধতি একটি টুপল ফেরত দেয় যাতে একটি গণনা (যা *start* থেকে শুরু হয়, যা ডিফল্টভাবে 0 হয়) এবং *iterable* এর মাধ্যমে পুনরাবৃত্তি করার মাধ্যমে প্রাপ্ত মানগুলি থাকে।"
 
 #: library/functions.rst:564
 msgid "Equivalent to::"
-msgstr ""
+msgstr "সমতুল্য ::"
 
 #: library/functions.rst:566
-msgid "def enumerate(iterable, start=0):\n"
-"    n = start\n"
-"    for elem in iterable:\n"
-"        yield n, elem\n"
-"        n += 1"
+msgid "def enumerate(iterable, start=0):
+    n = start
+    for elem in iterable:
+        yield n, elem
+        n += 1"
 msgstr ""
 
 #: library/functions.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "প্যারামিটার"
 
 #: library/functions.rst:576
 msgid "A Python expression."
-msgstr ""
+msgstr "একটি অজগর অভিব্যক্তি।"
 
 #: library/functions.rst:580
 msgid "The global namespace (default: ``None``)."
-msgstr ""
+msgstr "গ্লোবাল নেমস্পেস (ডিফল্ট: ``None``)।"
 
 #: library/functions.rst:584
 msgid "The local namespace (default: ``None``)."
-msgstr ""
+msgstr "স্থানীয় নেমস্পেস (ডিফল্ট: ``None``)।"
 
 #: library/functions.rst:0
 msgid "Returns"
@@ -788,7 +787,7 @@ msgstr ""
 
 #: library/functions.rst:588
 msgid "The result of the evaluated expression."
-msgstr ""
+msgstr "মূল্যায়ন প্রকাশের ফলাফল।"
 
 #: library/functions.rst:0
 msgid "raises"
@@ -796,276 +795,276 @@ msgstr ""
 
 #: library/functions.rst:589
 msgid "Syntax errors are reported as exceptions."
-msgstr ""
+msgstr "সিনট্যাক্স ত্রুটিগুলি ব্যতিক্রম হিসাবে রিপোর্ট করা হয়।"
 
 #: library/functions.rst:593
 #: library/functions.rst:644
 msgid "This function executes arbitrary code. Calling it with user-supplied input may lead to security vulnerabilities."
-msgstr ""
+msgstr "এই ফাংশনটি স্বেচ্ছাসেবী কোড কার্যকর করে।এটি ব্যবহারকারী সরবরাহিত ইনপুট দিয়ে কল করা সুরক্ষা দুর্বলতার দিকে পরিচালিত করতে পারে।"
 
 #: library/functions.rst:596
 msgid "The *expression* argument is parsed and evaluated as a Python expression (technically speaking, a condition list) using the *globals* and *locals* dictionaries as global and local namespace.  If the *globals* dictionary is present and does not contain a value for the key ``__builtins__``, a reference to the dictionary of the built-in module :mod:`builtins` is inserted under that key before *expression* is parsed.  That way you can control what builtins are available to the executed code by inserting your own ``__builtins__`` dictionary into *globals* before passing it to :func:`eval`.  If the *locals* dictionary is omitted it defaults to the *globals* dictionary.  If both dictionaries are omitted, the expression is executed with the *globals* and *locals* in the environment where :func:`eval` is called.  Note, *eval()* does not have access to the :term:`nested scopes <nested scope>` (non-locals) in the enclosing environment."
-msgstr ""
+msgstr " *expression* আর্গুমেন্টটি একটি Python এক্সপ্রেশন হিসেবে পার্স এবং মূল্যায়ন করা হয় (প্রকৃতপক্ষে, একটি শর্ত তালিকা) *globals* এবং *locals* ডিকশনারি ব্যবহার করে গ্লোবাল এবং লোকাল নেমস্পেস হিসেবে। যদি *globals* ডিকশনারিটি উপস্থিত থাকে এবং এর মধ্যে ``__builtins__`` কীর জন্য একটি মান না থাকে, তবে *expression* পার্স হওয়ার আগে সেই কী-এর অধীনে :mod:`builtins` মডিউলের বিল্ট-ইন ডিকশনারির একটি রেফারেন্স সন্নিবেশিত হয়। এইভাবে আপনি কোডটি চালানোর সময় কি বিল্ট-ইনস উপলব্ধ থাকবে তা নিয়ন্ত্রণ করতে পারেন, আপনার নিজস্ব ``__builtins__`` ডিকশনারিটি *globals* এ সন্নিবেশিত করে :func:`eval`-এ পাঠানোর আগে। যদি *locals* ডিকশনারিটি বাদ দেওয়া হয় তবে এটি ডিফল্টভাবে *globals* ডিকশনারিতে সেট হয়। যদি উভয় ডিকশনারি বাদ দেওয়া হয়, তবে এক্সপ্রেশনটি সেই পরিবেশে *globals* এবং *locals* ব্যবহার করে কার্যকর করা হয় যেখানে :func:`eval` কল করা হয়েছে। লক্ষ্য করুন, *eval()* এ পরিবেষ্টিত পরিবেশে :term:`nested scopes <nested scope>` (non-locals) অ্যাক্সেস নেই।"
 
 #: library/functions.rst:611
 msgid "Example:"
-msgstr ""
+msgstr "উদাহরণ:"
 
 #: library/functions.rst:617
-msgid "This function can also be used to execute arbitrary code objects (such as those created by :func:`compile`).  In this case, pass a code object instead of a string.  If the code object has been compiled with ``'exec'`` as the *mode* argument, :func:`eval`\\'s return value will be ``None``."
-msgstr ""
+msgid "This function can also be used to execute arbitrary code objects (such as those created by :func:`compile`).  In this case, pass a code object instead of a string.  If the code object has been compiled with ``'exec'`` as the *mode* argument, :func:`eval`\'s return value will be ``None``."
+msgstr "এই ফাংশনটি স্বতন্ত্র কোড অবজেক্ট (যেমন :func:`compile` দ্বারা তৈরি কোড অবজেক্ট) কার্যকর করতে ব্যবহৃত হতে পারে। এই ক্ষেত্রে, একটি স্ট্রিং এর পরিবর্তে একটি কোড অবজেক্ট পাস করুন। যদি কোড অবজেক্টটি ``'exec'`` হিসেবে *mode* আর্গুমেন্ট দিয়ে কম্পাইল করা হয়, তবে :func:`eval` এর রিটার্ন ভ্যালু ``None`` হবে।"
 
 #: library/functions.rst:622
 msgid "Hints: dynamic execution of statements is supported by the :func:`exec` function.  The :func:`globals` and :func:`locals` functions return the current global and local dictionary, respectively, which may be useful to pass around for use by :func:`eval` or :func:`exec`."
-msgstr ""
+msgstr "ইঙ্গিত: বিবৃতি গুলি গতিশীলভাবে কার্যকর করতে :func:`exec` ফাংশন সমর্থিত। :func:`globals` এবং :func:`locals` ফাংশনগুলি বর্তমান গ্লোবাল এবং লোকাল ডিকশনারি ফিরিয়ে দেয়, যা :func:`eval` বা :func:`exec` দ্বারা ব্যবহারের জন্য পাস করা উপকারী হতে পারে।"
 
 #: library/functions.rst:627
 msgid "If the given source is a string, then leading and trailing spaces and tabs are stripped."
-msgstr ""
+msgstr "যদি প্রদত্ত উত্সটি একটি স্ট্রিং হয় তবে শীর্ষস্থানীয় এবং পিছনে পিছনে স্পেস এবং ট্যাবগুলি ছিনিয়ে নেওয়া হয়।"
 
 #: library/functions.rst:630
 msgid "See :func:`ast.literal_eval` for a function that can safely evaluate strings with expressions containing only literals."
-msgstr ""
+msgstr "শুধুমাত্র সাহিত্যিক মান সম্বলিত অভিব্যক্তি সহ স্ট্রিং মূল্যায়ন করতে যে ফাংশনটি নিরাপদে ব্যবহার করা যায় তা দেখতে :func:`ast.literal_eval` দেখুন।"
 
 #: library/functions.rst:633
 #: library/functions.rst:635
 #: library/functions.rst:683
 #: library/functions.rst:685
 msgid "Raises an :ref:`auditing event <auditing>` ``exec`` with the code object as the argument. Code compilation events may also be raised."
-msgstr ""
+msgstr "কোড অবজেক্টটি আর্গুমেন্ট হিসেবে দিয়ে একটি :ref:`অডিটিং ইভেন্ট <auditing>` ``exec`` তোলা হয়। কোড কম্পাইলেশন ইভেন্টও তোলা হতে পারে।"
 
 #: library/functions.rst:647
 msgid "This function supports dynamic execution of Python code. *object* must be either a string or a code object.  If it is a string, the string is parsed as a suite of Python statements which is then executed (unless a syntax error occurs). [#]_ If it is a code object, it is simply executed.  In all cases, the code that's executed is expected to be valid as file input (see the section :ref:`file-input` in the Reference Manual). Be aware that the :keyword:`nonlocal`, :keyword:`yield`,  and :keyword:`return` statements may not be used outside of function definitions even within the context of code passed to the :func:`exec` function. The return value is ``None``."
-msgstr ""
+msgstr "এই ফাংশনটি পাইটন কোডের ডাইনামিক এক্সিকিউশন সমর্থন করে। *অবজেক্ট* একটি স্ট্রিং বা কোড অবজেক্ট হতে হবে। এটি যদি একটি স্ট্রিং হয়, তবে স্ট্রিংটি পাইটন স্টেটমেন্টগুলির একটি স্যুইট হিসেবে পার্স করা হয় যা পরে এক্সিকিউট করা হয় (যদি সিনট্যাক্স ত্রুটি না ঘটে)। [#]_ এটি যদি একটি কোড অবজেক্ট হয়, তবে এটি সরাসরি এক্সিকিউট করা হয়। সব ক্ষেত্রে, যা কোড এক্সিকিউট করা হয় তা ফাইল ইনপুট হিসেবে বৈধ হওয়া উচিত (রেফারেন্স ম্যানুয়ালে :ref:`file-input` বিভাগটি দেখুন)। মনে রাখবেন যে :keyword:`nonlocal`, :keyword:`yield`, এবং :keyword:`return` স্টেটমেন্টগুলি ফাংশন ডিফিনিশনের বাইরে ব্যবহার করা যাবে না, এমনকি কোডটি :func:`exec` ফাংশনে পাস করার পরেও। রিটার্ন ভ্যালু ``None``।"
 
 #: library/functions.rst:658
 msgid "In all cases, if the optional parts are omitted, the code is executed in the current scope.  If only *globals* is provided, it must be a dictionary (and not a subclass of dictionary), which will be used for both the global and the local variables.  If *globals* and *locals* are given, they are used for the global and local variables, respectively.  If provided, *locals* can be any mapping object.  Remember that at the module level, globals and locals are the same dictionary."
-msgstr ""
+msgstr "সব ক্ষেত্রেই, যদি ঐচ্ছিক অংশগুলি বাদ দেওয়া হয়, তবে কোডটি বর্তমান স্কোপে এক্সিকিউট হয়। যদি শুধুমাত্র *globals* প্রদান করা হয়, তবে এটি একটি ডিকশনারি হতে হবে (এবং ডিকশনারির সাবক্লাস নয়), যা উভয় গ্লোবাল এবং লোকাল ভেরিয়েবলগুলির জন্য ব্যবহৃত হবে। যদি *globals* এবং *locals* প্রদান করা হয়, তবে সেগুলি যথাক্রমে গ্লোবাল এবং লোকাল ভেরিয়েবলগুলির জন্য ব্যবহৃত হবে। যদি প্রদান করা হয়, *locals* যেকোনো ম্যাপিং অবজেক্ট হতে পারে। মনে রাখবেন যে মডিউল স্তরে, গ্লোবাল এবং লোকাল একে অপরের সমান ডিকশনারি।"
 
 #: library/functions.rst:668
 msgid "Most users should just pass a *globals* argument and never *locals*. If exec gets two separate objects as *globals* and *locals*, the code will be executed as if it were embedded in a class definition."
-msgstr ""
+msgstr "বেশিরভাগ ব্যবহারকারী শুধুমাত্র একটি *globals* আর্গুমেন্ট প্রদান করা উচিত এবং কখনও *locals* প্রদান করা উচিত নয়। যদি exec দুটি আলাদা অবজেক্ট *globals* এবং *locals* হিসেবে পায়, তবে কোডটি এমনভাবে এক্সিকিউট হবে যেন এটি একটি ক্লাস ডিফিনিশনে এমবেড করা হয়েছে।"
 
 #: library/functions.rst:672
 msgid "If the *globals* dictionary does not contain a value for the key ``__builtins__``, a reference to the dictionary of the built-in module :mod:`builtins` is inserted under that key.  That way you can control what builtins are available to the executed code by inserting your own ``__builtins__`` dictionary into *globals* before passing it to :func:`exec`."
-msgstr ""
+msgstr "যদি *globals* ডিকশনারিতে ``__builtins__`` কীর জন্য কোনো মান না থাকে, তবে সেই কীর অধীনে :mod:`builtins` বিল্ট-ইন মডিউলের ডিকশনারির একটি রেফারেন্স সন্নিবেশিত হয়। সেইভাবে আপনি আপনার নিজস্ব ``__builtins__`` ডিকশনারি *globals* এ সন্নিবেশিত করে :func:`exec` এ পাঠানোর আগে কার্যকরী কোডের জন্য কী কী বিল্ট-ইন উপলব্ধ তা নিয়ন্ত্রণ করতে পারেন।"
 
 #: library/functions.rst:678
 msgid "The *closure* argument specifies a closure--a tuple of cellvars. It's only valid when the *object* is a code object containing free variables. The length of the tuple must exactly match the number of free variables referenced by the code object."
-msgstr ""
+msgstr "ক্লোজার (*closure*) আর্গুমেন্ট একটি ক্লোজার নির্ধারণ করে—একটি সেলভ্যারগুলির টিউপল। এটি শুধুমাত্র তখনই বৈধ যখন *object* একটি কোড অবজেক্ট হয় যাতে ফ্রি ভেরিয়েবল থাকে। টিউপলের দৈর্ঘ্যটি অবশ্যই কোড অবজেক্ট দ্বারা রেফারেন্স করা ফ্রি ভেরিয়েবলের সংখ্যাexactly মেলাতে হবে।"
 
 #: library/functions.rst:690
 msgid "The built-in functions :func:`globals` and :func:`locals` return the current global and local dictionary, respectively, which may be useful to pass around for use as the second and third argument to :func:`exec`."
-msgstr ""
+msgstr "বিল্ট-ইন ফাংশনসমূহ :func:`globals` এবং :func:`locals` বর্তমান গ্লোবাল এবং লোকাল ডিকশনারি ফিরিয়ে দেয়, যথাক্রমে, যা :func:`exec`-এ দ্বিতীয় এবং তৃতীয় আর্গুমেন্ট হিসেবে ব্যবহার করার জন্য উপকারী হতে পারে।"
 
 #: library/functions.rst:696
 msgid "The default *locals* act as described for function :func:`locals` below: modifications to the default *locals* dictionary should not be attempted. Pass an explicit *locals* dictionary if you need to see effects of the code on *locals* after function :func:`exec` returns."
-msgstr ""
+msgstr "ডিফল্ট *locals* নিচে দেওয়া ফাংশন :func:`locals` অনুযায়ী কাজ করে: ডিফল্ট *locals* ডিকশনারি পরিবর্তন করার চেষ্টা করা উচিত নয়। যদি আপনি ফাংশন :func:`exec` ফিরে আসার পর *locals*-এ কোডের প্রভাব দেখতে চান, তবে একটি স্পষ্ট *locals* ডিকশনারি পাস করুন।"
 
 #: library/functions.rst:701
 msgid "Added the *closure* parameter."
-msgstr ""
+msgstr "*closure* প্যারামিটার যুক্ত করেছেন।"
 
 #: library/functions.rst:707
 msgid "Construct an iterator from those elements of *iterable* for which *function* is true.  *iterable* may be either a sequence, a container which supports iteration, or an iterator.  If *function* is ``None``, the identity function is assumed, that is, all elements of *iterable* that are false are removed."
-msgstr ""
+msgstr "*iterable* এর সেসব উপাদান থেকে একটি ইটারেটর তৈরি করুন, যেগুলোর জন্য *function* সত্য। *iterable* একটি সিকোয়েন্স, একটি কন্টেইনার যা ইটারেশন সমর্থন করে, অথবা একটি ইটারেটর হতে পারে। যদি *function* ``None`` হয়, তবে আইডেন্টিটি ফাংশন ধরে নেওয়া হয়, অর্থাৎ, *iterable* এর সেসব উপাদান যা মিথ্যা, সেগুলি সরিয়ে ফেলা হয়।"
 
 #: library/functions.rst:713
 msgid "Note that ``filter(function, iterable)`` is equivalent to the generator expression ``(item for item in iterable if function(item))`` if function is not ``None`` and ``(item for item in iterable if item)`` if function is ``None``."
-msgstr ""
+msgstr "দয়া করে লক্ষ্য করুন যে ``filter(function, iterable)`` হলো জেনারেটর এক্সপ্রেশন ``(item for item in iterable if function(item))`` এর সমতুল্য, যদি function ``None`` না হয় এবং ``(item for item in iterable if item)`` যদি function ``None`` হয়।"
 
 #: library/functions.rst:718
 msgid "See :func:`itertools.filterfalse` for the complementary function that returns elements of *iterable* for which *function* is false."
-msgstr ""
+msgstr ":func:`itertools.filterfalse` দেখুন, যা সেসব উপাদান ফিরিয়ে দেয় *iterable* এর, যেগুলোর জন্য *function* মিথ্যা।"
 
 #: library/functions.rst:729
 msgid "Return a floating-point number constructed from a number or a string."
-msgstr ""
+msgstr "একটি সংখ্যা বা একটি স্ট্রিং থেকে নির্মিত একটি ভাসমান-পয়েন্ট নম্বর ফেরত দিন।"
 
 #: library/functions.rst:733
-msgid ">>> float('+1.23')\n"
-"1.23\n"
-">>> float('   -12345\\n')\n"
-"-12345.0\n"
-">>> float('1e-003')\n"
-"0.001\n"
-">>> float('+1E6')\n"
-"1000000.0\n"
-">>> float('-Infinity')\n"
-"-inf"
+msgid ">>> float('+1.23')
+1.23
+>>> float('   -12345\n')
+-12345.0
+>>> float('1e-003')
+0.001
+>>> float('+1E6')
+1000000.0
+>>> float('-Infinity')
+-inf"
 msgstr ""
 
 #: library/functions.rst:746
 msgid "If the argument is a string, it should contain a decimal number, optionally preceded by a sign, and optionally embedded in whitespace.  The optional sign may be ``'+'`` or ``'-'``; a ``'+'`` sign has no effect on the value produced.  The argument may also be a string representing a NaN (not-a-number), or positive or negative infinity. More precisely, the input must conform to the :token:`~float:floatvalue` production rule in the following grammar, after leading and trailing whitespace characters are removed:"
-msgstr ""
+msgstr "যদি আর্গুমেন্টটি একটি স্ট্রিং হয়, তবে এতে একটি দশমিক সংখ্যা থাকা উচিত, অপশনালভাবে একটি চিহ্ন দ্বারা পূর্ববর্তী, এবং অপশনালভাবে সাদা স্থান দ্বারা এম্বেড করা। অপশনাল চিহ্নটি ``'+'`` অথবা ``'-'`` হতে পারে; একটি ``'+'`` চিহ্ন উৎপন্ন মানে কোনও প্রভাব ফেলবে না। আর্গুমেন্টটি একটি স্ট্রিংও হতে পারে যা NaN (নট-এ-নাম্বার), অথবা ধনাত্মক বা ঋণাত্মক অশেষকেও উপস্থাপন করে। আরও সঠিকভাবে, ইনপুটটি নিচের ব্যাকরণে :token:`~float:floatvalue` উৎপাদন নিয়মের সাথে সঙ্গতিপূর্ণ হতে হবে, যখন শীর্ষ এবং শেষে সাদা স্থান চিহ্নগুলি অপসারণ করা হয়:"
 
 #: library/functions.rst:767
-msgid "Case is not significant, so, for example, \"inf\", \"Inf\", \"INFINITY\", and \"iNfINity\" are all acceptable spellings for positive infinity."
-msgstr ""
+msgid "Case is not significant, so, for example, "inf", "Inf", "INFINITY", and "iNfINity" are all acceptable spellings for positive infinity."
+msgstr "কেস গুরুত্বপূর্ণ নয়, তাই, উদাহরণস্বরূপ, "inf", "Inf", "INFINITY", এবং "iNfINity" সবগুলোই ধনাত্মক অশেষের জন্য গ্রহণযোগ্য বানান।"
 
 #: library/functions.rst:770
 msgid "Otherwise, if the argument is an integer or a floating-point number, a floating-point number with the same value (within Python's floating-point precision) is returned.  If the argument is outside the range of a Python float, an :exc:`OverflowError` will be raised."
-msgstr ""
+msgstr "অন্যথায়, যদি যুক্তিটি একটি পূর্ণসংখ্যা বা ভাসমান-পয়েন্ট নম্বর হয় তবে একই মান সহ একটি ভাসমান-পয়েন্ট নম্বর (পাইথনের ভাসমান-পয়েন্টের নির্ভুলতার মধ্যে) ফিরে আসে।যদি যুক্তি পাইথন ভাসমানের সীমার বাইরে থাকে তবে :exc:`OverflowError` উত্থাপিত হবে।"
 
 #: library/functions.rst:775
 msgid "For a general Python object ``x``, ``float(x)`` delegates to ``x.__float__()``.  If :meth:`~object.__float__` is not defined then it falls back to :meth:`~object.__index__`."
-msgstr ""
+msgstr "একটি সাধারণ পাইথন অবজেক্ট ``x`` এর জন্য, ``float(x)`` ``x.__float__()`` এ ডেলিগেট করে। যদি :meth:`~object.__float__` সংজ্ঞায়িত না থাকে, তবে এটি :meth:`~object.__index__` এ ফিরে যায়।"
 
 #: library/functions.rst:779
 msgid "If no argument is given, ``0.0`` is returned."
-msgstr ""
+msgstr "যদি কোনও যুক্তি না দেওয়া হয় তবে `` 0.0`` ফিরে আসে।"
 
 #: library/functions.rst:781
 msgid "The float type is described in :ref:`typesnumeric`."
-msgstr ""
+msgstr "ভাসমান প্রকারটি বর্ণিত হয়েছে: রেফ :ref:`typesnumeric`"
 
 #: library/functions.rst:789
 msgid "Falls back to :meth:`~object.__index__` if :meth:`~object.__float__` is not defined."
-msgstr ""
+msgstr ":meth:`~object.__float__` সংজ্ঞায়িত না থাকলে :meth:`~object.__index__` এ ফিরে যায়।"
 
 #: library/functions.rst:799
-msgid "Convert a *value* to a \"formatted\" representation, as controlled by *format_spec*.  The interpretation of *format_spec* will depend on the type of the *value* argument; however, there is a standard formatting syntax that is used by most built-in types: :ref:`formatspec`."
-msgstr ""
+msgid "Convert a *value* to a "formatted" representation, as controlled by *format_spec*.  The interpretation of *format_spec* will depend on the type of the *value* argument; however, there is a standard formatting syntax that is used by most built-in types: :ref:`formatspec`."
+msgstr "একটি *value* কে একটি "ফর্ম্যাটেড" উপস্থাপনায় রূপান্তরিত করুন, যা *format_spec* দ্বারা নিয়ন্ত্রিত হয়। *format_spec* এর ব্যাখ্যা *value* আর্গুমেন্টের ধরণের উপর নির্ভর করবে; তবে, বেশিরভাগ বিল্ট-ইন টাইপ দ্বারা ব্যবহৃত একটি স্ট্যান্ডার্ড ফর্ম্যাটিং সিনট্যাক্স রয়েছে: :ref:`formatspec`।"
 
 #: library/functions.rst:804
 msgid "The default *format_spec* is an empty string which usually gives the same effect as calling :func:`str(value) <str>`."
-msgstr ""
+msgstr "ডিফল্ট *format_spec* একটি খালি স্ট্রিং, যা সাধারণত :func:`str(value) <str>` কল করার মতো একই প্রভাব তৈরি করে।"
 
 #: library/functions.rst:807
 msgid "A call to ``format(value, format_spec)`` is translated to ``type(value).__format__(value, format_spec)`` which bypasses the instance dictionary when searching for the value's :meth:`~object.__format__` method. A :exc:`TypeError` exception is raised if the method search reaches :mod:`object` and the *format_spec* is non-empty, or if either the *format_spec* or the return value are not strings."
-msgstr ""
+msgstr "``format(value, format_spec)`` কলটি ``type(value).__format__(value, format_spec)`` এ রূপান্তরিত হয়, যা মূল্যটির :meth:`~object.__format__` পদ্ধতি খুঁজতে ইন্সট্যান্স ডিকশনারি বাইপাস করে। একটি :exc:`TypeError` ব্যতিক্রম তোলা হয় যদি পদ্ধতি অনুসন্ধান :mod:`object` পর্যন্ত পৌঁছে এবং *format_spec* খালি না হয়, অথবা যদি *format_spec* অথবা রিটার্ন ভ্যালু স্ট্রিং না হয়।"
 
 #: library/functions.rst:814
 msgid "``object().__format__(format_spec)`` raises :exc:`TypeError` if *format_spec* is not an empty string."
-msgstr ""
+msgstr "``object().__format__(format_spec)`` একটি :exc:`TypeError` ব্যতিক্রম তোলেন যদি *format_spec* একটি খালি স্ট্রিং না হয়।"
 
 #: library/functions.rst:823
 msgid "Return a new :class:`frozenset` object, optionally with elements taken from *iterable*.  ``frozenset`` is a built-in class.  See :class:`frozenset` and :ref:`types-set` for documentation about this class."
-msgstr ""
+msgstr "একটি নতুন :class:`frozenset` অবজেক্ট ফেরত দিন, অপশনালভাবে *iterable* থেকে উপাদান নেওয়া হয়েছে। ``frozenset`` একটি বিল্ট-ইন ক্লাস। এই ক্লাসের ডকুমেন্টেশন জন্য :class:`frozenset` এবং :ref:`types-set` দেখুন।"
 
 #: library/functions.rst:827
 msgid "For other containers see the built-in :class:`set`, :class:`list`, :class:`tuple`, and :class:`dict` classes, as well as the :mod:`collections` module."
-msgstr ""
+msgstr "অন্যান্য কন্টেইনারগুলির জন্য বিল্ট-ইন :class:`set`, :class:`list`, :class:`tuple`, এবং :class:`dict` ক্লাসগুলি দেখুন, পাশাপাশি :mod:`collections` মডিউলটি।"
 
 #: library/functions.rst:835
 msgid "Return the value of the named attribute of *object*.  *name* must be a string. If the string is the name of one of the object's attributes, the result is the value of that attribute.  For example, ``getattr(x, 'foobar')`` is equivalent to ``x.foobar``.  If the named attribute does not exist, *default* is returned if provided, otherwise :exc:`AttributeError` is raised. *name* need not be a Python identifier (see :func:`setattr`)."
-msgstr ""
+msgstr "*object* এর নামকৃত অ্যাট্রিবিউটের মান ফেরত দিন। *name* একটি স্ট্রিং হতে হবে। যদি স্ট্রিংটি অবজেক্টের একটি অ্যাট্রিবিউটের নাম হয়, তবে ফলস্বরূপ সেই অ্যাট্রিবিউটের মান হবে। উদাহরণস্বরূপ, ``getattr(x, 'foobar')`` ``x.foobar`` এর সমতুল্য। যদি নামকৃত অ্যাট্রিবিউটটি বিদ্যমান না থাকে, তবে প্রদত্ত হলে *default* ফেরত দেওয়া হয়, অন্যথায় :exc:`AttributeError` তোলা হয়। *name* একটি পাইথন আইডেন্টিফায়ার হওয়া দরকার নয় (দেখুন :func:`setattr`)।"
 
 #: library/functions.rst:844
 msgid "Since :ref:`private name mangling <private-name-mangling>` happens at compilation time, one must manually mangle a private attribute's (attributes with two leading underscores) name in order to retrieve it with :func:`getattr`."
-msgstr ""
+msgstr ":ref:`প্রাইভেট নাম ম্যানগ্লিং <private-name-mangling>` কম্পাইলেশন সময়ে ঘটে, তাই একটি প্রাইভেট অ্যাট্রিবিউটের (দুটি শুরুর আন্ডারস্কোর সহ অ্যাট্রিবিউট) নাম ম্যানুয়ালি ম্যানগল করতে হবে যাতে :func:`getattr` দিয়ে এটি পুনরুদ্ধার করা যায়।"
 
 #: library/functions.rst:852
 msgid "Return the dictionary implementing the current module namespace. For code within functions, this is set when the function is defined and remains the same regardless of where the function is called."
-msgstr ""
+msgstr "বর্তমান মডিউল নেমস্পেস বাস্তবায়নকারী ডিকশনারি ফেরত দিন। ফাংশনের ভিতরে কোডের জন্য, এটি ফাংশন সংজ্ঞায়িত হওয়ার সময় সেট হয় এবং ফাংশনটি কোথায়ই কল করা হোক না কেন একই থাকে।"
 
 #: library/functions.rst:859
 msgid "The arguments are an object and a string.  The result is ``True`` if the string is the name of one of the object's attributes, ``False`` if not. (This is implemented by calling ``getattr(object, name)`` and seeing whether it raises an :exc:`AttributeError` or not.)"
-msgstr ""
+msgstr "আর্গুমেন্টগুলি একটি অবজেক্ট এবং একটি স্ট্রিং। ফলস্বরূপ ``True`` হবে যদি স্ট্রিংটি অবজেক্টের একটি অ্যাট্রিবিউটের নাম হয়, ``False`` হবে যদি না হয়। (এটি ``getattr(object, name)`` কল করে এবং এটি :exc:`AttributeError` তোলে কিনা তা দেখে বাস্তবায়িত হয়।)"
 
 #: library/functions.rst:867
 msgid "Return the hash value of the object (if it has one).  Hash values are integers.  They are used to quickly compare dictionary keys during a dictionary lookup.  Numeric values that compare equal have the same hash value (even if they are of different types, as is the case for 1 and 1.0)."
-msgstr ""
+msgstr "অবজেক্টের হ্যাশ মান ফেরত দিন (যদি এটি থাকে)। হ্যাশ মানগুলি পূর্ণসংখ্যা হয়। এগুলি ডিকশনারি লুকআপের সময় দ্রুত ডিকশনারি কী তুলনা করতে ব্যবহৃত হয়। সন্নিবেশযোগ্য মানগুলি যা সমান তুলনা হয় তাদের একই হ্যাশ মান থাকে (যদিও তাদের ধরন আলাদা হতে পারে, যেমন 1 এবং 1.0 এর ক্ষেত্রে)।"
 
 #: library/functions.rst:874
 msgid "For objects with custom :meth:`~object.__hash__` methods, note that :func:`hash` truncates the return value based on the bit width of the host machine."
-msgstr ""
+msgstr "কাস্টম :meth:`~object.__hash__` মেথড সহ অবজেক্টগুলির জন্য, লক্ষ্য করুন যে :func:`hash` হোস্ট মেশিনের বিট প্রস্থের উপর ভিত্তি করে রিটার্ন মানটি সংকুচিত করে।"
 
 #: library/functions.rst:881
 msgid "Invoke the built-in help system.  (This function is intended for interactive use.)  If no argument is given, the interactive help system starts on the interpreter console.  If the argument is a string, then the string is looked up as the name of a module, function, class, method, keyword, or documentation topic, and a help page is printed on the console.  If the argument is any other kind of object, a help page on the object is generated."
-msgstr ""
+msgstr "অন্তর্নির্মিত সহায়তা সিস্টেমটি অনুরোধ করুন।(এই ফাংশনটি ইন্টারেক্টিভ ব্যবহারের উদ্দেশ্যে করা হয়েছে)) যদি কোনও যুক্তি না দেওয়া হয় তবে ইন্টারেক্টিভ সহায়তা সিস্টেমটি ইন্টারপ্রেটার কনসোলে শুরু হয়।যদি যুক্তিটি একটি স্ট্রিং হয়, তবে স্ট্রিংটি কোনও মডিউল, ফাংশন, শ্রেণি, পদ্ধতি, কীওয়ার্ড বা ডকুমেন্টেশন বিষয়টির নাম হিসাবে দেখা হয় এবং কনসোলে একটি সহায়তা পৃষ্ঠা মুদ্রিত হয়।যদি যুক্তিটি অন্য কোনও ধরণের অবজেক্ট হয় তবে বস্তুর একটি সহায়তা পৃষ্ঠা উত্পন্ন হয়।"
 
 #: library/functions.rst:888
 msgid "Note that if a slash(/) appears in the parameter list of a function when invoking :func:`help`, it means that the parameters prior to the slash are positional-only. For more info, see :ref:`the FAQ entry on positional-only parameters <faq-positional-only-arguments>`."
-msgstr ""
+msgstr "লক্ষ্য করুন যে, যদি একটি স্ল্যাশ (/) ফাংশনের প্যারামিটার তালিকায় উপস্থিত থাকে যখন :func:`help` ডাকা হয়, তবে এর মানে হল যে স্ল্যাশের পূর্ববর্তী প্যারামিটারগুলি কেবল পজিশনাল-অনলি। আরও তথ্যের জন্য, দেখুন :ref:`পজিশনাল-অনলি প্যারামিটার সম্পর্কিত FAQ <faq-positional-only-arguments>`।"
 
 #: library/functions.rst:893
 msgid "This function is added to the built-in namespace by the :mod:`site` module."
-msgstr ""
+msgstr "এই ফাংশনটি অন্তর্নির্মিত নেমস্পেসে যুক্ত করা হয়েছে  :mod:`site` মডিউল।"
 
 #: library/functions.rst:895
 msgid "Changes to :mod:`pydoc` and :mod:`inspect` mean that the reported signatures for callables are now more comprehensive and consistent."
-msgstr ""
+msgstr ":mod:`pydoc` এবং :mod:`inspect` এ পরিবর্তনগুলির মানে হল যে কলেবলগুলির জন্য রিপোর্ট করা সিগনেচারগুলি এখন আরও বিস্তৃত এবং সামঞ্জস্যপূর্ণ।"
 
 #: library/functions.rst:902
-msgid "Convert an integer number to a lowercase hexadecimal string prefixed with \"0x\". If *x* is not a Python :class:`int` object, it has to define an :meth:`~object.__index__` method that returns an integer. Some examples:"
-msgstr ""
+msgid "Convert an integer number to a lowercase hexadecimal string prefixed with "0x". If *x* is not a Python :class:`int` object, it has to define an :meth:`~object.__index__` method that returns an integer. Some examples:"
+msgstr "একটি পূর্ণসংখ্যা সংখ্যাকে একটি লোয়ারকেস হেক্সাডেসিমেল স্ট্রিংয়ে রূপান্তরিত করুন, যা ``0x`` দ্বারা পূর্বসূচিত। যদি *x* একটি পাইথন :class:`int` অবজেক্ট না হয়, তবে এটি একটি :meth:`~object.__index__` মেথড সংজ্ঞায়িত করতে হবে যা একটি পূর্ণসংখ্যা রিটার্ন করে। কিছু উদাহরণ:"
 
 #: library/functions.rst:911
 msgid "If you want to convert an integer number to an uppercase or lower hexadecimal string with prefix or not, you can use either of the following ways:"
-msgstr ""
+msgstr "আপনি যদি কোনও পূর্ণসংখ্যার নম্বরকে একটি বড় হাতের বা হেক্সাডেসিমাল স্ট্রিংয়ে উপসর্গের সাথে রূপান্তর করতে চান বা না, আপনি নিম্নলিখিত দুটি উপায় ব্যবহার করতে পারেন:"
 
 #: library/functions.rst:923
 msgid "See also :func:`int` for converting a hexadecimal string to an integer using a base of 16."
-msgstr ""
+msgstr ":func:`int` দেখুন, যা একটি হেক্সাডেসিমেল স্ট্রিংকে পূর্ণসংখ্যায় রূপান্তর করতে ১৬ এর বেস ব্যবহার করে।"
 
 #: library/functions.rst:928
 msgid "To obtain a hexadecimal string representation for a float, use the :meth:`float.hex` method."
-msgstr ""
+msgstr "একটি ফ্লোটের জন্য হেক্সাডেসিমেল স্ট্রিং উপস্থাপন পেতে, :meth:`float.hex` পদ্ধতি ব্যবহার করুন।"
 
 #: library/functions.rst:934
-msgid "Return the \"identity\" of an object.  This is an integer which is guaranteed to be unique and constant for this object during its lifetime. Two objects with non-overlapping lifetimes may have the same :func:`id` value."
-msgstr ""
+msgid "Return the "identity" of an object.  This is an integer which is guaranteed to be unique and constant for this object during its lifetime. Two objects with non-overlapping lifetimes may have the same :func:`id` value."
+msgstr "একটি অবজেক্টের 'আইডেন্টিটি' ফিরিয়ে দিন। এটি একটি পূর্ণসংখ্যা যা এই অবজেক্টটির জীবনের সময়কাল চলাকালীন এটি অনন্য এবং স্থির থাকবে তা নিশ্চিত করা হয়। দুটি অবজেক্ট যাদের জীবনকাল একে অপরের সাথে মিলে না তাদের একই :func:`id` মান থাকতে পারে।"
 
 #: library/functions.rst:939
 msgid "This is the address of the object in memory."
-msgstr ""
+msgstr "এটি স্মৃতিতে বস্তুর ঠিকানা।"
 
 #: library/functions.rst:941
 msgid "Raises an :ref:`auditing event <auditing>` ``builtins.id`` with argument ``id``."
-msgstr ""
+msgstr "একটি :ref:`অডিটিং ইভেন্ট <auditing>` ``builtins.id`` তৈরি করে যার আর্গুমেন্ট ``id``।"
 
 #: library/functions.rst:947
 msgid "If the *prompt* argument is present, it is written to standard output without a trailing newline.  The function then reads a line from input, converts it to a string (stripping a trailing newline), and returns that.  When EOF is read, :exc:`EOFError` is raised.  Example::"
-msgstr ""
+msgstr "যদি *prompt* আর্গুমেন্ট উপস্থিত থাকে, তবে এটি স্ট্যান্ডার্ড আউটপুটে একটি ট্রেইলিং নিউলাইন ছাড়া লেখা হয়। তারপর ফাংশনটি ইনপুট থেকে একটি লাইন পড়ে, এটিকে একটি স্ট্রিংয়ে রূপান্তরিত করে (একটি ট্রেইলিং নিউলাইন সরিয়ে), এবং সেটি রিটার্ন করে। যখন EOF পড়া হয়, তখন :exc:`EOFError` উত্থাপিত হয়। উদাহরণ::"
 
 #: library/functions.rst:952
-msgid ">>> s = input('--> ')\n"
-"--> Monty Python's Flying Circus\n"
-">>> s\n"
-"\"Monty Python's Flying Circus\""
+msgid ">>> s = input('--> ')
+--> Monty Python's Flying Circus
+>>> s
+"Monty Python's Flying Circus""
 msgstr ""
 
 #: library/functions.rst:957
 msgid "If the :mod:`readline` module was loaded, then :func:`input` will use it to provide elaborate line editing and history features."
-msgstr ""
+msgstr "যদি :mod:`readline` মডিউলটি লোড করা থাকে, তবে :func:`input` এটি ব্যবহার করবে বিস্তারিত লাইন সম্পাদনা এবং ইতিহাসের বৈশিষ্ট্য সরবরাহ করার জন্য।"
 
 #: library/functions.rst:960
 #: library/functions.rst:962
 msgid "Raises an :ref:`auditing event <auditing>` ``builtins.input`` with argument ``prompt`` before reading input"
-msgstr ""
+msgstr "ইনপুট পড়ার আগে ``prompt`` আর্গুমেন্টসহ :ref:`auditing event <auditing>` ``builtins.input`` উত্থাপন করে"
 
 #: library/functions.rst:965
 #: library/functions.rst:967
 msgid "Raises an :ref:`auditing event <auditing>` ``builtins.input/result`` with the result after successfully reading input."
-msgstr ""
+msgstr "ইনপুট সফলভাবে পড়ার পর ফলাফলের সাথে :ref:`auditing event <auditing>` ``builtins.input/result`` উত্থাপন করে।"
 
 #: library/functions.rst:974
 msgid "Return an integer object constructed from a number or a string, or return ``0`` if no arguments are given."
-msgstr ""
+msgstr "কোনও সংখ্যা বা একটি স্ট্রিং থেকে নির্মিত একটি পূর্ণসংখ্যা অবজেক্টটি ফেরত দিন, বা কোনও যুক্তি না দেওয়া হলে `` 0`` ফেরত দিন।"
 
 #: library/functions.rst:979
-msgid ">>> int(123.45)\n"
-"123\n"
-">>> int('123')\n"
-"123\n"
-">>> int('   -12_345\\n')\n"
-"-12345\n"
-">>> int('FACE', 16)\n"
-"64206\n"
-">>> int('0xface', 0)\n"
-"64206\n"
-">>> int('01110011', base=2)\n"
-"115"
+msgid ">>> int(123.45)
+123
+>>> int('123')
+123
+>>> int('   -12_345\n')
+-12345
+>>> int('FACE', 16)
+64206
+>>> int('0xface', 0)
+64206
+>>> int('01110011', base=2)
+115"
 msgstr ""
 
 #: library/functions.rst:994
 msgid "If the argument defines :meth:`~object.__int__`, ``int(x)`` returns ``x.__int__()``.  If the argument defines :meth:`~object.__index__`, it returns ``x.__index__()``.  If the argument defines :meth:`~object.__trunc__`, it returns ``x.__trunc__()``. For floating-point numbers, this truncates towards zero."
-msgstr ""
+msgstr "যদি আর্গুমেন্টটি :meth:`~object.__int__` সংজ্ঞায়িত করে, তাহলে ``int(x)`` রিটার্ন করে ``x.__int__()``। যদি এটি :meth:`~object.__index__` সংজ্ঞায়িত করে, তাহলে এটি রিটার্ন করে ``x.__index__()``। যদি এটি :meth:`~object.__trunc__` সংজ্ঞায়িত করে, তাহলে এটি রিটার্ন করে ``x.__trunc__()``। ফ্লোটিং-পয়েন্ট সংখ্যার জন্য, এটি শূন্যের দিকে ট্রাঙ্কেট করে।"
 
 #: library/functions.rst:1000
 msgid "If the argument is not a number or if *base* is given, then it must be a string, :class:`bytes`, or :class:`bytearray` instance representing an integer in radix *base*.  Optionally, the string can be preceded by ``+`` or ``-`` (with no space in between), have leading zeros, be surrounded by whitespace, and have single underscores interspersed between digits."
-msgstr ""
+msgstr "যদি আর্গুমেন্টটি একটি সংখ্যা না হয় অথবা যদি *base* প্রদান করা হয়, তাহলে এটি অবশ্যই একটি স্ট্রিং, :class:`bytes`, অথবা :class:`bytearray` হতে হবে যা রেডিক্স *base*-এ একটি পূর্ণসংখ্যাকে উপস্থাপন করে। ঐচ্ছিকভাবে, স্ট্রিং-এর শুরুতে ``+`` বা ``-`` থাকতে পারে (কোনও স্পেস ছাড়াই), শূন্য দিয়ে শুরু হতে পারে, হোয়াইটস্পেস দিয়ে ঘেরা থাকতে পারে, এবং সংখ্যাগুলোর মাঝে একক আন্ডারস্কোর থাকতে পারে।"
 
 #: library/functions.rst:1006
 msgid "A base-n integer string contains digits, each representing a value from 0 to n-1. The values 0--9 can be represented by any Unicode decimal digit. The values 10--35 can be represented by ``a`` to ``z`` (or ``A`` to ``Z``). The default *base* is 10. The allowed bases are 0 and 2--36. Base-2, -8, and -16 strings can be optionally prefixed with ``0b``/``0B``, ``0o``/``0O``, or ``0x``/``0X``, as with integer literals in code.  For base 0, the string is interpreted in a similar way to an :ref:`integer literal in code <integers>`, in that the actual base is 2, 8, 10, or 16 as determined by the prefix. Base 0 also disallows leading zeros: ``int('010', 0)`` is not legal, while ``int('010')`` and ``int('010', 8)`` are."
@@ -1073,36 +1072,36 @@ msgstr ""
 
 #: library/functions.rst:1017
 msgid "The integer type is described in :ref:`typesnumeric`."
-msgstr ""
+msgstr "পূর্ণসংখ্যার ধরণটি বর্ণিত হয়েছে :ref:`typesnumeric`"
 
 #: library/functions.rst:1019
 msgid "If *base* is not an instance of :class:`int` and the *base* object has a :meth:`base.__index__ <object.__index__>` method, that method is called to obtain an integer for the base.  Previous versions used :meth:`base.__int__ <object.__int__>` instead of :meth:`base.__index__ <object.__index__>`."
-msgstr ""
+msgstr "যদি *base* একটি :class:`int` শ্রেণির উদাহরণ না হয় এবং *base* অবজেক্টের একটি :meth:`base.__index__ <object.__index__>` মেথড থাকে, তবে সেই মেথডটি base-এর জন্য একটি পূর্ণসংখ্যা পাওয়ার জন্য ডাকা হয়। পূর্ববর্তী সংস্করণগুলো :meth:`base.__index__ <object.__index__>` এর পরিবর্তে :meth:`base.__int__ <object.__int__>` ব্যবহার করত।"
 
 #: library/functions.rst:1029
 msgid "The first parameter is now positional-only."
-msgstr ""
+msgstr "প্রথম প্যারামিটারটি এখন কেবল অবস্থানগত।"
 
 #: library/functions.rst:1032
 msgid "Falls back to :meth:`~object.__index__` if :meth:`~object.__int__` is not defined."
-msgstr ""
+msgstr "যদি :meth:`~object.__int__` সংজ্ঞায়িত না থাকে, তবে এটি :meth:`~object.__index__`-এ ফিরে যায়।"
 
 #: library/functions.rst:1035
 msgid "The delegation to :meth:`~object.__trunc__` is deprecated."
-msgstr ""
+msgstr ":meth:`~object.__trunc__`-এ অর্পণ (delegation) করার কার্যকারিতা বিলুপ্ত ঘোষিত হয়েছে।"
 
 #: library/functions.rst:1038
 msgid ":class:`int` string inputs and string representations can be limited to help avoid denial of service attacks. A :exc:`ValueError` is raised when the limit is exceeded while converting a string to an :class:`int` or when converting an :class:`int` into a string would exceed the limit. See the :ref:`integer string conversion length limitation <int_max_str_digits>` documentation."
-msgstr ""
+msgstr ":class:`int`-এর স্ট্রিং ইনপুট এবং স্ট্রিং উপস্থাপনাগুলির দৈর্ঘ্য সীমিত করা যেতে পারে ডিনায়াল অফ সার্ভিস আক্রমণ প্রতিরোধে সহায়তা করার জন্য। যখন কোনও স্ট্রিংকে :class:`int`-এ রূপান্তর করার সময় বা যখন কোনও :class:`int`-কে স্ট্রিং-এ রূপান্তর করলে সীমা অতিক্রম হবে, তখন :exc:`ValueError` তোলা হয়। বিস্তারিত জানতে দেখুন :ref:`integer string conversion length limitation <int_max_str_digits>` ডকুমেন্টেশন।"
 
 #: library/functions.rst:1048
 msgid "Return ``True`` if the *object* argument is an instance of the *classinfo* argument, or of a (direct, indirect, or :term:`virtual <abstract base class>`) subclass thereof.  If *object* is not an object of the given type, the function always returns ``False``. If *classinfo* is a tuple of type objects (or recursively, other such tuples) or a :ref:`types-union` of multiple types, return ``True`` if *object* is an instance of any of the types. If *classinfo* is not a type or tuple of types and such tuples, a :exc:`TypeError` exception is raised. :exc:`TypeError` may not be raised for an invalid type if an earlier check succeeds."
-msgstr ""
+msgstr "*object* আর্গুমেন্টটি যদি *classinfo* আর্গুমেন্টের একটি ইনস্ট্যান্স হয়, বা তার কোনও (সরাসরি, পরোক্ষ, বা :term:`ভার্চুয়াল <abstract base class>`) সাবক্লাসের ইনস্ট্যান্স হয়, তাহলে ``True`` ফেরত দেয়। যদি *object* নির্দিষ্ট ধরণের না হয়, তাহলে ফাংশন সবসময় ``False`` ফেরত দেয়। যদি *classinfo* টাইপ অবজেক্টের একটি টিউপল হয় (বা রিকার্সিভভাবে, এমন আরও টিউপল), অথবা একাধিক টাইপের একটি :ref:`types-union` হয়, তবে *object* যদি ঐ যেকোনও টাইপের ইনস্ট্যান্স হয় তাহলে ``True`` ফেরত দেয়। যদি *classinfo* কোনও টাইপ বা টাইপের টিউপল না হয়, তাহলে একটি :exc:`TypeError` ছোড়া হয়। তবে একটি পূর্ববর্তী যাচাই সফল হলে অবৈধ টাইপের জন্য :exc:`TypeError` না-ও ছোড়া হতে পারে।"
 
 #: library/functions.rst:1059
 #: library/functions.rst:1073
 msgid "*classinfo* can be a :ref:`types-union`."
-msgstr ""
+msgstr "*classinfo* একটি :ref:`types-union` হতে পারে।"
 
 #: library/functions.rst:1065
 msgid "Return ``True`` if *class* is a subclass (direct, indirect, or :term:`virtual <abstract base class>`) of *classinfo*.  A class is considered a subclass of itself. *classinfo* may be a tuple of class objects (or recursively, other such tuples) or a :ref:`types-union`, in which case return ``True`` if *class* is a subclass of any entry in *classinfo*.  In any other case, a :exc:`TypeError` exception is raised."
@@ -1110,129 +1109,129 @@ msgstr ""
 
 #: library/functions.rst:1080
 msgid "Return an :term:`iterator` object.  The first argument is interpreted very differently depending on the presence of the second argument. Without a second argument, *object* must be a collection object which supports the :term:`iterable` protocol (the :meth:`~object.__iter__` method), or it must support the sequence protocol (the :meth:`~object.__getitem__` method with integer arguments starting at ``0``).  If it does not support either of those protocols, :exc:`TypeError` is raised. If the second argument, *sentinel*, is given, then *object* must be a callable object.  The iterator created in this case will call *object* with no arguments for each call to its :meth:`~iterator.__next__` method; if the value returned is equal to *sentinel*, :exc:`StopIteration` will be raised, otherwise the value will be returned."
-msgstr ""
+msgstr "একটি :term:`iterator` অবজেক্ট ফেরত দিন। প্রথম আর্গুমেন্টটি দ্বিতীয় আর্গুমেন্টের উপস্থিতির উপর ভিত্তি করে ভিন্নভাবে ব্যাখ্যা করা হয়। দ্বিতীয় আর্গুমেন্ট ছাড়া, *object* একটি সংগ্রহ অবজেক্ট হতে হবে যা :term:`iterable` প্রোটোকল ( :meth:`~object.__iter__` পদ্ধতি) সমর্থন করে, অথবা এটি সিকোয়েন্স প্রোটোকল সমর্থন করতে হবে ( :meth:`~object.__getitem__` পদ্ধতি যা পূর্ণসংখ্যা আর্গুমেন্ট দিয়ে শুরু হয় ``0`` থেকে)। যদি এটি কোনটি সমর্থন না করে, :exc:`TypeError` উত্থাপিত হবে। যদি দ্বিতীয় আর্গুমেন্ট, *sentinel*, দেওয়া হয়, তবে *object* একটি কলযোগ্য অবজেক্ট হতে হবে। এই ক্ষেত্রে তৈরি করা ইটারেটরটি প্রতিবার তার :meth:`~iterator.__next__` পদ্ধতিতে কল করলে *object* কে কোন আর্গুমেন্ট ছাড়া কল করবে; যদি ফেরত দেওয়া মান *sentinel* এর সমান হয়, :exc:`StopIteration` উত্থাপিত হবে, অন্যথায় মানটি ফেরত দেওয়া হবে।"
 
 #: library/functions.rst:1094
 msgid "See also :ref:`typeiter`."
-msgstr ""
+msgstr "আরও দেখুন :ref:`typeiter`"
 
 #: library/functions.rst:1096
 msgid "One useful application of the second form of :func:`iter` is to build a block-reader. For example, reading fixed-width blocks from a binary database file until the end of file is reached::"
-msgstr ""
+msgstr ":func:`iter`-এর দ্বিতীয় রূপের একটি কার্যকর প্রয়োগ হলো একটি ব্লক-রিডার তৈরি করা। উদাহরণস্বরূপ, একটি বাইনারি ডেটাবেস ফাইল থেকে নির্দিষ্ট প্রস্থের ব্লক পড়া যতক্ষণ না ফাইলের শেষ পৌঁছে যায়:"
 
 #: library/functions.rst:1100
-msgid "from functools import partial\n"
-"with open('mydata.db', 'rb') as f:\n"
-"    for block in iter(partial(f.read, 64), b''):\n"
-"        process_block(block)"
+msgid "from functools import partial
+with open('mydata.db', 'rb') as f:
+    for block in iter(partial(f.read, 64), b''):
+        process_block(block)"
 msgstr ""
 
 #: library/functions.rst:1108
 msgid "Return the length (the number of items) of an object.  The argument may be a sequence (such as a string, bytes, tuple, list, or range) or a collection (such as a dictionary, set, or frozen set)."
-msgstr ""
+msgstr "কোনও বস্তুর দৈর্ঘ্য (আইটেমের সংখ্যা) ফিরিয়ে দিন।যুক্তিটি একটি ক্রম (যেমন স্ট্রিং, বাইটস, টুপল, তালিকা, বা পরিসীমা) বা সংগ্রহ (যেমন একটি অভিধান, সেট বা হিমায়িত সেট) হতে পারে।"
 
 #: library/functions.rst:1114
 msgid "``len`` raises :exc:`OverflowError` on lengths larger than :data:`sys.maxsize`, such as :class:`range(2 ** 100) <range>`."
-msgstr ""
+msgstr "``len`` এমন দৈর্ঘ্যের উপর :exc:`OverflowError` তোলে যা :data:`sys.maxsize`-এর চেয়ে বড়, যেমন :class:`range(2 ** 100) <range>`।"
 
 #: library/functions.rst:1123
 msgid "Rather than being a function, :class:`list` is actually a mutable sequence type, as documented in :ref:`typesseq-list` and :ref:`typesseq`."
-msgstr ""
+msgstr "ফাংশন না হয়ে, :class:`list` আসলে একটি পরিবর্তনযোগ্য (mutable) সিকোয়েন্স টাইপ, যেমনটি :ref:`typesseq-list` এবং :ref:`typesseq`-এ নথিভুক্ত করা হয়েছে।"
 
 #: library/functions.rst:1129
 msgid "Update and return a dictionary representing the current local symbol table. Free variables are returned by :func:`locals` when it is called in function blocks, but not in class blocks. Note that at the module level, :func:`locals` and :func:`globals` are the same dictionary."
-msgstr ""
+msgstr "বর্তমান স্থানীয় সিম্বোল টেবিল উপস্থাপনকারী একটি অভিধান আপডেট করে এবং ফেরত দেয়। ফাংশন ব্লকে কল করলে :func:`locals` দ্বারা ফ্রি ভেরিয়েবলগুলি ফেরত দেওয়া হয়, কিন্তু ক্লাস ব্লকে নয়। মনে রাখবেন যে মডিউল স্তরে, :func:`locals` এবং :func:`globals` একই অভিধান।"
 
 #: library/functions.rst:1135
 msgid "The contents of this dictionary should not be modified; changes may not affect the values of local and free variables used by the interpreter."
-msgstr ""
+msgstr "এই অভিধানের বিষয়বস্তু পরিবর্তন করা উচিত নয়;পরিবর্তনগুলি দোভাষী দ্বারা ব্যবহৃত স্থানীয় এবং বিনামূল্যে ভেরিয়েবলের মানগুলিকে প্রভাবিত করতে পারে না।"
 
 #: library/functions.rst:1140
 msgid "Return an iterator that applies *function* to every item of *iterable*, yielding the results.  If additional *iterables* arguments are passed, *function* must take that many arguments and is applied to the items from all iterables in parallel.  With multiple iterables, the iterator stops when the shortest iterable is exhausted.  For cases where the function inputs are already arranged into argument tuples, see :func:`itertools.starmap`\\."
-msgstr ""
+msgstr "*function* প্রয়োগ করে এমন একটি ইটারেটর ফেরত দেয় যা *iterable* এর প্রতিটি আইটেমে কার্যকর হয় এবং ফলাফল প্রদান করে। অতিরিক্ত *iterables* আর্গুমেন্ট পাস করলে, *function*-এর সেই সংখ্যক আর্গুমেন্ট গ্রহণ করতে হবে এবং সমস্ত ইটারেবল থেকে আইটেমগুলিতে সমান্তরালভাবে প্রয়োগ করতে হবে। একাধিক iterable থাকলে, যেটি সবচেয়ে ছোট, সেটি শেষ হলে ইটারেটর থেমে যায়। ফাংশনের ইনপুট যদি ইতিমধ্যে আর্গুমেন্ট টিউপলে সাজানো থাকে, তাহলে দেখুন :func:`itertools.starmap`।"
 
 #: library/functions.rst:1152
 msgid "Return the largest item in an iterable or the largest of two or more arguments."
-msgstr ""
+msgstr "একটি ইটারেবলের সবচেয়ে বড় আইটেম অথবা দুই বা ততোধিক আর্গুমেন্টের মধ্যে সবচেয়ে বড়টি ফেরত দেয়।"
 
 #: library/functions.rst:1155
 msgid "If one positional argument is provided, it should be an :term:`iterable`. The largest item in the iterable is returned.  If two or more positional arguments are provided, the largest of the positional arguments is returned."
-msgstr ""
+msgstr "যদি একটি পজিশনাল আর্গুমেন্ট প্রদান করা হয়, তবে এটি একটি :term:`iterable` হওয়া উচিত। ইটারেবলটির মধ্যে সবচেয়ে বড় আইটেমটি ফেরত দেওয়া হয়। যদি দুটি বা তার বেশি পজিশনাল আর্গুমেন্ট প্রদান করা হয়, তাহলে সেগুলোর মধ্যে সবচেয়ে বড়টি ফেরত দেওয়া হয়।"
 
 #: library/functions.rst:1160
 #: library/functions.rst:1198
 msgid "There are two optional keyword-only arguments. The *key* argument specifies a one-argument ordering function like that used for :meth:`list.sort`. The *default* argument specifies an object to return if the provided iterable is empty. If the iterable is empty and *default* is not provided, a :exc:`ValueError` is raised."
-msgstr ""
+msgstr "এখানে দুটি ঐচ্ছিক কিওয়ার্ড-মাত্র আর্গুমেন্ট রয়েছে। *key* আর্গুমেন্টটি একটি এক-আর্গুমেন্ট বিশিষ্ট বিন্যাস ফাংশন নির্ধারণ করে, যেমনটি :meth:`list.sort`-এ ব্যবহৃত হয়। *default* আর্গুমেন্টটি নির্ধারণ করে যে কোন বস্তুটি ফেরত দেওয়া হবে যদি দেওয়া ইটারেবলটি খালি হয়। যদি ইটারেবলটি খালি হয় এবং *default* নির্ধারণ না করা হয়, তাহলে একটি :exc:`ValueError` ত্রুটি তোলা হবে।"
 
 #: library/functions.rst:1166
 msgid "If multiple items are maximal, the function returns the first one encountered.  This is consistent with other sort-stability preserving tools such as ``sorted(iterable, key=keyfunc, reverse=True)[0]`` and ``heapq.nlargest(1, iterable, key=keyfunc)``."
-msgstr ""
+msgstr "যদি একাধিক আইটেম সর্বাধিক হয়, তবে ফাংশনটি প্রথমটির মুখোমুখি হয়। এটি অন্যান্য বাছাই-স্থিতিশীলতা সংরক্ষণের সরঞ্জামগুলির সাথে সামঞ্জস্যপূর্ণ যেমন ``sorted(iterable, key=keyfunc, reverse=True)[0]`` এবং ``heapq.nlargest(1, iterable, key=keyfunc)``।"
 
 #: library/functions.rst:1171
 #: library/functions.rst:1209
 msgid "Added the *default* keyword-only parameter."
-msgstr ""
+msgstr "*default* কীওয়ার্ড-কেবল প্যারামিটার যুক্ত করেছে।"
 
 #: library/functions.rst:1174
 #: library/functions.rst:1212
 msgid "The *key* can be ``None``."
-msgstr ""
+msgstr "*key* হতে পারে ``None``"
 
 #: library/functions.rst:1182
-msgid "Return a \"memory view\" object created from the given argument.  See :ref:`typememoryview` for more information."
-msgstr ""
+msgid "Return a "memory view" object created from the given argument.  See :ref:`typememoryview` for more information."
+msgstr "প্রদত্ত যুক্তি থেকে তৈরি একটি  "memory view" অবজেক্টটি ফিরিয়ে দিন।দেখুন :ref:`typememoryview` আরও তথ্যের জন্য।"
 
 #: library/functions.rst:1190
 msgid "Return the smallest item in an iterable or the smallest of two or more arguments."
-msgstr ""
+msgstr "ক্ষুদ্রতম আইটেমটি একটি itauable বা দুটি বা ততোধিক আর্গুমেন্টের মধ্যে সবচেয়ে ছোট ফিরিয়ে দিন।"
 
 #: library/functions.rst:1193
 msgid "If one positional argument is provided, it should be an :term:`iterable`. The smallest item in the iterable is returned.  If two or more positional arguments are provided, the smallest of the positional arguments is returned."
-msgstr ""
+msgstr "যদি একটি অবস্থানগত যুক্তি সরবরাহ করা হয় তবে এটি একটি হওয়া উচিত :term:`iterable` iterable এর সবচেয়ে ছোট আইটেমটি ফিরে আসে।যদি দুটি বা ততোধিক অবস্থানগত যুক্তি সরবরাহ করা হয় তবে অবস্থানগত যুক্তিগুলির মধ্যে সবচেয়ে ছোট ফিরে আসে।"
 
 #: library/functions.rst:1204
 msgid "If multiple items are minimal, the function returns the first one encountered.  This is consistent with other sort-stability preserving tools such as ``sorted(iterable, key=keyfunc)[0]`` and ``heapq.nsmallest(1, iterable, key=keyfunc)``."
-msgstr ""
+msgstr "যদি একাধিক আইটেম ন্যূনতম হয়, তাহলে ফাংশনটি যেটি প্রথমে পাওয়া যায় সেটি ফেরত দেয়। এটি ``sorted(iterable, key=keyfunc)[0]`` এবং ``heapq.nsmallest(1, iterable, key=keyfunc)`` এর মতো বাছাই-স্থিতিশীলতা বজায় রাখা সরঞ্জামগুলোর সঙ্গে সামঞ্জস্যপূর্ণ।"
 
 #: library/functions.rst:1219
 msgid "Retrieve the next item from the :term:`iterator` by calling its :meth:`~iterator.__next__` method.  If *default* is given, it is returned if the iterator is exhausted, otherwise :exc:`StopIteration` is raised."
-msgstr ""
+msgstr ":term:`iterator`-এর পরবর্তী আইটেমটি এর :meth:`~iterator.__next__` মেথড কল করে পুনরুদ্ধার করুন। যদি *default* নির্ধারিত থাকে এবং ইটারেটর শেষ হয়ে যায়, তাহলে সেটিই ফেরত দেয়; না হলে :exc:`StopIteration` ত্রুটি উত্থাপিত হয়।"
 
 #: library/functions.rst:1226
 msgid "This is the ultimate base class of all other classes. It has methods that are common to all instances of Python classes. When the constructor is called, it returns a new featureless object. The constructor does not accept any arguments."
-msgstr ""
+msgstr "এটি সব অন্যান্য শ্রেণির সর্বোচ্চ ভিত্তি শ্রেণি। এতে পাইথনের সব ক্লাসের জন্য সাধারণ কিছু মেথড থাকে। যখন কনস্ট্রাক্টর কল করা হয়, এটি একটি নতুন বৈশিষ্ট্যহীন অবজেক্ট ফেরত দেয়। কনস্ট্রাক্টর কোনো আর্গুমেন্ট গ্রহণ করে না।"
 
 #: library/functions.rst:1233
 msgid ":class:`object` instances do *not* have :attr:`~object.__dict__` attributes, so you can't assign arbitrary attributes to an instance of :class:`object`."
-msgstr ""
+msgstr ":class:`object` ইনস্ট্যান্সগুলির :attr:`~object.__dict__` অ্যাট্রিবিউট *থাকে না*, তাই আপনি :class:`object`-এর কোনো ইনস্ট্যান্সে ইচ্ছেমতো অ্যাট্রিবিউট নির্ধারণ করতে পারবেন না।"
 
 #: library/functions.rst:1240
-msgid "Convert an integer number to an octal string prefixed with \"0o\".  The result is a valid Python expression. If *x* is not a Python :class:`int` object, it has to define an :meth:`~object.__index__` method that returns an integer. For example:"
-msgstr ""
+msgid "Convert an integer number to an octal string prefixed with "0o".  The result is a valid Python expression. If *x* is not a Python :class:`int` object, it has to define an :meth:`~object.__index__` method that returns an integer. For example:"
+msgstr "\0o" উপসর্গসহ একটি পূর্ণসংখ্যাকে অক্টাল স্ট্রিংয়ে রূপান্তর করুন। ফলাফলটি একটি বৈধ পাইথন এক্সপ্রেশন। যদি *x* একটি Python :class:`int` অবজেক্ট না হয়, তাহলে তার মধ্যে একটি :meth:`~object.__index__` মেথড থাকতে হবে যা একটি পূর্ণসংখ্যা ফেরত দেয়। উদাহরণস্বরূপ:"
 
 #: library/functions.rst:1250
-msgid "If you want to convert an integer number to an octal string either with the prefix \"0o\" or not, you can use either of the following ways."
-msgstr ""
+msgid "If you want to convert an integer number to an octal string either with the prefix "0o" or not, you can use either of the following ways."
+msgstr "আপনি যদি একটি পূর্ণসংখ্যাকে অক্টাল স্ট্রিংয়ে রূপান্তর করতে চান, উপসর্গ \"0o\" সহ বা ছাড়া—তাহলে আপনি নিচের যেকোনো একটি পদ্ধতি ব্যবহার করতে পারেন।"
 
 #: library/functions.rst:1267
 msgid "Open *file* and return a corresponding :term:`file object`.  If the file cannot be opened, an :exc:`OSError` is raised. See :ref:`tut-files` for more examples of how to use this function."
-msgstr ""
+msgstr *file* খুলুন এবং সংশ্লিষ্ট একটি :term:`file object` ফেরত দিন। যদি ফাইলটি খোলা না যায়, তাহলে একটি :exc:`OSError` ত্রুটি উত্থাপন করা হবে। এই ফাংশনটি কীভাবে ব্যবহার করতে হয় তার আরও উদাহরণের জন্য দেখুন :ref:`tut-files`।
 
 #: library/functions.rst:1271
 msgid "*file* is a :term:`path-like object` giving the pathname (absolute or relative to the current working directory) of the file to be opened or an integer file descriptor of the file to be wrapped.  (If a file descriptor is given, it is closed when the returned I/O object is closed unless *closefd* is set to ``False``.)"
-msgstr ""
+msgstr *file* একটি :term:`path-like object` যা খুলতে হবে এমন ফাইলের পথনাম (বর্তমান কাজের ডিরেক্টরির তুলনায় আপেক্ষিক বা পরম) বা মোড়ানো হবে এমন ফাইলের একটি পূর্ণসংখ্যা ফাইল ডেসক্রিপ্টর প্রদান করে। (যদি একটি ফাইল ডেসক্রিপ্টর দেওয়া হয়, তবে ফেরত দেওয়া I/O অবজেক্টটি বন্ধ হওয়ার সময় এটি বন্ধ হয়ে যাবে, যদি না *closefd* ``False`` হিসেবে সেট করা থাকে।)
 
 #: library/functions.rst:1277
 msgid "*mode* is an optional string that specifies the mode in which the file is opened.  It defaults to ``'r'`` which means open for reading in text mode. Other common values are ``'w'`` for writing (truncating the file if it already exists), ``'x'`` for exclusive creation, and ``'a'`` for appending (which on *some* Unix systems, means that *all* writes append to the end of the file regardless of the current seek position).  In text mode, if *encoding* is not specified the encoding used is platform-dependent: :func:`locale.getencoding` is called to get the current locale encoding. (For reading and writing raw bytes use binary mode and leave *encoding* unspecified.)  The available modes are:"
-msgstr ""
+msgstr *mode* একটি ঐচ্ছিক স্ট্রিং যা ফাইলটি কোন মোডে খোলা হবে তা নির্ধারণ করে। এর ডিফল্ট মান হল ``'r'``, যার মানে টেক্সট মোডে পড়ার জন্য ফাইল খোলা। অন্যান্য সাধারণ মানগুলির মধ্যে রয়েছে ``'w'`` লেখার জন্য (ফাইলটি আগে থেকে বিদ্যমান থাকলে সেটি কেটে ফেলে), ``'x'`` একচেটিয়া তৈরি করার জন্য এবং ``'a'`` যুক্ত করার জন্য (যা *কিছু* ইউনিক্স সিস্টেমে ফাইলের বর্তমান অবস্থান যাই হোক না কেন *সব* লেখা ফাইলের শেষে যুক্ত হয়)। টেক্সট মোডে, যদি *encoding* নির্দিষ্ট না করা হয়, তবে ব্যবহৃত এনকোডিং প্ল্যাটফর্ম-নির্ভর: বর্তমান লোকেল এনকোডিং পেতে :func:`locale.getencoding` কল করা হয়। (কাঁচা বাইট পড়া ও লেখার জন্য বাইনারি মোড ব্যবহার করুন এবং *encoding* নির্দিষ্ট করবেন না।) উপলব্ধ মোডগুলো হল:
 
 #: library/functions.rst:1294
 msgid "Character"
-msgstr ""
+msgstr "চরিত্র"
 
 #: library/functions.rst:1294
 msgid "Meaning"
-msgstr ""
+msgstr "অর্থ"
 
 #: library/functions.rst:1296
 msgid "``'r'``"
@@ -1240,7 +1239,7 @@ msgstr ""
 
 #: library/functions.rst:1296
 msgid "open for reading (default)"
-msgstr ""
+msgstr "পড়ার জন্য উন্মুক্ত (ডিফল্ট)"
 
 #: library/functions.rst:1297
 msgid "``'w'``"
@@ -1248,7 +1247,7 @@ msgstr ""
 
 #: library/functions.rst:1297
 msgid "open for writing, truncating the file first"
-msgstr ""
+msgstr "লেখার জন্য খুলুন, প্রথমে ফাইলটি কাটা"
 
 #: library/functions.rst:1298
 msgid "``'x'``"
@@ -1256,7 +1255,7 @@ msgstr ""
 
 #: library/functions.rst:1298
 msgid "open for exclusive creation, failing if the file already exists"
-msgstr ""
+msgstr "একচেটিয়া সৃষ্টির জন্য খুলুন, ফাইলটি ইতিমধ্যে বিদ্যমান থাকলে ব্যর্থ"
 
 #: library/functions.rst:1299
 msgid "``'a'``"
@@ -1264,7 +1263,7 @@ msgstr ""
 
 #: library/functions.rst:1299
 msgid "open for writing, appending to the end of file if it exists"
-msgstr ""
+msgstr "লেখার জন্য উন্মুক্ত, ফাইলের শেষে যোগ করুন যদি এটি বিদ্যমান থাকে"
 
 #: library/functions.rst:1300
 msgid "``'b'``"
@@ -1289,78 +1288,80 @@ msgstr ""
 
 #: library/functions.rst:1302
 msgid "open for updating (reading and writing)"
-msgstr ""
+msgstr "আপডেটের জন্য উন্মুক্ত (পড়া এবং লেখা)"
 
 #: library/functions.rst:1305
 msgid "The default mode is ``'r'`` (open for reading text, a synonym of ``'rt'``). Modes ``'w+'`` and ``'w+b'`` open and truncate the file.  Modes ``'r+'`` and ``'r+b'`` open the file with no truncation."
-msgstr ""
+msgstr ডিফল্ট মোড হল ``'r'`` (টেক্সট পড়ার জন্য খোলা, যা ``'rt'``-এর সমতুল্য)। ``'w+'`` এবং ``'w+b'`` মোডে ফাইল খোলা হলে তা কেটে ফেলা (truncate) হয়। ``'r+'`` এবং ``'r+b'`` মোডে ফাইল খোলা হলেও তা কাটা হয় না।
 
 #: library/functions.rst:1309
 msgid "As mentioned in the :ref:`io-overview`, Python distinguishes between binary and text I/O.  Files opened in binary mode (including ``'b'`` in the *mode* argument) return contents as :class:`bytes` objects without any decoding.  In text mode (the default, or when ``'t'`` is included in the *mode* argument), the contents of the file are returned as :class:`str`, the bytes having been first decoded using a platform-dependent encoding or using the specified *encoding* if given."
-msgstr ""
+msgstr :ref:`io-overview`-এ উল্লেখ করা হয়েছে, পাইথন বাইনারি এবং টেক্সট I/O-এর মধ্যে পার্থক্য করে। বাইনারি মোডে খোলা ফাইলগুলি (যেমন *mode* আর্গুমেন্টে ``'b'`` থাকে) ডেটা ফেরত দেয় :class:`bytes` অবজেক্ট হিসেবে, কোনো ডিকোডিং ছাড়াই। টেক্সট মোডে (ডিফল্ট মোড, অথবা যদি *mode* আর্গুমেন্টে ``'t'`` থাকে), ফাইলের বিষয়বস্তু ফেরত আসে :class:`str` হিসেবে—যেখানে বাইটগুলো আগে একটি প্ল্যাটফর্ম-নির্ভর এনকোডিং বা নির্দিষ্ট *encoding* দিয়ে ডিকোড করা হয়। 
 
 #: library/functions.rst:1319
 msgid "Python doesn't depend on the underlying operating system's notion of text files; all the processing is done by Python itself, and is therefore platform-independent."
-msgstr ""
+msgstr "পাইথন অন্তর্নিহিত অপারেটিং সিস্টেমের পাঠ্য ফাইলগুলির ধারণার উপর নির্ভর করে না;সমস্ত প্রক্রিয়াজাতকরণ নিজেই পাইথন দ্বারা সম্পন্ন হয় এবং তাই প্ল্যাটফর্ম-স্বতন্ত্র।"
 
 #: library/functions.rst:1323
 msgid "*buffering* is an optional integer used to set the buffering policy.  Pass 0 to switch buffering off (only allowed in binary mode), 1 to select line buffering (only usable when writing in text mode), and an integer > 1 to indicate the size in bytes of a fixed-size chunk buffer. Note that specifying a buffer size this way applies for binary buffered I/O, but ``TextIOWrapper`` (i.e., files opened with ``mode='r+'``) would have another buffering. To disable buffering in ``TextIOWrapper``, consider using the ``write_through`` flag for :func:`io.TextIOWrapper.reconfigure`. When no *buffering* argument is given, the default buffering policy works as follows:"
-msgstr ""
+msgstr "*buffering* একটি ঐচ্ছিক পূর্ণসংখ্যা যা বাফারিং নীতিমালা নির্ধারণ করতে ব্যবহৃত হয়। বাফারিং বন্ধ করতে 0 পাস করুন (শুধুমাত্র বাইনারি মোডে অনুমোদিত), লাইন বাফারিং সক্রিয় করতে 1 দিন (শুধুমাত্র টেক্সট মোডে লেখার সময় ব্যবহারযোগ্য), এবং একটি পূর্ণসংখ্যা > 1 দিন নির্দিষ্ট আকারের (বাইটে) একটি বাফার চাঙ্ক নির্দেশ করতে। মনে রাখবেন, এইভাবে বাফার সাইজ নির্ধারণ করা বাইনারি বাফারড I/O-র জন্য প্রযোজ্য, তবে ``TextIOWrapper`` (যেমন ``mode='r+'`` সহ খোলা ফাইল) ভিন্ন বাফারিং ব্যবহার করে। ``TextIOWrapper``-এ বাফারিং নিষ্ক্রিয় করতে, :func:`io.TextIOWrapper.reconfigure`-এর জন্য ``write_through`` ফ্ল্যাগ ব্যবহার করার কথা বিবেচনা করুন। যদি *buffering* আর্গুমেন্ট দেওয়া না হয়, ডিফল্ট বাফারিং নীতিমালা নিচের মতো কাজ করে:"
 
 #: library/functions.rst:1333
-msgid "Binary files are buffered in fixed-size chunks; the size of the buffer is chosen using a heuristic trying to determine the underlying device's \"block size\" and falling back on :const:`io.DEFAULT_BUFFER_SIZE`.  On many systems, the buffer will typically be 4096 or 8192 bytes long."
-msgstr ""
+msgid "Binary files are buffered in fixed-size chunks; the size of the buffer is chosen using a heuristic trying to determine the underlying device's "block size" and falling back on :const:`io.DEFAULT_BUFFER_SIZE`.  On many systems, the buffer will typically be 4096 or 8192 bytes long."
+msgstr "বাইনারি ফাইলগুলি স্থির আকারের খণ্ডগুলিতে বাফার করা হয়;অন্তর্নিহিত ডিভাইসের "ব্লক আকার" নির্ধারণ এবং পিছনে পিছনে পড়ার চেষ্টা করে একটি হিউরিস্টিক ব্যবহার করে বাফারের আকারটি বেছে নেওয়া হয়েছে :const:`io.DEFAULT_BUFFER_SIZE`| অনেক সিস্টেমে, বাফারটি সাধারণত 4096 বা 8192 বাইট দীর্ঘ হবে।"
 
 #: library/functions.rst:1338
-msgid "\"Interactive\" text files (files for which :meth:`~io.IOBase.isatty` returns ``True``) use line buffering.  Other text files use the policy described above for binary files."
-msgstr ""
+msgid ""Interactive" text files (files for which :meth:`~io.IOBase.isatty` returns ``True``) use line buffering.  Other text files use the policy described above for binary files."
+msgstr ""ইন্টারেক্টিভ" পাঠ্য ফাইলগুলি (ফাইলগুলির জন্য :meth:`~io.IOBase.isatty` returns ``True``) লাইন বাফারিং ব্যবহার করুন।অন্যান্য পাঠ্য ফাইলগুলি বাইনারি ফাইলগুলির জন্য উপরে বর্ণিত নীতি ব্যবহার করে।"
 
 #: library/functions.rst:1342
 msgid "*encoding* is the name of the encoding used to decode or encode the file. This should only be used in text mode.  The default encoding is platform dependent (whatever :func:`locale.getencoding` returns), but any :term:`text encoding` supported by Python can be used. See the :mod:`codecs` module for the list of supported encodings."
-msgstr ""
+msgstr "*encoding* হলো এনকোডিংয়ের নাম যা ফাইলটি ডিকোড বা এনকোড করতে ব্যবহৃত হয়। এটি শুধুমাত্র টেক্সট মোডে ব্যবহার করা উচিত। ডিফল্ট এনকোডিংটি প্ল্যাটফর্ম-নির্ভর (যা :func:`locale.getencoding` ফেরত দেয়), তবে পাইথনের দ্বারা সমর্থিত যেকোনো :term:`text encoding` ব্যবহার করা যেতে পারে। সমর্থিত এনকোডিংগুলির তালিকার জন্য :mod:`codecs` মডিউল দেখুন।"
+
 
 #: library/functions.rst:1348
 msgid "*errors* is an optional string that specifies how encoding and decoding errors are to be handled—this cannot be used in binary mode. A variety of standard error handlers are available (listed under :ref:`error-handlers`), though any error handling name that has been registered with :func:`codecs.register_error` is also valid.  The standard names include:"
-msgstr ""
+msgstr "*errors* একটি ঐচ্ছিক স্ট্রিং যা নির্ধারণ করে যে এনকোডিং এবং ডিকোডিং ত্রুটিগুলি কীভাবে পরিচালনা করা হবে—এটি বাইনারি মোডে ব্যবহার করা যায় না। বিভিন্ন ধরনের স্ট্যান্ডার্ড ত্রুটি হ্যান্ডলার উপলব্ধ (দেখুন :ref:`error-handlers`), যদিও :func:`codecs.register_error` দিয়ে নিবন্ধিত যেকোনো ত্রুটি হ্যান্ডলিং নামও বৈধ। স্ট্যান্ডার্ড নামগুলোর মধ্যে রয়েছে:"
+
 
 #: library/functions.rst:1356
 msgid "``'strict'`` to raise a :exc:`ValueError` exception if there is an encoding error.  The default value of ``None`` has the same effect."
-msgstr ""
+msgstr "``'strict'`` এ উত্থাপন :exc:`ValueError` ব্যতিক্রম যদি কোনও এনকোডিং ত্রুটি থাকে।`` কিছুই `এর ডিফল্ট মান একই প্রভাব ফেলে।"
 
 #: library/functions.rst:1360
 msgid "``'ignore'`` ignores errors.  Note that ignoring encoding errors can lead to data loss."
-msgstr ""
+msgstr "``'ignore'`` ত্রুটিগুলি উপেক্ষা করে।নোট করুন যে এনকোডিং ত্রুটিগুলি উপেক্ষা করার ফলে ডেটা ক্ষতি হতে পারে।"
 
 #: library/functions.rst:1363
 msgid "``'replace'`` causes a replacement marker (such as ``'?'``) to be inserted where there is malformed data."
-msgstr ""
+msgstr "``'replace'`` একটি প্রতিস্থাপন চিহ্নিতকারী (যেমন ``'?'``) যেখানে ত্রুটিযুক্ত ডেটা রয়েছে সেখানে সন্নিবেশ করা হয়।"
 
 #: library/functions.rst:1366
 msgid "``'surrogateescape'`` will represent any incorrect bytes as low surrogate code units ranging from U+DC80 to U+DCFF. These surrogate code units will then be turned back into the same bytes when the ``surrogateescape`` error handler is used when writing data.  This is useful for processing files in an unknown encoding."
-msgstr ""
+msgstr "``'surrogateescape'`` U+DC80 থেকে U+DCFF পর্যন্ত কম সারোগেট কোড ইউনিট হিসাবে কোনও ভুল বাইটের প্রতিনিধিত্ব করবে।এই সারোগেট কোড ইউনিটগুলি তখন একই বাইটে ফিরিয়ে দেওয়া হবে যখন ডেটা লেখার সময় ``surrogateescape`` ত্রুটি হ্যান্ডলার ব্যবহার করা হয়।এটি অজানা এনকোডিংয়ে ফাইলগুলি প্রক্রিয়াকরণের জন্য দরকারী।"
 
 #: library/functions.rst:1373
 msgid "``'xmlcharrefreplace'`` is only supported when writing to a file. Characters not supported by the encoding are replaced with the appropriate XML character reference :samp:`&#{nnn};`."
-msgstr ""
+msgstr "`` 'xmlcherrefreplace'`` কেবল কোনও ফাইলটিতে লেখার সময় সমর্থিত।এনকোডিং দ্বারা সমর্থিত নয় এমন অক্ষরগুলি উপযুক্ত এক্সএমএল চরিত্রের রেফারেন্সের সাথে প্রতিস্থাপন করা হয়েছে :samp:`&#{nnn};`"
 
 #: library/functions.rst:1377
 msgid "``'backslashreplace'`` replaces malformed data by Python's backslashed escape sequences."
-msgstr ""
+msgstr "``'backslashreplace'`` পাইথনের ব্যাকস্ল্যাশড এস্কেপ সিকোয়েন্সগুলির দ্বারা ত্রুটিযুক্ত ডেটা প্রতিস্থাপন করে।"
 
 #: library/functions.rst:1380
-msgid "``'namereplace'`` (also only supported when writing) replaces unsupported characters with ``\\N{...}`` escape sequences."
-msgstr ""
+msgid "``'namereplace'`` (also only supported when writing) replaces unsupported characters with ``\N{...}`` escape sequences."
+msgstr "``'namereplace'`` (এটি কেবল লেখার সময় সমর্থিত) অসমর্থিত অক্ষরগুলিকে ``\N{...}`` escape sequences সাথে প্রতিস্থাপন করে।"
 
 #: library/functions.rst:1388
-msgid "*newline* determines how to parse newline characters from the stream. It can be ``None``, ``''``, ``'\\n'``, ``'\\r'``, and ``'\\r\\n'``.  It works as follows:"
+msgid "*newline* determines how to parse newline characters from the stream. It can be ``None``, ``''``, ``'\n'``, ``'\r'``, and ``'\r\n'``.  It works as follows:"
 msgstr ""
 
 #: library/functions.rst:1392
-msgid "When reading input from the stream, if *newline* is ``None``, universal newlines mode is enabled.  Lines in the input can end in ``'\\n'``, ``'\\r'``, or ``'\\r\\n'``, and these are translated into ``'\\n'`` before being returned to the caller.  If it is ``''``, universal newlines mode is enabled, but line endings are returned to the caller untranslated.  If it has any of the other legal values, input lines are only terminated by the given string, and the line ending is returned to the caller untranslated."
+msgid "When reading input from the stream, if *newline* is ``None``, universal newlines mode is enabled.  Lines in the input can end in ``'\n'``, ``'\r'``, or ``'\r\n'``, and these are translated into ``'\n'`` before being returned to the caller.  If it is ``''``, universal newlines mode is enabled, but line endings are returned to the caller untranslated.  If it has any of the other legal values, input lines are only terminated by the given string, and the line ending is returned to the caller untranslated."
 msgstr ""
 
 #: library/functions.rst:1400
-msgid "When writing output to the stream, if *newline* is ``None``, any ``'\\n'`` characters written are translated to the system default line separator, :data:`os.linesep`.  If *newline* is ``''`` or ``'\\n'``, no translation takes place.  If *newline* is any of the other legal values, any ``'\\n'`` characters written are translated to the given string."
+msgid "When writing output to the stream, if *newline* is ``None``, any ``'\n'`` characters written are translated to the system default line separator, :data:`os.linesep`.  If *newline* is ``''`` or ``'\n'``, no translation takes place.  If *newline* is any of the other legal values, any ``'\n'`` characters written are translated to the given string."
 msgstr ""
 
 #: library/functions.rst:1406
@@ -1369,35 +1370,35 @@ msgstr ""
 
 #: library/functions.rst:1411
 msgid "A custom opener can be used by passing a callable as *opener*. The underlying file descriptor for the file object is then obtained by calling *opener* with (*file*, *flags*). *opener* must return an open file descriptor (passing :mod:`os.open` as *opener* results in functionality similar to passing ``None``)."
-msgstr ""
+msgstr "একটি কাস্টম ওপেনার কলযোগ্য হিসাবে *opener* হিসাবে পাস করে ব্যবহার করা যেতে পারে।"
 
 #: library/functions.rst:1417
 msgid "The newly created file is :ref:`non-inheritable <fd_inheritance>`."
-msgstr ""
+msgstr "সদ্য নির্মিত ফাইলটি হল :ref:`non-inheritable <fd_inheritance>`"
 
 #: library/functions.rst:1419
 msgid "The following example uses the :ref:`dir_fd <dir_fd>` parameter of the :func:`os.open` function to open a file relative to a given directory::"
-msgstr ""
+msgstr "নিম্নলিখিত উদাহরণটি ব্যবহার করে: রেফ: `Dir_fd <dir_fd>` এর প্যারামিটার: ফানক: `os.open` একটি প্রদত্ত ডিরেক্টরি সম্পর্কিত একটি ফাইল খোলার জন্য ফাংশন ::"
 
 #: library/functions.rst:1422
-msgid ">>> import os\n"
-">>> dir_fd = os.open('somedir', os.O_RDONLY)\n"
-">>> def opener(path, flags):\n"
-"...     return os.open(path, flags, dir_fd=dir_fd)\n"
-"...\n"
-">>> with open('spamspam.txt', 'w', opener=opener) as f:\n"
-"...     print('This will be written to somedir/spamspam.txt', file=f)\n"
-"...\n"
-">>> os.close(dir_fd)  # don't leak a file descriptor"
+msgid ">>> import os
+>>> dir_fd = os.open('somedir', os.O_RDONLY)
+>>> def opener(path, flags):
+...     return os.open(path, flags, dir_fd=dir_fd)
+...
+>>> with open('spamspam.txt', 'w', opener=opener) as f:
+...     print('This will be written to somedir/spamspam.txt', file=f)
+...
+>>> os.close(dir_fd)  # don't leak a file descriptor"
 msgstr ""
 
 #: library/functions.rst:1432
 msgid "The type of :term:`file object` returned by the :func:`open` function depends on the mode.  When :func:`open` is used to open a file in a text mode (``'w'``, ``'r'``, ``'wt'``, ``'rt'``, etc.), it returns a subclass of :class:`io.TextIOBase` (specifically :class:`io.TextIOWrapper`).  When used to open a file in a binary mode with buffering, the returned class is a subclass of :class:`io.BufferedIOBase`.  The exact class varies: in read binary mode, it returns an :class:`io.BufferedReader`; in write binary and append binary modes, it returns an :class:`io.BufferedWriter`, and in read/write mode, it returns an :class:`io.BufferedRandom`.  When buffering is disabled, the raw stream, a subclass of :class:`io.RawIOBase`, :class:`io.FileIO`, is returned."
-msgstr ""
+msgstr "এর ধরণ: শব্দ :term:`file object` দ্বারা ফিরে আসা :func:`open` ফাংশন মোডের উপর নির্ভর করে।"
 
 #: library/functions.rst:1453
 msgid "See also the file handling modules, such as :mod:`fileinput`, :mod:`io` (where :func:`open` is declared), :mod:`os`, :mod:`os.path`, :mod:`tempfile`, and :mod:`shutil`."
-msgstr ""
+msgstr "ফাইল হ্যান্ডলিং মডিউলগুলি যেমন :mod:`fileinput`, :mod:`io`, :mod:`os`, :mod:`os.path`, :mod:`tempfile`, :mod:`shutil`"
 
 #: library/functions.rst:1457
 msgid "Raises an :ref:`auditing event <auditing>` ``open`` with arguments ``path``, ``mode``, ``flags``."
@@ -1409,11 +1410,11 @@ msgstr ""
 
 #: library/functions.rst:1464
 msgid "The *opener* parameter was added."
-msgstr ""
+msgstr "*opener* প্যারামিটার যুক্ত করা হয়েছিল।"
 
 #: library/functions.rst:1465
 msgid "The ``'x'`` mode was added."
-msgstr ""
+msgstr "``'x'` মোডটি যুক্ত করা হয়েছিল।"
 
 #: library/functions.rst:1466
 msgid ":exc:`IOError` used to be raised, it is now an alias of :exc:`OSError`."
@@ -1425,27 +1426,27 @@ msgstr ""
 
 #: library/functions.rst:1472
 msgid "The file is now non-inheritable."
-msgstr ""
+msgstr "ফাইলটি এখন অনিবার্য।"
 
 #: library/functions.rst:1476
 msgid "If the system call is interrupted and the signal handler does not raise an exception, the function now retries the system call instead of raising an :exc:`InterruptedError` exception (see :pep:`475` for the rationale)."
-msgstr ""
+msgstr "যদি সিস্টেম কলটি বাধাগ্রস্ত হয় এবং সিগন্যাল হ্যান্ডলার কোনও ব্যতিক্রম বাড়ায় না, তবে ফাংশনটি এখন একটি উত্থাপনের পরিবর্তে সিস্টেম কলটি পুনরায় চেষ্টা করে :exc:`InterruptedError`ব্যতিক্রম"
 
 #: library/functions.rst:1479
 msgid "The ``'namereplace'`` error handler was added."
-msgstr ""
+msgstr "`` 'নামারপ্লেস'` `ত্রুটি হ্যান্ডলার যুক্ত করা হয়েছিল।"
 
 #: library/functions.rst:1483
 msgid "Support added to accept objects implementing :class:`os.PathLike`."
-msgstr ""
+msgstr "সমর্থনগুলি বাস্তবায়নকারী অবজেক্টগুলি গ্রহণের জন্য সমর্থন যুক্ত হয়েছে: শ্রেণি: `os.pathike``"
 
 #: library/functions.rst:1484
 msgid "On Windows, opening a console buffer may return a subclass of :class:`io.RawIOBase` other than :class:`io.FileIO`."
-msgstr ""
+msgstr "উইন্ডোজে, একটি কনসোল বাফার খোলার একটি সাবক্লাস ফিরিয়ে দিতে পারে: শ্রেণি: oo io.rawiobase` ব্যতীত: শ্রেণি: `io.filieo`"
 
 #: library/functions.rst:1487
 msgid "The ``'U'`` mode has been removed."
-msgstr ""
+msgstr "`` 'U'`` মোডটি সরানো হয়েছে।"
 
 #: library/functions.rst:1492
 msgid "Given a string representing one Unicode character, return an integer representing the Unicode code point of that character.  For example, ``ord('a')`` returns the integer ``97`` and ``ord('€')`` (Euro sign) returns ``8364``.  This is the inverse of :func:`chr`."
@@ -1468,19 +1469,19 @@ msgid "Here's an example of computing an inverse for ``38`` modulo ``97``::"
 msgstr ""
 
 #: library/functions.rst:1525
-msgid ">>> pow(38, -1, mod=97)\n"
-"23\n"
-">>> 23 * 38 % 97 == 1\n"
-"True"
+msgid ">>> pow(38, -1, mod=97)
+23
+>>> 23 * 38 % 97 == 1
+True"
 msgstr ""
 
 #: library/functions.rst:1530
 msgid "For :class:`int` operands, the three-argument form of ``pow`` now allows the second argument to be negative, permitting computation of modular inverses."
-msgstr ""
+msgstr "এর জন্য :class:`int`  অপারেন্ডস, ``pow`` তিন-যুক্তি ফর্মটি এখন দ্বিতীয় যুক্তিটিকে নেতিবাচক হতে দেয়, মডিউলার বিপরীতগুলির গণনার অনুমতি দেয়।"
 
 #: library/functions.rst:1535
 msgid "Allow keyword arguments.  Formerly, only positional arguments were supported."
-msgstr ""
+msgstr "কীওয়ার্ড আর্গুমেন্টের অনুমতি দিন।পূর্বে, কেবলমাত্র অবস্থানগত যুক্তি সমর্থন করা হয়েছিল।"
 
 #: library/functions.rst:1542
 msgid "Print *objects* to the text stream *file*, separated by *sep* and followed by *end*.  *sep*, *end*, *file*, and *flush*, if present, must be given as keyword arguments."
@@ -1488,7 +1489,7 @@ msgstr ""
 
 #: library/functions.rst:1546
 msgid "All non-keyword arguments are converted to strings like :func:`str` does and written to the stream, separated by *sep* and followed by *end*.  Both *sep* and *end* must be strings; they can also be ``None``, which means to use the default values.  If no *objects* are given, :func:`print` will just write *end*."
-msgstr ""
+msgstr "সমস্ত নন-কিওয়ার্ড আর্গুমেন্টগুলি স্ট্রিংগুলিতে রূপান্তরিত হয় :func:`str` স্ট্রিং করে এবং স্ট্রিমটিতে লিখিত,*sep* দ্বারা পৃথক করা এবং *end* অনুসরণ করে।"
 
 #: library/functions.rst:1552
 msgid "The *file* argument must be an object with a ``write(string)`` method; if it is not present or ``None``, :data:`sys.stdout` will be used.  Since printed arguments are converted to text strings, :func:`print` cannot be used with binary mode file objects.  For these, use ``file.write(...)`` instead."
@@ -1496,39 +1497,39 @@ msgstr ""
 
 #: library/functions.rst:1557
 msgid "Output buffering is usually determined by *file*. However, if *flush* is true, the stream is forcibly flushed."
-msgstr ""
+msgstr "আউটপুট বাফারিং সাধারণত *file* দ্বারা নির্ধারিত হয়।তবে, যদি *flush* সত্য হয় তবে স্ট্রিমটি জোর করে ফ্লাশ করা হয়।"
 
 #: library/functions.rst:1561
 msgid "Added the *flush* keyword argument."
-msgstr ""
+msgstr "*flush* কীওয়ার্ড আর্গুমেন্ট যুক্ত করেছেন।"
 
 #: library/functions.rst:1567
 msgid "Return a property attribute."
-msgstr ""
+msgstr "একটি সম্পত্তি বৈশিষ্ট্য ফিরে।"
 
 #: library/functions.rst:1569
 msgid "*fget* is a function for getting an attribute value.  *fset* is a function for setting an attribute value. *fdel* is a function for deleting an attribute value.  And *doc* creates a docstring for the attribute."
-msgstr ""
+msgstr "* fget* একটি বৈশিষ্ট্য মান পাওয়ার জন্য একটি ফাংশন।* fset* একটি বৈশিষ্ট্য মান নির্ধারণের জন্য একটি ফাংশন।* fdel* একটি বৈশিষ্ট্য মান মোছার জন্য একটি ফাংশন।এবং * ডক * বৈশিষ্ট্যের জন্য একটি ডকস্ট্রিং তৈরি করে।"
 
 #: library/functions.rst:1573
 msgid "A typical use is to define a managed attribute ``x``::"
-msgstr ""
+msgstr "একটি সাধারণ ব্যবহার হ'ল একটি পরিচালিত বৈশিষ্ট্য ``x``:: সংজ্ঞায়িত করা"
 
 #: library/functions.rst:1575
-msgid "class C:\n"
-"    def __init__(self):\n"
-"        self._x = None\n"
-"\n"
-"    def getx(self):\n"
-"        return self._x\n"
-"\n"
-"    def setx(self, value):\n"
-"        self._x = value\n"
-"\n"
-"    def delx(self):\n"
-"        del self._x\n"
-"\n"
-"    x = property(getx, setx, delx, \"I'm the 'x' property.\")"
+msgid "class C:
+    def __init__(self):
+        self._x = None
+
+    def getx(self):
+        return self._x
+
+    def setx(self, value):
+        self._x = value
+
+    def delx(self):
+        del self._x
+
+    x = property(getx, setx, delx, "I'm the 'x' property.")"
 msgstr ""
 
 #: library/functions.rst:1590
@@ -1540,75 +1541,75 @@ msgid "If given, *doc* will be the docstring of the property attribute. Otherwis
 msgstr ""
 
 #: library/functions.rst:1597
-msgid "class Parrot:\n"
-"    def __init__(self):\n"
-"        self._voltage = 100000\n"
-"\n"
-"    @property\n"
-"    def voltage(self):\n"
-"        \"\"\"Get the current voltage.\"\"\"\n"
-"        return self._voltage"
+msgid "class Parrot:
+    def __init__(self):
+        self._voltage = 100000
+
+    @property
+    def voltage(self):
+        """Get the current voltage."""
+        return self._voltage"
 msgstr ""
 
 #: library/functions.rst:1606
-msgid "The ``@property`` decorator turns the :meth:`!voltage` method into a \"getter\" for a read-only attribute with the same name, and it sets the docstring for *voltage* to \"Get the current voltage.\""
+msgid "The ``@property`` decorator turns the :meth:`!voltage` method into a "getter" for a read-only attribute with the same name, and it sets the docstring for *voltage* to "Get the current voltage.""
 msgstr ""
 
 #: library/functions.rst:1614
 msgid "A property object has ``getter``, ``setter``, and ``deleter`` methods usable as decorators that create a copy of the property with the corresponding accessor function set to the decorated function.  This is best explained with an example:"
-msgstr ""
+msgstr "একটি সম্পত্তি অবজেক্টে `` getter``, `` setter``, এবং ``deleter`` সাজসজ্জার হিসাবে ব্যবহারযোগ্য পদ্ধতি রয়েছে যা সজ্জিত ফাংশনে সংশ্লিষ্ট অ্যাকসেসর ফাংশন সহ সম্পত্তিটির একটি অনুলিপি তৈরি করে।এটি একটি উদাহরণ সহ সেরা ব্যাখ্যা করা হয়েছে:"
 
 #: library/functions.rst:1619
-msgid "class C:\n"
-"    def __init__(self):\n"
-"        self._x = None\n"
-"\n"
-"    @property\n"
-"    def x(self):\n"
-"        \"\"\"I'm the 'x' property.\"\"\"\n"
-"        return self._x\n"
-"\n"
-"    @x.setter\n"
-"    def x(self, value):\n"
-"        self._x = value\n"
-"\n"
-"    @x.deleter\n"
-"    def x(self):\n"
-"        del self._x"
+msgid "class C:
+    def __init__(self):
+        self._x = None
+
+    @property
+    def x(self):
+        """I'm the 'x' property."""
+        return self._x
+
+    @x.setter
+    def x(self, value):
+        self._x = value
+
+    @x.deleter
+    def x(self):
+        del self._x"
 msgstr ""
 
 #: library/functions.rst:1638
 msgid "This code is exactly equivalent to the first example.  Be sure to give the additional functions the same name as the original property (``x`` in this case.)"
-msgstr ""
+msgstr "এই কোডটি প্রথম উদাহরণের সমতুল্য"
 
 #: library/functions.rst:1642
 msgid "The returned property object also has the attributes ``fget``, ``fset``, and ``fdel`` corresponding to the constructor arguments."
-msgstr ""
+msgstr "ফিরে আসা সম্পত্তি অবজেক্টটিতে ``fget``, ``fset``, ``fdel``  কনস্ট্রাক্টর আর্গুমেন্টের সাথে সম্পর্কিত বৈশিষ্ট্যগুলিও রয়েছে।"
 
 #: library/functions.rst:1645
 msgid "The docstrings of property objects are now writeable."
-msgstr ""
+msgstr "সম্পত্তি অবজেক্টের ডকস্ট্রিংগুলি এখন লিখনযোগ্য।"
 
 #: library/functions.rst:1654
 msgid "Rather than being a function, :class:`range` is actually an immutable sequence type, as documented in :ref:`typesseq-range` and :ref:`typesseq`."
-msgstr ""
+msgstr "ফাংশন হওয়ার পরিবর্তে:class:`range` আসলে একটি অপরিবর্তনীয় সিকোয়েন্স টাইপ "
 
 #: library/functions.rst:1660
 msgid "Return a string containing a printable representation of an object.  For many types, this function makes an attempt to return a string that would yield an object with the same value when passed to :func:`eval`; otherwise, the representation is a string enclosed in angle brackets that contains the name of the type of the object together with additional information often including the name and address of the object.  A class can control what this function returns for its instances by defining a :meth:`~object.__repr__` method. If :func:`sys.displayhook` is not accessible, this function will raise :exc:`RuntimeError`."
-msgstr ""
+msgstr "কোনও বস্তুর মুদ্রণযোগ্য উপস্থাপনাযুক্ত একটি স্ট্রিং ফিরিয়ে দিন।"
 
 #: library/functions.rst:1671
 msgid "This class has a custom representation that can be evaluated::"
-msgstr ""
+msgstr "এই শ্রেণীর একটি কাস্টম উপস্থাপনা রয়েছে যা মূল্যায়ন করা যায় ::"
 
 #: library/functions.rst:1673
-msgid "class Person:\n"
-"   def __init__(self, name, age):\n"
-"      self.name = name\n"
-"      self.age = age\n"
-"\n"
-"   def __repr__(self):\n"
-"      return f\"Person('{self.name}', {self.age})\""
+msgid "class Person:
+   def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+   def __repr__(self):
+      return f"Person('{self.name}', {self.age})""
 msgstr ""
 
 #: library/functions.rst:1684
@@ -1617,19 +1618,19 @@ msgstr ""
 
 #: library/functions.rst:1692
 msgid "Return *number* rounded to *ndigits* precision after the decimal point.  If *ndigits* is omitted or is ``None``, it returns the nearest integer to its input."
-msgstr ""
+msgstr "দশমিক বিন্দুর পরে *ndigits* যথার্থতায় বৃত্তাকার *number* রিটার্ন।"
 
 #: library/functions.rst:1696
 msgid "For the built-in types supporting :func:`round`, values are rounded to the closest multiple of 10 to the power minus *ndigits*; if two multiples are equally close, rounding is done toward the even choice (so, for example, both ``round(0.5)`` and ``round(-0.5)`` are ``0``, and ``round(1.5)`` is ``2``).  Any integer value is valid for *ndigits* (positive, zero, or negative).  The return value is an integer if *ndigits* is omitted or ``None``. Otherwise, the return value has the same type as *number*."
-msgstr ""
+msgstr "অন্তর্নির্মিত প্রকারের জন্য সমর্থনকারী :func:`round`, মানগুলি 10 এর নিকটতম একাধিককে পাওয়ার বিয়োগ  *ndigits* এর নিকটতম একাধিকতে গোল করা হয়।"
 
 #: library/functions.rst:1705
 msgid "For a general Python object ``number``, ``round`` delegates to ``number.__round__``."
-msgstr ""
+msgstr "একটি সাধারণ পাইথন অবজেক্টের জন্য ``number``, ``round`` delegates to ``number.__round__``"
 
 #: library/functions.rst:1710
 msgid "The behavior of :func:`round` for floats can be surprising: for example, ``round(2.675, 2)`` gives ``2.67`` instead of the expected ``2.68``. This is not a bug: it's a result of the fact that most decimal fractions can't be represented exactly as a float.  See :ref:`tut-fp-issues` for more information."
-msgstr ""
+msgstr "এর আচরণ: ফানক: ভাসমানগুলির জন্য :func:`round` আশ্চর্যজনক হতে পারে"
 
 #: library/functions.rst:1722
 msgid "Return a new :class:`set` object, optionally with elements taken from *iterable*.  ``set`` is a built-in class.  See :class:`set` and :ref:`types-set` for documentation about this class."
@@ -1637,19 +1638,19 @@ msgstr ""
 
 #: library/functions.rst:1726
 msgid "For other containers see the built-in :class:`frozenset`, :class:`list`, :class:`tuple`, and :class:`dict` classes, as well as the :mod:`collections` module."
-msgstr ""
+msgstr "অন্যান্য পাত্রে অন্তর্নির্মিত দেখুন :class:`frozenset`, :class:`list`, :class:`tuple`,:class:`dict` classes পাশাপাশি :mod:`collections`।"
 
 #: library/functions.rst:1733
 msgid "This is the counterpart of :func:`getattr`.  The arguments are an object, a string, and an arbitrary value.  The string may name an existing attribute or a new attribute.  The function assigns the value to the attribute, provided the object allows it.  For example, ``setattr(x, 'foobar', 123)`` is equivalent to ``x.foobar = 123``."
-msgstr ""
+msgstr "এটি এর প্রতিরূপ: ফানক: `getAttr``যুক্তিগুলি একটি বস্তু, একটি স্ট্রিং এবং একটি স্বেচ্ছাসেবী মান"
 
 #: library/functions.rst:1739
 msgid "*name* need not be a Python identifier as defined in :ref:`identifiers` unless the object chooses to enforce that, for example in a custom :meth:`~object.__getattribute__` or via :attr:`~object.__slots__`. An attribute whose name is not an identifier will not be accessible using the dot notation, but is accessible through :func:`getattr` etc.."
-msgstr ""
+msgstr "* নাম* সংজ্ঞায়িত হিসাবে পাইথন আইডেন্টিফায়ার হওয়ার দরকার নেই :ref:`identifiers` যদি না বস্তুটি এটি কার্যকর করতে পছন্দ করে না"
 
 #: library/functions.rst:1747
 msgid "Since :ref:`private name mangling <private-name-mangling>` happens at compilation time, one must manually mangle a private attribute's (attributes with two leading underscores) name in order to set it with :func:`setattr`."
-msgstr ""
+msgstr "যেহেতু :ref:`private name mangling <private-name-mangling>` সংকলনের সময় ঘটে, এটি সেট করার জন্য একজনকে অবশ্যই একটি ব্যক্তিগত বৈশিষ্ট্য (দুটি শীর্ষস্থানীয় আন্ডারস্কোর সহ বৈশিষ্ট্য) নামটি ম্যানগল করতে হবে :func:`setattr`"
 
 #: library/functions.rst:1756
 msgid "Return a :term:`slice` object representing the set of indices specified by ``range(start, stop, step)``.  The *start* and *step* arguments default to ``None``."
@@ -1657,11 +1658,11 @@ msgstr ""
 
 #: library/functions.rst:1764
 msgid "Slice objects have read-only data attributes :attr:`!start`, :attr:`!stop`, and :attr:`!step` which merely return the argument values (or their default).  They have no other explicit functionality; however, they are used by NumPy and other third-party packages."
-msgstr ""
+msgstr "স্লাইস অবজেক্টগুলিতে কেবলমাত্র ডেটা পঠনযোগ্য ডেটা বৈশিষ্ট্য রয়েছে।"
 
 #: library/functions.rst:1769
 msgid "Slice objects are also generated when extended indexing syntax is used.  For example: ``a[start:stop:step]`` or ``a[start:stop, i]``.  See :func:`itertools.islice` for an alternate version that returns an :term:`iterator`."
-msgstr ""
+msgstr "প্রসারিত ইনডেক্সিং সিনট্যাক্স ব্যবহার করা হলে স্লাইস অবজেক্টগুলিও উত্পন্ন হয়।"
 
 #: library/functions.rst:1774
 msgid "Slice objects are now :term:`hashable` (provided :attr:`~slice.start`, :attr:`~slice.stop`, and :attr:`~slice.step` are hashable)."
@@ -1669,11 +1670,11 @@ msgstr ""
 
 #: library/functions.rst:1780
 msgid "Return a new sorted list from the items in *iterable*."
-msgstr ""
+msgstr "*Iterable* এর আইটেমগুলি থেকে একটি নতুন সাজানো তালিকা ফিরিয়ে দিন।"
 
 #: library/functions.rst:1782
 msgid "Has two optional arguments which must be specified as keyword arguments."
-msgstr ""
+msgstr "দুটি ঐচ্ছিক যুক্তি রয়েছে যা অবশ্যই কীওয়ার্ড আর্গুমেন্ট হিসাবে নির্দিষ্ট করা উচিত।"
 
 #: library/functions.rst:1784
 msgid "*key* specifies a function of one argument that is used to extract a comparison key from each element in *iterable* (for example, ``key=str.lower``).  The default value is ``None`` (compare the elements directly)."
@@ -1681,36 +1682,36 @@ msgstr ""
 
 #: library/functions.rst:1788
 msgid "*reverse* is a boolean value.  If set to ``True``, then the list elements are sorted as if each comparison were reversed."
-msgstr ""
+msgstr "*reverse* একটি বুলিয়ান মান।"
 
 #: library/functions.rst:1791
 msgid "Use :func:`functools.cmp_to_key` to convert an old-style *cmp* function to a *key* function."
-msgstr ""
+msgstr "ব্যবহার করুন :func:`functools.cmp_to_key` একটি পুরানো স্টাইল *cmp* ফাংশনকে একটি * key* ফাংশনে রূপান্তর করতে।"
 
 #: library/functions.rst:1794
 msgid "The built-in :func:`sorted` function is guaranteed to be stable. A sort is stable if it guarantees not to change the relative order of elements that compare equal --- this is helpful for sorting in multiple passes (for example, sort by department, then by salary grade)."
-msgstr ""
+msgstr "অন্তর্নির্মিত :func:`sorted` করা ফাংশন স্থিতিশীল হওয়ার গ্যারান্টিযুক্ত।"
 
 #: library/functions.rst:1799
 msgid "The sort algorithm uses only ``<`` comparisons between items.  While defining an :meth:`~object.__lt__` method will suffice for sorting, :PEP:`8` recommends that all six :ref:`rich comparisons <comparisons>` be implemented.  This will help avoid bugs when using the same data with other ordering tools such as :func:`max` that rely on a different underlying method.  Implementing all six comparisons also helps avoid confusion for mixed type comparisons which can call reflected the :meth:`~object.__gt__` method."
-msgstr ""
+msgstr "বাছাই করা অ্যালগরিদম কেবলমাত্র আইটেমগুলির মধ্যে তুলনা `` <`` ব্যবহার করে।"
 
 #: library/functions.rst:1808
 msgid "For sorting examples and a brief sorting tutorial, see :ref:`sortinghowto`."
-msgstr ""
+msgstr "উদাহরণগুলি বাছাইয়ের জন্য এবং একটি সংক্ষিপ্ত বাছাই টিউটোরিয়াল, দেখুন  :ref:`sortinghowto`"
 
 #: library/functions.rst:1812
 msgid "Transform a method into a static method."
-msgstr ""
+msgstr "একটি পদ্ধতি একটি স্থির পদ্ধতিতে রূপান্তর করুন।"
 
 #: library/functions.rst:1814
 msgid "A static method does not receive an implicit first argument. To declare a static method, use this idiom::"
-msgstr ""
+msgstr "একটি স্থির পদ্ধতি একটি অন্তর্নিহিত প্রথম যুক্তি পায় না।একটি স্থির পদ্ধতি ঘোষণা করতে, এই প্রতিমাটি ব্যবহার করুন ::"
 
 #: library/functions.rst:1817
-msgid "class C:\n"
-"    @staticmethod\n"
-"    def f(arg1, arg2, argN): ..."
+msgid "class C:
+    @staticmethod
+    def f(arg1, arg2, argN): ..."
 msgstr ""
 
 #: library/functions.rst:1821
@@ -1719,31 +1720,31 @@ msgstr ""
 
 #: library/functions.rst:1824
 msgid "A static method can be called either on the class (such as ``C.f()``) or on an instance (such as ``C().f()``). Moreover, the static method :term:`descriptor` is also callable, so it can be used in the class definition (such as ``f()``)."
-msgstr ""
+msgstr "ক্লাসে (যেমন ``C.f()``) বা কোনও উদাহরণে (যেমন ``C().f()``) বলা যেতে পারে একটি স্থির পদ্ধতি"
 
 #: library/functions.rst:1829
 msgid "Static methods in Python are similar to those found in Java or C++. Also, see :func:`classmethod` for a variant that is useful for creating alternate class constructors."
-msgstr ""
+msgstr "পাইথনে স্ট্যাটিক পদ্ধতিগুলি জাভা বা C++ এর মতো পাওয়া যায়।"
 
 #: library/functions.rst:1833
 msgid "Like all decorators, it is also possible to call ``staticmethod`` as a regular function and do something with its result.  This is needed in some cases where you need a reference to a function from a class body and you want to avoid the automatic transformation to instance method.  For these cases, use this idiom::"
-msgstr ""
+msgstr "সমস্ত সাজসজ্জার মতো, নিয়মিত ফাংশন হিসাবে  ``staticmethod``কল করা এবং এর ফলাফলের সাথে কিছু করাও সম্ভব।"
 
 #: library/functions.rst:1839
-msgid "def regular_function():\n"
-"    ...\n"
-"\n"
-"class C:\n"
-"    method = staticmethod(regular_function)"
+msgid "def regular_function():
+    ...
+
+class C:
+    method = staticmethod(regular_function)"
 msgstr ""
 
 #: library/functions.rst:1845
 msgid "For more information on static methods, see :ref:`types`."
-msgstr ""
+msgstr "স্ট্যাটিক পদ্ধতি সম্পর্কে আরও তথ্যের জন্য, দেখুন :ref:`types``"
 
 #: library/functions.rst:1847
 msgid "Static methods now inherit the method attributes (:attr:`~function.__module__`, :attr:`~function.__name__`, :attr:`~function.__qualname__`, :attr:`~function.__doc__` and :attr:`~function.__annotations__`), have a new ``__wrapped__`` attribute, and are now callable as regular functions."
-msgstr ""
+msgstr "স্থিতিশীল পদ্ধতিগুলি এখন পদ্ধতির বৈশিষ্ট্যগুলির উত্তরাধিকারী"
 
 #: library/functions.rst:1863
 msgid "Return a :class:`str` version of *object*.  See :func:`str` for details."
@@ -1751,27 +1752,27 @@ msgstr ""
 
 #: library/functions.rst:1865
 msgid "``str`` is the built-in string :term:`class`.  For general information about strings, see :ref:`textseq`."
-msgstr ""
+msgstr "`` str`` অন্তর্নির্মিত স্ট্রিং: :term:`class`"
 
 #: library/functions.rst:1871
 msgid "Sums *start* and the items of an *iterable* from left to right and returns the total.  The *iterable*'s items are normally numbers, and the start value is not allowed to be a string."
-msgstr ""
+msgstr "যোগফল  *start* এবং বাম থেকে ডানে একটি *iterable* এর আইটেমগুলি এবং মোটটি ফেরত দেয়।"
 
 #: library/functions.rst:1875
-msgid "For some use cases, there are good alternatives to :func:`sum`. The preferred, fast way to concatenate a sequence of strings is by calling ``''.join(sequence)``.  To add floating-point values with extended precision, see :func:`math.fsum`\\.  To concatenate a series of iterables, consider using :func:`itertools.chain`."
-msgstr ""
+msgid "For some use cases, there are good alternatives to :func:`sum`. The preferred, fast way to concatenate a sequence of strings is by calling ``''.join(sequence)``.  To add floating-point values with extended precision, see :func:`math.fsum`\.  To concatenate a series of iterables, consider using :func:`itertools.chain`."
+msgstr "কিছু ব্যবহারের ক্ষেত্রে, এর জন্য ভাল বিকল্প রয়েছে"
 
 #: library/functions.rst:1881
 msgid "The *start* parameter can be specified as a keyword argument."
-msgstr ""
+msgstr "*start* প্যারামিটারটি কীওয়ার্ড আর্গুমেন্ট হিসাবে নির্দিষ্ট করা যেতে পারে।"
 
 #: library/functions.rst:1884
 msgid "Summation of floats switched to an algorithm that gives higher accuracy on most builds."
-msgstr ""
+msgstr "ফ্লোটগুলির সংমিশ্রণ একটি অ্যালগরিদমে স্যুইচ করা যা বেশিরভাগ বিল্ডগুলিতে উচ্চতর নির্ভুলতা দেয়।"
 
 #: library/functions.rst:1891
 msgid "Return a proxy object that delegates method calls to a parent or sibling class of *type*.  This is useful for accessing inherited methods that have been overridden in a class."
-msgstr ""
+msgstr "একটি প্রক্সি অবজেক্টটি ফিরিয়ে দিন যা  *type* এর পিতামাতার বা ভাইবোন শ্রেণিকে কল করার পদ্ধতিটি ডেলিগেট করে।এটি উত্তরাধিকার সূত্রে প্রাপ্ত পদ্ধতিগুলি অ্যাক্সেস করার জন্য দরকারী যা কোনও শ্রেণিতে ওভাররাইড করা হয়েছে।"
 
 #: library/functions.rst:1895
 msgid "The *object_or_type* determines the :term:`method resolution order` to be searched.  The search starts from the class right after the *type*."
@@ -1787,62 +1788,62 @@ msgstr ""
 
 #: library/functions.rst:1908
 msgid "If the second argument is omitted, the super object returned is unbound.  If the second argument is an object, ``isinstance(obj, type)`` must be true.  If the second argument is a type, ``issubclass(type2, type)`` must be true (this is useful for classmethods)."
-msgstr ""
+msgstr "যদি দ্বিতীয় যুক্তি বাদ দেওয়া হয় তবে সুপার অবজেক্টটি ফিরিয়ে দেওয়া হয় "
 
 #: library/functions.rst:1913
 msgid "There are two typical use cases for *super*.  In a class hierarchy with single inheritance, *super* can be used to refer to parent classes without naming them explicitly, thus making the code more maintainable.  This use closely parallels the use of *super* in other programming languages."
-msgstr ""
+msgstr "*super* এর জন্য দুটি সাধারণ ব্যবহারের ক্ষেত্রে রয়েছে।একক উত্তরাধিকার সহ একটি শ্রেণীর শ্রেণিবিন্যাসে, *super* পিতামাতার ক্লাসগুলিকে স্পষ্টভাবে নামকরণ না করে উল্লেখ করতে ব্যবহার করা যেতে পারে, এইভাবে কোডটিকে আরও রক্ষণাবেক্ষণযোগ্য করে তোলে।এটি ব্যবহার অন্যান্য প্রোগ্রামিং ভাষায়  *super* ব্যবহারের সাথে ঘনিষ্ঠভাবে সমান্তরাল।"
 
 #: library/functions.rst:1918
-msgid "The second use case is to support cooperative multiple inheritance in a dynamic execution environment.  This use case is unique to Python and is not found in statically compiled languages or languages that only support single inheritance.  This makes it possible to implement \"diamond diagrams\" where multiple base classes implement the same method.  Good design dictates that such implementations have the same calling signature in every case (because the order of calls is determined at runtime, because that order adapts to changes in the class hierarchy, and because that order can include sibling classes that are unknown prior to runtime)."
-msgstr ""
+msgid "The second use case is to support cooperative multiple inheritance in a dynamic execution environment.  This use case is unique to Python and is not found in statically compiled languages or languages that only support single inheritance.  This makes it possible to implement "diamond diagrams" where multiple base classes implement the same method.  Good design dictates that such implementations have the same calling signature in every case (because the order of calls is determined at runtime, because that order adapts to changes in the class hierarchy, and because that order can include sibling classes that are unknown prior to runtime)."
+msgstr "দ্বিতীয় ব্যবহারের ক্ষেত্রে হ'ল গতিশীল সম্পাদন পরিবেশে সমবায় একাধিক উত্তরাধিকারকে সমর্থন করা।এই ব্যবহারের কেসটি পাইথনের কাছে অনন্য এবং স্ট্যাটিক্যালি সংকলিত ভাষা বা ভাষায় পাওয়া যায় না যা কেবলমাত্র একক উত্তরাধিকারকে সমর্থন করে।এটি ডায়মন্ড ডায়াগ্রামগুলি প্রয়োগ করা সম্ভব করে যেখানে একাধিক বেস ক্লাস একই পদ্ধতি প্রয়োগ করে।ভাল ডিজাইন নির্দেশ দেয় যে এই জাতীয় বাস্তবায়নের প্রতিটি ক্ষেত্রে একই কলিং স্বাক্ষর রয়েছে (কারণ কলগুলির ক্রমটি রানটাইমে নির্ধারিত হয়, কারণ সেই আদেশটি শ্রেণীর শ্রেণিবিন্যাসের পরিবর্তনের সাথে অভিযোজিত হয় এবং কারণ সেই আদেশে রানটাইমের আগে অজানা ভাইবোন শ্রেণি অন্তর্ভুক্ত থাকতে পারে)।"
 
 #: library/functions.rst:1928
 msgid "For both use cases, a typical superclass call looks like this::"
-msgstr ""
+msgstr "উভয় ব্যবহারের ক্ষেত্রে, একটি সাধারণ সুপারক্লাস কল এর মতো দেখাচ্ছে ::"
 
 #: library/functions.rst:1930
-msgid "class C(B):\n"
-"    def method(self, arg):\n"
-"        super().method(arg)    # This does the same thing as:\n"
-"                               # super(C, self).method(arg)"
+msgid "class C(B):
+    def method(self, arg):
+        super().method(arg)    # This does the same thing as:
+                               # super(C, self).method(arg)"
 msgstr ""
 
 #: library/functions.rst:1935
 msgid "In addition to method lookups, :func:`super` also works for attribute lookups.  One possible use case for this is calling :term:`descriptors <descriptor>` in a parent or sibling class."
-msgstr ""
+msgstr "পদ্ধতি অনুসন্ধান ছাড়াও :func:`super` এছাড়াও বৈশিষ্ট্য অনুসন্ধানের জন্য কাজ করে।"
 
 #: library/functions.rst:1939
 msgid "Note that :func:`super` is implemented as part of the binding process for explicit dotted attribute lookups such as ``super().__getitem__(name)``. It does so by implementing its own :meth:`~object.__getattribute__` method for searching classes in a predictable order that supports cooperative multiple inheritance. Accordingly, :func:`super` is undefined for implicit lookups using statements or operators such as ``super()[name]``."
-msgstr ""
+msgstr "নোট করুন :func:`super` সুস্পষ্ট বিন্দুযুক্ত বৈশিষ্ট্য অনুসন্ধানের জন্য বাইন্ডিং প্রক্রিয়াটির অংশ হিসাবে` সুপার` প্রয়োগ করা হয়েছে"
 
 #: library/functions.rst:1947
 msgid "Also note that, aside from the zero argument form, :func:`super` is not limited to use inside methods.  The two argument form specifies the arguments exactly and makes the appropriate references.  The zero argument form only works inside a class definition, as the compiler fills in the necessary details to correctly retrieve the class being defined, as well as accessing the current instance for ordinary methods."
-msgstr ""
+msgstr "এছাড়াও নোট করুন যে, শূন্য আর্গুমেন্ট ফর্মটি বাদ দিয়ে :func:`super` অভ্যন্তরীণ পদ্ধতিগুলি ব্যবহারের মধ্যে সীমাবদ্ধ নয়।দুটি আর্গুমেন্ট ফর্মটি যুক্তিগুলি ঠিক নির্দিষ্ট করে এবং উপযুক্ত রেফারেন্স দেয়।শূন্য আর্গুমেন্ট ফর্মটি কেবল একটি শ্রেণীর সংজ্ঞার অভ্যন্তরে কাজ করে, কারণ সংকলকটি সংজ্ঞায়িত হওয়া শ্রেণিটি সঠিকভাবে পুনরুদ্ধার করার জন্য প্রয়োজনীয় বিবরণগুলি পূরণ করে, পাশাপাশি সাধারণ পদ্ধতির জন্য বর্তমান উদাহরণটি অ্যাক্সেস করে।"
 
 #: library/functions.rst:1954
 msgid "For practical suggestions on how to design cooperative classes using :func:`super`, see `guide to using super() <https://rhettinger.wordpress.com/2011/05/26/super-considered-super/>`_."
-msgstr ""
+msgstr "কীভাবে সমবায় ক্লাসগুলি ব্যবহার করে ডিজাইন করবেন দেখুন <https://rhettinger.wordpress.com/2011/05/26/super-considered-super/>"
 
 #: library/functions.rst:1964
 msgid "Rather than being a function, :class:`tuple` is actually an immutable sequence type, as documented in :ref:`typesseq-tuple` and :ref:`typesseq`."
-msgstr ""
+msgstr "ফাংশন হওয়ার পরিবর্তে, :class:`tuple` আসলে একটি অপরিবর্তনীয় সিকোয়েন্স টাইপ, যেমনটি নথিভুক্ত: রেফ:` টাইপসেক-টিপল` এবং: রেফ: `টাইপসেক` `"
 
 #: library/functions.rst:1973
 msgid "With one argument, return the type of an *object*.  The return value is a type object and generally the same object as returned by :attr:`object.__class__`."
-msgstr ""
+msgstr "একটি যুক্তি দিয়ে, একটি *object* এর ধরণটি ফিরিয়ে দিন।রিটার্ন মানটি একটি প্রকারের অবজেক্ট এবং সাধারণত একই অবজেক্ট হিসাবে ফিরে আসে :attr:`object.__class__`"
 
 #: library/functions.rst:1977
 msgid "The :func:`isinstance` built-in function is recommended for testing the type of an object, because it takes subclasses into account."
-msgstr ""
+msgstr ":func:`isinstance` অন্তর্নির্মিত ফাংশনটি কোনও বস্তুর ধরণ পরীক্ষা করার জন্য সুপারিশ করা হয়, কারণ এটি সাবক্লাসগুলি বিবেচনায় নেয়।"
 
 #: library/functions.rst:1980
 msgid "With three arguments, return a new type object.  This is essentially a dynamic form of the :keyword:`class` statement. The *name* string is the class name and becomes the :attr:`~type.__name__` attribute. The *bases* tuple contains the base classes and becomes the :attr:`~type.__bases__` attribute; if empty, :class:`object`, the ultimate base of all classes, is added.  The *dict* dictionary contains attribute and method definitions for the class body; it may be copied or wrapped before becoming the :attr:`~type.__dict__` attribute. The following two statements create identical :class:`!type` objects:"
-msgstr ""
+msgstr "তিনটি আর্গুমেন্ট সহ, একটি নতুন ধরণের অবজেক্টটি ফিরিয়ে দিন।এটি মূলত এর একটি গতিশীল ফর্ম :keyword:`class`বিবৃতি।"
 
 #: library/functions.rst:1995
 msgid "See also:"
-msgstr ""
+msgstr "আরও দেখুন:"
 
 #: library/functions.rst:1997
 msgid ":ref:`Documentation on attributes and methods on classes <class-attrs-and-methods>`."
@@ -1854,119 +1855,119 @@ msgstr ""
 
 #: library/functions.rst:2000
 msgid "Keyword arguments provided to the three argument form are passed to the appropriate metaclass machinery (usually :meth:`~object.__init_subclass__`) in the same way that keywords in a class definition (besides *metaclass*) would."
-msgstr ""
+msgstr "তিনটি আর্গুমেন্ট ফর্মকে সরবরাহ করা কীওয়ার্ড আর্গুমেন্টগুলি যথাযথ মেটাক্লাস যন্ত্রপাতি।"
 
 #: library/functions.rst:2005
 msgid "See also :ref:`class-customization`."
-msgstr ""
+msgstr "আরও দেখুন :ref:`class-customization`"
 
 #: library/functions.rst:2007
 msgid "Subclasses of :class:`!type` which don't override ``type.__new__`` may no longer use the one-argument form to get the type of an object."
-msgstr ""
+msgstr "এর সাবক্লাসগুলি :class:`!type` যা ওভাররাইড করে না  ``type.__new__``"
 
 #: library/functions.rst:2014
 msgid "Return the :attr:`~object.__dict__` attribute for a module, class, instance, or any other object with a :attr:`!__dict__` attribute."
-msgstr ""
+msgstr "ফিরে :attr:`~object.__dict__` একটি মডিউল"
 
 #: library/functions.rst:2017
 msgid "Objects such as modules and instances have an updateable :attr:`~object.__dict__` attribute; however, other objects may have write restrictions on their :attr:`!__dict__` attributes (for example, classes use a :class:`types.MappingProxyType` to prevent direct dictionary updates)."
-msgstr ""
+msgstr "মডিউল এবং দৃষ্টান্তের মতো অবজেক্টগুলির একটি আপডেটযোগ্য রয়েছে :attr:`~object.__dict__` attribute"
 
 #: library/functions.rst:2022
 msgid "Without an argument, :func:`vars` acts like :func:`locals`.  Note, the locals dictionary is only useful for reads since updates to the locals dictionary are ignored."
-msgstr ""
+msgstr "কোনও যুক্তি ছাড়াই,:func:`vars` কাজ করে যেমন :func:`locals`;দ্রষ্টব্য, স্থানীয়দের অভিধান কেবলমাত্র পঠনগুলির জন্য কার্যকর যেহেতু স্থানীয়দের অভিধানের আপডেটগুলি উপেক্ষা করা হয়।"
 
 #: library/functions.rst:2026
 msgid "A :exc:`TypeError` exception is raised if an object is specified but it doesn't have a :attr:`~object.__dict__` attribute (for example, if its class defines the :attr:`~object.__slots__` attribute)."
-msgstr ""
+msgstr ":exc:`TypeError` প্রকারের ব্যতিক্রম উত্থাপিত হয় "
 
 #: library/functions.rst:2032
 msgid "Iterate over several iterables in parallel, producing tuples with an item from each one."
-msgstr ""
+msgstr "সমান্তরালভাবে বেশ কয়েকটি পুনরাবৃত্তির উপর পুনরাবৃত্তি করুন, প্রতিটি থেকে একটি আইটেমের সাথে টুপল তৈরি করুন।"
 
 #: library/functions.rst:2035
 msgid "Example::"
 msgstr ""
 
 #: library/functions.rst:2037
-msgid ">>> for item in zip([1, 2, 3], ['sugar', 'spice', 'everything nice']):\n"
-"...     print(item)\n"
-"...\n"
-"(1, 'sugar')\n"
-"(2, 'spice')\n"
-"(3, 'everything nice')"
+msgid ">>> for item in zip([1, 2, 3], ['sugar', 'spice', 'everything nice']):
+...     print(item)
+...
+(1, 'sugar')
+(2, 'spice')
+(3, 'everything nice')"
 msgstr ""
 
 #: library/functions.rst:2044
 msgid "More formally: :func:`zip` returns an iterator of tuples, where the *i*-th tuple contains the *i*-th element from each of the argument iterables."
-msgstr ""
+msgstr "আরও আনুষ্ঠানিকভাবে :func:`zip` টিপলগুলির একটি পুনরাবৃত্তি প্রদান করে।"
 
 #: library/functions.rst:2047
 msgid "Another way to think of :func:`zip` is that it turns rows into columns, and columns into rows.  This is similar to `transposing a matrix <https://en.wikipedia.org/wiki/Transpose>`_."
-msgstr ""
+msgstr "ভাবার আরেকটি উপায় :func:`zip` হল এটি সারিগুলিকে কলামগুলিতে এবং কলামগুলিকে সারিগুলিতে পরিণত করে।এটি একটি ম্যাট্রিক্স স্থানান্তরিত করার অনুরূপ।"
 
 #: library/functions.rst:2051
 msgid ":func:`zip` is lazy: The elements won't be processed until the iterable is iterated on, e.g. by a :keyword:`!for` loop or by wrapping in a :class:`list`."
-msgstr ""
+msgstr ":func:`zip` পুনরাবৃত্তি না হওয়া পর্যন্ত উপাদানগুলি প্রক্রিয়া করা হবে না"
 
 #: library/functions.rst:2055
 msgid "One thing to consider is that the iterables passed to :func:`zip` could have different lengths; sometimes by design, and sometimes because of a bug in the code that prepared these iterables.  Python offers three different approaches to dealing with this issue:"
-msgstr ""
+msgstr "একটি বিষয় বিবেচনা করার বিষয় হ'ল ইয়ারটেবলগুলি পাস করেছে :func:`zip` এর বিভিন্ন দৈর্ঘ্য থাকতে পারে;কখনও কখনও ডিজাইন দ্বারা, এবং কখনও কখনও কোডে একটি বাগের কারণে যা এই পুনরাবৃত্তিগুলি প্রস্তুত করে।পাইথন এই সমস্যাটি মোকাবেলায় তিনটি পৃথক পদ্ধতির প্রস্তাব দেয়:"
 
 #: library/functions.rst:2060
 msgid "By default, :func:`zip` stops when the shortest iterable is exhausted. It will ignore the remaining items in the longer iterables, cutting off the result to the length of the shortest iterable::"
-msgstr ""
+msgstr "ডিফল্টরূপে,:func:`zip` বন্ধ হয়ে যায় যখন সংক্ষিপ্ততম iterable ক্লান্ত হয়ে পড়ে"
 
 #: library/functions.rst:2064
-msgid ">>> list(zip(range(3), ['fee', 'fi', 'fo', 'fum']))\n"
-"[(0, 'fee'), (1, 'fi'), (2, 'fo')]"
+msgid ">>> list(zip(range(3), ['fee', 'fi', 'fo', 'fum']))
+[(0, 'fee'), (1, 'fi'), (2, 'fo')]"
 msgstr ""
 
 #: library/functions.rst:2067
 msgid ":func:`zip` is often used in cases where the iterables are assumed to be of equal length.  In such cases, it's recommended to use the ``strict=True`` option. Its output is the same as regular :func:`zip`::"
-msgstr ""
+msgstr ":func:`zip` প্রায়শই এমন ক্ষেত্রে ব্যবহৃত হয় যেখানে পুনরাবৃত্তিগুলি সমান দৈর্ঘ্যের বলে ধরে নেওয়া হয়।"
 
 #: library/functions.rst:2071
-msgid ">>> list(zip(('a', 'b', 'c'), (1, 2, 3), strict=True))\n"
-"[('a', 1), ('b', 2), ('c', 3)]"
+msgid ">>> list(zip(('a', 'b', 'c'), (1, 2, 3), strict=True))
+[('a', 1), ('b', 2), ('c', 3)]"
 msgstr ""
 
 #: library/functions.rst:2074
 msgid "Unlike the default behavior, it raises a :exc:`ValueError` if one iterable is exhausted before the others:"
-msgstr ""
+msgstr "ডিফল্ট আচরণের বিপরীতে, এটি একটি উত্থাপন করে: এক্স: `ভ্যালুঅরর` যদি অন্যের আগে কোনও আইটেবল ক্লান্ত হয়ে যায়:"
 
 #: library/functions.rst:2092
 msgid "Without the ``strict=True`` argument, any bug that results in iterables of different lengths will be silenced, possibly manifesting as a hard-to-find bug in another part of the program."
-msgstr ""
+msgstr "``strict=True`` ছাড়াই, যে কোনও বাগ যা বিভিন্ন দৈর্ঘ্যের পুনরাবৃত্তির ফলস্বরূপ ফলাফলগুলি নিঃশব্দ করা হবে, সম্ভবত প্রোগ্রামের অন্য অংশে একটি হার্ড-টু-ফাইন্ড বাগ হিসাবে প্রকাশিত হবে।"
 
 #: library/functions.rst:2096
 msgid "Shorter iterables can be padded with a constant value to make all the iterables have the same length.  This is done by :func:`itertools.zip_longest`."
-msgstr ""
+msgstr "সংক্ষিপ্ত পুনরাবৃত্তিগুলি সমস্ত আইটিরেবলকে একই দৈর্ঘ্য করে তুলতে একটি ধ্রুবক মান দিয়ে প্যাড করা যেতে পারে।এটি দ্বারা সম্পন্ন হয়েছে :func:`itertools.zip_longest`।"
 
 #: library/functions.rst:2100
 msgid "Edge cases: With a single iterable argument, :func:`zip` returns an iterator of 1-tuples.  With no arguments, it returns an empty iterator."
-msgstr ""
+msgstr "এজ কেস: একটি একক আইটেবল আর্গুমেন্ট সহ:: ফানক: `জিপ` 1 টি-টিউলগুলির একটি পুনরাবৃত্তি প্রদান করে।কোনও যুক্তি ছাড়াই এটি একটি খালি পুনরাবৃত্তি দেয়।"
 
 #: library/functions.rst:2103
 msgid "Tips and tricks:"
-msgstr ""
+msgstr "টিপস এবং কৌশল:"
 
 #: library/functions.rst:2105
 msgid "The left-to-right evaluation order of the iterables is guaranteed. This makes possible an idiom for clustering a data series into n-length groups using ``zip(*[iter(s)]*n, strict=True)``.  This repeats the *same* iterator ``n`` times so that each output tuple has the result of ``n`` calls to the iterator. This has the effect of dividing the input into n-length chunks."
-msgstr ""
+msgstr "ইয়ারটেবলগুলির বাম-থেকে-ডান মূল্যায়ন আদেশের গ্যারান্টিযুক্ত।"
 
 #: library/functions.rst:2111
 msgid ":func:`zip` in conjunction with the ``*`` operator can be used to unzip a list::"
 msgstr ""
 
 #: library/functions.rst:2114
-msgid ">>> x = [1, 2, 3]\n"
-">>> y = [4, 5, 6]\n"
-">>> list(zip(x, y))\n"
-"[(1, 4), (2, 5), (3, 6)]\n"
-">>> x2, y2 = zip(*zip(x, y))\n"
-">>> x == list(x2) and y == list(y2)\n"
-"True"
+msgid ">>> x = [1, 2, 3]
+>>> y = [4, 5, 6]
+>>> list(zip(x, y))
+[(1, 4), (2, 5), (3, 6)]
+>>> x2, y2 = zip(*zip(x, y))
+>>> x == list(x2) and y == list(y2)
+True"
 msgstr ""
 
 #: library/functions.rst:2122
@@ -1975,27 +1976,27 @@ msgstr ""
 
 #: library/functions.rst:2134
 msgid "This is an advanced function that is not needed in everyday Python programming, unlike :func:`importlib.import_module`."
-msgstr ""
+msgstr "এটি একটি উন্নত ফাংশন যা প্রতিদিনের পাইথন প্রোগ্রামিংয়ে প্রয়োজন হয় না"
 
 #: library/functions.rst:2137
 msgid "This function is invoked by the :keyword:`import` statement.  It can be replaced (by importing the :mod:`builtins` module and assigning to ``builtins.__import__``) in order to change semantics of the :keyword:`!import` statement, but doing so is **strongly** discouraged as it is usually simpler to use import hooks (see :pep:`302`) to attain the same goals and does not cause issues with code which assumes the default import implementation is in use.  Direct use of :func:`__import__` is also discouraged in favor of :func:`importlib.import_module`."
-msgstr ""
+msgstr "এই ফাংশনটি  :keyword:`import` বিবৃতি দ্বারা আহ্বান করা হয়েছে"
 
 #: library/functions.rst:2146
 msgid "The function imports the module *name*, potentially using the given *globals* and *locals* to determine how to interpret the name in a package context. The *fromlist* gives the names of objects or submodules that should be imported from the module given by *name*.  The standard implementation does not use its *locals* argument at all and uses its *globals* only to determine the package context of the :keyword:`import` statement."
-msgstr ""
+msgstr "ফাংশনটি মডিউল *নাম *আমদানি করে, সম্ভাব্যভাবে প্রদত্ত *গ্লোবালস *এবং *স্থানীয়দের *ব্যবহার করে একটি প্যাকেজ প্রসঙ্গে নামটি কীভাবে ব্যাখ্যা করা যায় তা নির্ধারণ করতে।*থেকেলিস্ট * *নাম *দ্বারা প্রদত্ত মডিউল থেকে আমদানি করা উচিত এমন অবজেক্ট বা সাবমোডুলের নাম দেয়।স্ট্যান্ডার্ড বাস্তবায়ন তার * স্থানীয়দের * আর্গুমেন্টকে মোটেই ব্যবহার করে না এবং কেবল এর প্যাকেজ প্রসঙ্গটি নির্ধারণ করতে এর * গ্লোবালগুলি * ব্যবহার করে: কীওয়ার্ড: `আমদানি` বিবৃতি।"
 
 #: library/functions.rst:2153
 msgid "*level* specifies whether to use absolute or relative imports. ``0`` (the default) means only perform absolute imports.  Positive values for *level* indicate the number of parent directories to search relative to the directory of the module calling :func:`__import__` (see :pep:`328` for the details)."
-msgstr ""
+msgstr "*level* নিখুঁত বা আপেক্ষিক আমদানি ব্যবহার করবেন কিনা তা নির্দিষ্ট করে।`` 0`` (ডিফল্ট) এর অর্থ কেবল পরম আমদানি সম্পাদন করে।* স্তর * এর জন্য ইতিবাচক মানগুলি মডিউল কলিংয়ের ডিরেক্টরি সম্পর্কিত অনুসন্ধানের জন্য পিতামাতার ডিরেক্টরিগুলির সংখ্যা নির্দেশ করে: ফানক: `__ ইম্পোর্ট__` (দেখুন: পিইপি:` 328` বিশদের জন্য)।"
 
 #: library/functions.rst:2159
 msgid "When the *name* variable is of the form ``package.module``, normally, the top-level package (the name up till the first dot) is returned, *not* the module named by *name*.  However, when a non-empty *fromlist* argument is given, the module named by *name* is returned."
-msgstr ""
+msgstr "যখন  *name* ভেরিয়েবলটি  ``package.module`` ফর্মের হয়, সাধারণত, শীর্ষ স্তরের প্যাকেজ (প্রথম বিন্দু পর্যন্ত নামটি) ফিরে আসে।"
 
 #: library/functions.rst:2164
 msgid "For example, the statement ``import spam`` results in bytecode resembling the following code::"
-msgstr ""
+msgstr "উদাহরণস্বরূপ, বিবৃতি ``import spam`` ফলাফল  ::"
 
 #: library/functions.rst:2167
 msgid "spam = __import__('spam', globals(), locals(), [], 0)"
@@ -2015,29 +2016,29 @@ msgstr ""
 
 #: library/functions.rst:2176
 msgid "On the other hand, the statement ``from spam.ham import eggs, sausage as saus`` results in ::"
-msgstr ""
+msgstr "অন্যদিকে, ``from spam.ham import eggs, sausage as saus`` ফলাফল  ::"
 
 #: library/functions.rst:2179
-msgid "_temp = __import__('spam.ham', globals(), locals(), ['eggs', 'sausage'], 0)\n"
-"eggs = _temp.eggs\n"
-"saus = _temp.sausage"
+msgid "_temp = __import__('spam.ham', globals(), locals(), ['eggs', 'sausage'], 0)
+eggs = _temp.eggs
+saus = _temp.sausage"
 msgstr ""
 
 #: library/functions.rst:2183
-msgid "Here, the ``spam.ham`` module is returned from :func:`__import__`.  From this object, the names to import are retrieved and assigned to their respective names."
-msgstr ""
+msgid "Here, the :func:`importlib.import_module` module is returned from :func:`__import__`.  From this object, the names to import are retrieved and assigned to their respective names."
+msgstr "এখানে আমদানির নামগুলি পুনরুদ্ধার করা হয় এবং তাদের নিজ নিজ নামগুলিতে বরাদ্দ করা হয়।"
 
 #: library/functions.rst:2187
 msgid "If you simply want to import a module (potentially within a package) by name, use :func:`importlib.import_module`."
-msgstr ""
+msgstr "আপনি যদি নাম অনুসারে কেবল একটি মডিউল (সম্ভাব্যভাবে কোনও প্যাকেজের মধ্যে) আমদানি করতে চান তবে ব্যবহার করুন :func:`importlib.import_module``"
 
 #: library/functions.rst:2190
 msgid "Negative values for *level* are no longer supported (which also changes the default value to 0)."
-msgstr ""
+msgstr "*level* এর জন্য নেতিবাচক মানগুলি আর সমর্থিত নয় (যা ডিফল্ট মানকে 0 এ পরিবর্তন করে)।"
 
 #: library/functions.rst:2194
 msgid "When the command line options :option:`-E` or :option:`-I` are being used, the environment variable :envvar:`PYTHONCASEOK` is now ignored."
-msgstr ""
+msgstr "যখন কমান্ড লাইন বিকল্পগুলি :option:`-E`` বা :option:`-I` ব্যবহার করা হচ্ছে, পরিবেশ পরিবর্তনশীল :envvar:`PYTHONCASEOK` এখন উপেক্ষা করা হয়েছে।"
 
 #: library/functions.rst:2199
 msgid "Footnotes"
@@ -2045,7 +2046,7 @@ msgstr ""
 
 #: library/functions.rst:2200
 msgid "Note that the parser only accepts the Unix-style end of line convention. If you are reading the code from a file, make sure to use newline conversion mode to convert Windows or Mac-style newlines."
-msgstr ""
+msgstr "নোট করুন যে পার্সার কেবল লাইন কনভেনশনের ইউনিক্স-স্টাইলের প্রান্তটি গ্রহণ করে।আপনি যদি কোনও ফাইল থেকে কোডটি পড়ছেন তবে উইন্ডোজ বা ম্যাক-স্টাইলের নিউলাইনগুলি রূপান্তর করতে নিউলাইন রূপান্তর মোড ব্যবহার করতে ভুলবেন না।"
 
 #: library/functions.rst:154
 msgid "Boolean"
