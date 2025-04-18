@@ -595,7 +595,7 @@ msgstr "*mode* আর্গুমেন্টটি কোন ধরনের �
 
 #: library/functions.rst:314
 msgid "The optional arguments *flags* and *dont_inherit* control which :ref:`compiler options <ast-compiler-flags>` should be activated and which :ref:`future features <future>` should be allowed. If neither is present (or both are zero) the code is compiled with the same flags that affect the code that is calling :func:`compile`. If the *flags* argument is given and *dont_inherit* is not (or is zero) then the compiler options and the future statements specified by the *flags* argument are used in addition to those that would be used anyway. If *dont_inherit* is a non-zero integer then the *flags* argument is it -- the flags (future features and compiler options) in the surrounding code are ignored."
-msgstr "ঐচ্ছিক আর্গুমেন্ট *flags* এবং *dont_inherit* নির্ধারণ করে যে কোন :ref:`compiler options <ast-compiler-flags>` সক্রিয় করা উচিত এবং কোন :ref:`future features <future>` অনুমোদিত হওয়া উচিত। যদি কোনটিই উপস্থিত না থাকে (অথবা উভয়ই শূন্য থাকে) তবে কোডটি একই ফ্ল্যাগস সহ কম্পাইল করা হয় যা কোডটি কল করছে :func:`compile`। যদি *flags* আর্গুমেন্ট দেওয়া হয় এবং *dont_inherit* দেওয়া না থাকে (অথবা শূন্য থাকে) তবে *flags* আর্গুমেন্ট দ্বারা নির্ধারিত কম্পাইলার অপশন এবং ভবিষ্যৎ বিবৃতিগুলি সেইগুলি ব্যবহৃত হয় যা যেভাবে ব্যবহৃত হত তাতে যোগ করা হয়। যদি *dont_inherit* একটি অ-শূন্য পূর্ণসংখ্যা হয় তবে *flags* আর্গুমেন্টটি সেটি -- চারপাশের কোডের ফ্ল্যাগস (ভবিষ্যৎ বৈশিষ্ট্য এবং কম্পাইলার অপশন) উপেক্ষা করা হয়।"
+msgstr ""
 
 #: library/functions.rst:325
 msgid "Compiler options and future statements are specified by bits which can be bitwise ORed together to specify multiple options. The bitfield required to specify a given future feature can be found as the :attr:`~__future__._Feature.compiler_flag` attribute on the :class:`~__future__._Feature` instance in the :mod:`__future__` module. :ref:`Compiler flags <ast-compiler-flags>` can be found in :mod:`ast` module, with ``PyCF_`` prefix."
@@ -900,7 +900,7 @@ msgstr ""
 
 #: library/functions.rst:767
 msgid "Case is not significant, so, for example, "inf", "Inf", "INFINITY", and "iNfINity" are all acceptable spellings for positive infinity."
-msgstr "কেস গুরুত্বপূর্ণ নয়, তাই, উদাহরণস্বরূপ, "inf", "Inf", "INFINITY", এবং "iNfINity" সবগুলোই ধনাত্মক অশেষের জন্য গ্রহণযোগ্য বানান।"
+msgstr "কেস গুরুত্বপূর্ণ নয়, তাই, উদাহরণস্বরূপ, \"inf\", \"Inf\", \"INFINITY\", এবং \"iNfINity\" সবগুলোই ধনাত্মক অশেষের জন্য গ্রহণযোগ্য বানান।"
 
 #: library/functions.rst:770
 msgid "Otherwise, if the argument is an integer or a floating-point number, a floating-point number with the same value (within Python's floating-point precision) is returned.  If the argument is outside the range of a Python float, an :exc:`OverflowError` will be raised."
@@ -1022,7 +1022,7 @@ msgstr "যদি *prompt* আর্গুমেন্ট উপস্থিত 
 msgid ">>> s = input('--> ')
 --> Monty Python's Flying Circus
 >>> s
-"Monty Python's Flying Circus""
+"Monty Python's Flying Circus\""
 msgstr ""
 
 #: library/functions.rst:957
@@ -1096,7 +1096,7 @@ msgstr ":class:`int`-এর স্ট্রিং ইনপুট এবং স�
 
 #: library/functions.rst:1048
 msgid "Return ``True`` if the *object* argument is an instance of the *classinfo* argument, or of a (direct, indirect, or :term:`virtual <abstract base class>`) subclass thereof.  If *object* is not an object of the given type, the function always returns ``False``. If *classinfo* is a tuple of type objects (or recursively, other such tuples) or a :ref:`types-union` of multiple types, return ``True`` if *object* is an instance of any of the types. If *classinfo* is not a type or tuple of types and such tuples, a :exc:`TypeError` exception is raised. :exc:`TypeError` may not be raised for an invalid type if an earlier check succeeds."
-msgstr "*object* আর্গুমেন্টটি যদি *classinfo* আর্গুমেন্টের একটি ইনস্ট্যান্স হয়, বা তার কোনও (সরাসরি, পরোক্ষ, বা :term:`ভার্চুয়াল <abstract base class>`) সাবক্লাসের ইনস্ট্যান্স হয়, তাহলে ``True`` ফেরত দেয়। যদি *object* নির্দিষ্ট ধরণের না হয়, তাহলে ফাংশন সবসময় ``False`` ফেরত দেয়। যদি *classinfo* টাইপ অবজেক্টের একটি টিউপল হয় (বা রিকার্সিভভাবে, এমন আরও টিউপল), অথবা একাধিক টাইপের একটি :ref:`types-union` হয়, তবে *object* যদি ঐ যেকোনও টাইপের ইনস্ট্যান্স হয় তাহলে ``True`` ফেরত দেয়। যদি *classinfo* কোনও টাইপ বা টাইপের টিউপল না হয়, তাহলে একটি :exc:`TypeError` ছোড়া হয়। তবে একটি পূর্ববর্তী যাচাই সফল হলে অবৈধ টাইপের জন্য :exc:`TypeError` না-ও ছোড়া হতে পারে।"
+msgstr ""
 
 #: library/functions.rst:1059
 #: library/functions.rst:1073
@@ -1210,7 +1210,7 @@ msgid "Convert an integer number to an octal string prefixed with \"0o\".  The r
 msgstr "\0o\" উপসর্গসহ একটি পূর্ণসংখ্যাকে অক্টাল স্ট্রিংয়ে রূপান্তর করুন। ফলাফলটি একটি বৈধ পাইথন এক্সপ্রেশন। যদি *x* একটি Python :class:`int` অবজেক্ট না হয়, তাহলে তার মধ্যে একটি :meth:`~object.__index__` মেথড থাকতে হবে যা একটি পূর্ণসংখ্যা ফেরত দেয়। উদাহরণস্বরূপ:"
 
 #: library/functions.rst:1250
-msgid "If you want to convert an integer number to an octal string either with the prefix "0o" or not, you can use either of the following ways."
+msgid "If you want to convert an integer number to an octal string either with the prefix \"0o\" or not, you can use either of the following ways."
 msgstr "আপনি যদি একটি পূর্ণসংখ্যাকে অক্টাল স্ট্রিংয়ে রূপান্তর করতে চান, উপসর্গ \"0o\" সহ বা ছাড়া—তাহলে আপনি নিচের যেকোনো একটি পদ্ধতি ব্যবহার করতে পারেন।"
 
 #: library/functions.rst:1267
