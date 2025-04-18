@@ -899,7 +899,7 @@ msgid "If the argument is a string, it should contain a decimal number, optional
 msgstr ""
 
 #: library/functions.rst:767
-msgid "Case is not significant, so, for example, "inf", "Inf", "INFINITY", and "iNfINity" are all acceptable spellings for positive infinity."
+msgid "Case is not significant, so, for example, \"inf\", \"Inf\", \"INFINITY\", and \"iNfINity\" are all acceptable spellings for positive infinity."
 msgstr "কেস গুরুত্বপূর্ণ নয়, তাই, উদাহরণস্বরূপ, \"inf\", \"Inf\", \"INFINITY\", এবং \"iNfINity\" সবগুলোই ধনাত্মক অশেষের জন্য গ্রহণযোগ্য বানান।"
 
 #: library/functions.rst:770
