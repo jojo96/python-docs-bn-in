@@ -1541,14 +1541,14 @@ msgid "If given, *doc* will be the docstring of the property attribute. Otherwis
 msgstr ""
 
 #: library/functions.rst:1597
-msgid "class Parrot:
-    def __init__(self):
-        self._voltage = 100000
-
-    @property
-    def voltage(self):
-        """Get the current voltage."""
-        return self._voltage"
+msgid "class Parrot:\n"
+"    def __init__(self):\n"
+"        self._voltage = 100000\n"
+"\n"
+"    @property\n"
+"    def voltage(self):\n"
+"        \"\"\"Get the current voltage.\"\"\"\n"
+"        return self._voltage"
 msgstr ""
 
 #: library/functions.rst:1606
@@ -1560,22 +1560,22 @@ msgid "A property object has ``getter``, ``setter``, and ``deleter`` methods usa
 msgstr "একটি সম্পত্তি অবজেক্টে `` getter``, `` setter``, এবং ``deleter`` সাজসজ্জার হিসাবে ব্যবহারযোগ্য পদ্ধতি রয়েছে যা সজ্জিত ফাংশনে সংশ্লিষ্ট অ্যাকসেসর ফাংশন সহ সম্পত্তিটির একটি অনুলিপি তৈরি করে।এটি একটি উদাহরণ সহ সেরা ব্যাখ্যা করা হয়েছে:"
 
 #: library/functions.rst:1619
-msgid "class C:
-    def __init__(self):
-        self._x = None
-
-    @property
-    def x(self):
-        """I'm the 'x' property."""
-        return self._x
-
-    @x.setter
-    def x(self, value):
-        self._x = value
-
-    @x.deleter
-    def x(self):
-        del self._x"
+msgid "class C:\n"
+"    def __init__(self):\n"
+"        self._x = None\n"
+"\n"
+"    @property\n"
+"    def x(self):\n"
+"        \"\"\"I'm the 'x' property.\"\"\"\n"
+"        return self._x\n"
+"\n"
+"    @x.setter\n"
+"    def x(self, value):\n"
+"        self._x = value\n"
+"\n"
+"    @x.deleter\n"
+"    def x(self):\n"
+"        del self._x"
 msgstr ""
 
 #: library/functions.rst:1638
@@ -1796,7 +1796,7 @@ msgstr "*super* এর জন্য দুটি সাধারণ ব্যব
 
 #: library/functions.rst:1918
 msgid "The second use case is to support cooperative multiple inheritance in a dynamic execution environment.  This use case is unique to Python and is not found in statically compiled languages or languages that only support single inheritance.  This makes it possible to implement "diamond diagrams" where multiple base classes implement the same method.  Good design dictates that such implementations have the same calling signature in every case (because the order of calls is determined at runtime, because that order adapts to changes in the class hierarchy, and because that order can include sibling classes that are unknown prior to runtime)."
-msgstr "দ্বিতীয় ব্যবহারের ক্ষেত্রে হ'ল গতিশীল সম্পাদন পরিবেশে সমবায় একাধিক উত্তরাধিকারকে সমর্থন করা।এই ব্যবহারের কেসটি পাইথনের কাছে অনন্য এবং স্ট্যাটিক্যালি সংকলিত ভাষা বা ভাষায় পাওয়া যায় না যা কেবলমাত্র একক উত্তরাধিকারকে সমর্থন করে।এটি ডায়মন্ড ডায়াগ্রামগুলি প্রয়োগ করা সম্ভব করে যেখানে একাধিক বেস ক্লাস একই পদ্ধতি প্রয়োগ করে।ভাল ডিজাইন নির্দেশ দেয় যে এই জাতীয় বাস্তবায়নের প্রতিটি ক্ষেত্রে একই কলিং স্বাক্ষর রয়েছে (কারণ কলগুলির ক্রমটি রানটাইমে নির্ধারিত হয়, কারণ সেই আদেশটি শ্রেণীর শ্রেণিবিন্যাসের পরিবর্তনের সাথে অভিযোজিত হয় এবং কারণ সেই আদেশে রানটাইমের আগে অজানা ভাইবোন শ্রেণি অন্তর্ভুক্ত থাকতে পারে)।"
+msgstr ""
 
 #: library/functions.rst:1928
 msgid "For both use cases, a typical superclass call looks like this::"
