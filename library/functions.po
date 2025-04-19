@@ -811,7 +811,7 @@ msgid "Example:"
 msgstr "উদাহরণ:"
 
 #: library/functions.rst:617
-msgid "This function can also be used to execute arbitrary code objects (such as those created by :func:`compile`).  In this case, pass a code object instead of a string.  If the code object has been compiled with ``'exec'`` as the *mode* argument, :func:`eval`\'s return value will be ``None``."
+msgid "This function can also be used to execute arbitrary code objects (such as those created by :func:`compile`).  In this case, pass a code object instead of a string.  If the code object has been compiled with ``'exec'`` as the *mode* argument, :func:`eval`\\'s return value will be ``None``."
 msgstr "এই ফাংশনটি স্বতন্ত্র কোড অবজেক্ট (যেমন :func:`compile` দ্বারা তৈরি কোড অবজেক্ট) কার্যকর করতে ব্যবহৃত হতে পারে। এই ক্ষেত্রে, একটি স্ট্রিং এর পরিবর্তে একটি কোড অবজেক্ট পাস করুন। যদি কোড অবজেক্টটি ``'exec'`` হিসেবে *mode* আর্গুমেন্ট দিয়ে কম্পাইল করা হয়, তবে :func:`eval` এর রিটার্ন ভ্যালু ``None`` হবে।"
 
 #: library/functions.rst:622
@@ -987,7 +987,7 @@ msgid "Changes to :mod:`pydoc` and :mod:`inspect` mean that the reported signatu
 msgstr ":mod:`pydoc` এবং :mod:`inspect` এ পরিবর্তনগুলির মানে হল যে কলেবলগুলির জন্য রিপোর্ট করা সিগনেচারগুলি এখন আরও বিস্তৃত এবং সামঞ্জস্যপূর্ণ।"
 
 #: library/functions.rst:902
-msgid "Convert an integer number to a lowercase hexadecimal string prefixed with "0x". If *x* is not a Python :class:`int` object, it has to define an :meth:`~object.__index__` method that returns an integer. Some examples:"
+msgid "Convert an integer number to a lowercase hexadecimal string prefixed with \"0x\". If *x* is not a Python :class:`int` object, it has to define an :meth:`~object.__index__` method that returns an integer. Some examples:"
 msgstr "একটি পূর্ণসংখ্যা সংখ্যাকে একটি লোয়ারকেস হেক্সাডেসিমেল স্ট্রিংয়ে রূপান্তরিত করুন, যা ``0x`` দ্বারা পূর্বসূচিত। যদি *x* একটি পাইথন :class:`int` অবজেক্ট না হয়, তবে এটি একটি :meth:`~object.__index__` মেথড সংজ্ঞায়িত করতে হবে যা একটি পূর্ণসংখ্যা রিটার্ন করে। কিছু উদাহরণ:"
 
 #: library/functions.rst:911
@@ -1759,7 +1759,7 @@ msgid "Sums *start* and the items of an *iterable* from left to right and return
 msgstr "যোগফল  *start* এবং বাম থেকে ডানে একটি *iterable* এর আইটেমগুলি এবং মোটটি ফেরত দেয়।"
 
 #: library/functions.rst:1875
-msgid "For some use cases, there are good alternatives to :func:`sum`. The preferred, fast way to concatenate a sequence of strings is by calling ``''.join(sequence)``.  To add floating-point values with extended precision, see :func:`math.fsum`\.  To concatenate a series of iterables, consider using :func:`itertools.chain`."
+msgid "For some use cases, there are good alternatives to :func:`sum`. The preferred, fast way to concatenate a sequence of strings is by calling ``''.join(sequence)``.  To add floating-point values with extended precision, see :func:`math.fsum`\\.  To concatenate a series of iterables, consider using :func:`itertools.chain`."
 msgstr "কিছু ব্যবহারের ক্ষেত্রে, এর জন্য ভাল বিকল্প রয়েছে"
 
 #: library/functions.rst:1881
