@@ -1308,7 +1308,7 @@ msgstr "*buffering* একটি ঐচ্ছিক পূর্ণসংখ্�
 
 #: library/functions.rst:1333
 msgid "Binary files are buffered in fixed-size chunks; the size of the buffer is chosen using a heuristic trying to determine the underlying device's "block size" and falling back on :const:`io.DEFAULT_BUFFER_SIZE`.  On many systems, the buffer will typically be 4096 or 8192 bytes long."
-msgstr "বাইনারি ফাইলগুলি স্থির আকারের খণ্ডগুলিতে বাফার করা হয়;অন্তর্নিহিত ডিভাইসের "ব্লক আকার" নির্ধারণ এবং পিছনে পিছনে পড়ার চেষ্টা করে একটি হিউরিস্টিক ব্যবহার করে বাফারের আকারটি বেছে নেওয়া হয়েছে :const:`io.DEFAULT_BUFFER_SIZE`| অনেক সিস্টেমে, বাফারটি সাধারণত 4096 বা 8192 বাইট দীর্ঘ হবে।"
+msgstr ""
 
 #: library/functions.rst:1338
 msgid "\"Interactive\" text files (files for which :meth:`~io.IOBase.isatty` returns ``True``) use line buffering.  Other text files use the policy described above for binary files."
