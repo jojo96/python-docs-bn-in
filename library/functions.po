@@ -1292,7 +1292,7 @@ msgstr "আপডেটের জন্য উন্মুক্ত (পড়�
 
 #: library/functions.rst:1305
 msgid "The default mode is ``'r'`` (open for reading text, a synonym of ``'rt'``). Modes ``'w+'`` and ``'w+b'`` open and truncate the file.  Modes ``'r+'`` and ``'r+b'`` open the file with no truncation."
-msgstr "ডিফল্ট মোড হল ``'r'`` (টেক্সট পড়ার জন্য খোলা, যা ``'rt'``-এর সমতুল্য)। ``'w+'`` এবং ``'w+b'`` মোডে ফাইল খোলা হলে তা কেটে ফেলা (truncate) হয়। ``'r+'`` এবং ``'r+b'`` মোডে ফাইল খোলা হলেও তা কাটা হয় না।
+msgstr "ডিফল্ট মোড হল ``'r'`` (টেক্সট পড়ার জন্য খোলা, যা ``'rt'``-এর সমতুল্য)। ``'w+'`` এবং ``'w+b'`` মোডে ফাইল খোলা হলে তা কেটে ফেলা (truncate) হয়। ``'r+'`` এবং ``'r+b'`` মোডে ফাইল খোলা হলেও তা কাটা হয় না।"
 
 #: library/functions.rst:1309
 msgid "As mentioned in the :ref:`io-overview`, Python distinguishes between binary and text I/O.  Files opened in binary mode (including ``'b'`` in the *mode* argument) return contents as :class:`bytes` objects without any decoding.  In text mode (the default, or when ``'t'`` is included in the *mode* argument), the contents of the file are returned as :class:`str`, the bytes having been first decoded using a platform-dependent encoding or using the specified *encoding* if given."
