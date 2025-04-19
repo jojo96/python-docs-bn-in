@@ -405,11 +405,11 @@ msgid "Return ``True`` if all elements of the *iterable* are true (or if the ite
 msgstr ""
 
 #: library/functions.rst:79
-msgid "def all(iterable):
-    for element in iterable:
-        if not element:
-            return False
-    return True"
+msgid "def all(iterable):\n"
+"    for element in iterable:\n"
+"        if not element:\n"
+"            return False\n"
+"    return True"
 msgstr ""
 
 #: library/functions.rst:89
@@ -429,16 +429,16 @@ msgid "Return ``True`` if any element of the *iterable* is true.  If the iterabl
 msgstr ""
 
 #: library/functions.rst:107
-msgid "def any(iterable):
-    for element in iterable:
-        if element:
-            return True
-    return False"
+msgid "def any(iterable):\n"
+"    for element in iterable:\n"
+"        if element:\n"
+"            return True\n"
+"    return False"
 msgstr ""
 
 #: library/functions.rst:116
-msgid "As :func:`repr`, return a string containing a printable representation of an object, but escape the non-ASCII characters in the string returned by :func:`repr` using ``\x``, ``\u``, or ``\U`` escapes.  This generates a string similar to that returned by :func:`repr` in Python 2."
-msgstr ":func:`repr`, কোনও বস্তুর মুদ্রণযোগ্য উপস্থাপনা সম্বলিত একটি স্ট্রিং ফিরিয়ে দিন, তবে স্ট্রিংয়ে অ-ASCII অক্ষরগুলি এড়িয়ে চলুন: ফানক:` reper` `\ x``,` `\ u``, বা ``\U`` এটি প্রত্যাবর্তনের অনুরূপ একটি স্ট্রিং উত্পন্ন করে  :func:`repr` পাইথন 2 -এ"
+msgid "As :func:`repr`, return a string containing a printable representation of an object, but escape the non-ASCII characters in the string returned by :func:`repr` using ``\\x``, ``\\u``, or ``\\U`` escapes.  This generates a string similar to that returned by :func:`repr` in Python 2."
+msgstr ""
 
 #: library/functions.rst:124
 msgid "Convert an integer number to a binary string prefixed with \"0b\". The result is a valid Python expression. If *x* is not a Python :class:`int` object, it has to define an :meth:`~object.__index__` method that returns an integer. Some examples:"
@@ -552,9 +552,9 @@ msgid "A class method receives the class as an implicit first argument, just lik
 msgstr "একটি শ্রেণি পদ্ধতি ক্লাসকে একটি অন্তর্নিহিত প্রথম যুক্তি হিসাবে গ্রহণ করে, ঠিক যেমন উদাহরণ পদ্ধতিটি উদাহরণটি গ্রহণ করে।একটি শ্রেণি পদ্ধতি ঘোষণা করতে, এই প্রতিমাটি ব্যবহার করুন ::"
 
 #: library/functions.rst:265
-msgid "class C:
-    @classmethod
-    def f(cls, arg1, arg2): ..."
+msgid "class C:\n"
+"    @classmethod\n"
+"    def f(cls, arg1, arg2): ..."
 msgstr ""
 
 #: library/functions.rst:269
@@ -649,22 +649,22 @@ msgid "Examples:"
 msgstr "উদাহরণ:"
 
 #: library/functions.rst:386
-msgid ">>> complex('+1.23')
-(1.23+0j)
->>> complex('-4.5j')
--4.5j
->>> complex('-1.23+4.5j')
-(-1.23+4.5j)
->>> complex('\t( -1.23+4.5J )\n')
-(-1.23+4.5j)
->>> complex('-Infinity+NaNj')
-(-inf+nanj)
->>> complex(1.23)
-(1.23+0j)
->>> complex(imag=-4.5)
--4.5j
->>> complex(-1.23, 4.5)
-(-1.23+4.5j)"
+msgid ">>> complex('+1.23')\n"
+"(1.23+0j)\n"
+">>> complex('-4.5j')\n"
+"-4.5j\n"
+">>> complex('-1.23+4.5j')\n"
+"(-1.23+4.5j)\n"
+">>> complex('\\t( -1.23+4.5J )\\n')\n"
+"(-1.23+4.5j)\n"
+">>> complex('-Infinity+NaNj')\n"
+"(-inf+nanj)\n"
+">>> complex(1.23)\n"
+"(1.23+0j)\n"
+">>> complex(imag=-4.5)\n"
+"-4.5j\n"
+">>> complex(-1.23, 4.5)\n"
+"(-1.23+4.5j)"
 msgstr ""
 
 #: library/functions.rst:405
@@ -758,11 +758,11 @@ msgid "Equivalent to::"
 msgstr "সমতুল্য ::"
 
 #: library/functions.rst:566
-msgid "def enumerate(iterable, start=0):
-    n = start
-    for elem in iterable:
-        yield n, elem
-        n += 1"
+msgid "def enumerate(iterable, start=0):\n"
+"    n = start\n"
+"    for elem in iterable:\n"
+"        yield n, elem\n"
+"        n += 1"
 msgstr ""
 
 #: library/functions.rst:0
@@ -882,16 +882,16 @@ msgid "Return a floating-point number constructed from a number or a string."
 msgstr "একটি সংখ্যা বা একটি স্ট্রিং থেকে নির্মিত একটি ভাসমান-পয়েন্ট নম্বর ফেরত দিন।"
 
 #: library/functions.rst:733
-msgid ">>> float('+1.23')
-1.23
->>> float('   -12345\n')
--12345.0
->>> float('1e-003')
-0.001
->>> float('+1E6')
-1000000.0
->>> float('-Infinity')
--inf"
+msgid ">>> float('+1.23')\n"
+"1.23\n"
+">>> float('   -12345\\n')\n"
+"-12345.0\n"
+">>> float('1e-003')\n"
+"0.001\n"
+">>> float('+1E6')\n"
+"1000000.0\n"
+">>> float('-Infinity')\n"
+"-inf"
 msgstr ""
 
 #: library/functions.rst:746
@@ -1019,10 +1019,10 @@ msgid "If the *prompt* argument is present, it is written to standard output wit
 msgstr "যদি *prompt* আর্গুমেন্ট উপস্থিত থাকে, তবে এটি স্ট্যান্ডার্ড আউটপুটে একটি ট্রেইলিং নিউলাইন ছাড়া লেখা হয়। তারপর ফাংশনটি ইনপুট থেকে একটি লাইন পড়ে, এটিকে একটি স্ট্রিংয়ে রূপান্তরিত করে (একটি ট্রেইলিং নিউলাইন সরিয়ে), এবং সেটি রিটার্ন করে। যখন EOF পড়া হয়, তখন :exc:`EOFError` উত্থাপিত হয়। উদাহরণ::"
 
 #: library/functions.rst:952
-msgid ">>> s = input('--> ')
---> Monty Python's Flying Circus
->>> s
-"Monty Python's Flying Circus\""
+msgid ">>> s = input('--> ')\n"
+"--> Monty Python's Flying Circus\n"
+">>> s\n"
+"\"Monty Python's Flying Circus\""
 msgstr ""
 
 #: library/functions.rst:957
@@ -1044,18 +1044,18 @@ msgid "Return an integer object constructed from a number or a string, or return
 msgstr "কোনও সংখ্যা বা একটি স্ট্রিং থেকে নির্মিত একটি পূর্ণসংখ্যা অবজেক্টটি ফেরত দিন, বা কোনও যুক্তি না দেওয়া হলে `` 0`` ফেরত দিন।"
 
 #: library/functions.rst:979
-msgid ">>> int(123.45)
-123
->>> int('123')
-123
->>> int('   -12_345\n')
--12345
->>> int('FACE', 16)
-64206
->>> int('0xface', 0)
-64206
->>> int('01110011', base=2)
-115"
+msgid ">>> int(123.45)\n"
+"123\n"
+">>> int('123')\n"
+"123\n"
+">>> int('   -12_345\\n')\n"
+"-12345\n"
+">>> int('FACE', 16)\n"
+"64206\n"
+">>> int('0xface', 0)\n"
+"64206\n"
+">>> int('01110011', base=2)\n"
+"115"
 msgstr ""
 
 #: library/functions.rst:994
@@ -1120,10 +1120,10 @@ msgid "One useful application of the second form of :func:`iter` is to build a b
 msgstr ":func:`iter`-এর দ্বিতীয় রূপের একটি কার্যকর প্রয়োগ হলো একটি ব্লক-রিডার তৈরি করা। উদাহরণস্বরূপ, একটি বাইনারি ডেটাবেস ফাইল থেকে নির্দিষ্ট প্রস্থের ব্লক পড়া যতক্ষণ না ফাইলের শেষ পৌঁছে যায়:"
 
 #: library/functions.rst:1100
-msgid "from functools import partial
-with open('mydata.db', 'rb') as f:
-    for block in iter(partial(f.read, 64), b''):
-        process_block(block)"
+msgid "from functools import partial\n"
+"with open('mydata.db', 'rb') as f:\n"
+"    for block in iter(partial(f.read, 64), b''):\n"
+"        process_block(block)"
 msgstr ""
 
 #: library/functions.rst:1108
@@ -1349,19 +1349,19 @@ msgid "``'backslashreplace'`` replaces malformed data by Python's backslashed es
 msgstr "``'backslashreplace'`` পাইথনের ব্যাকস্ল্যাশড এস্কেপ সিকোয়েন্সগুলির দ্বারা ত্রুটিযুক্ত ডেটা প্রতিস্থাপন করে।"
 
 #: library/functions.rst:1380
-msgid "``'namereplace'`` (also only supported when writing) replaces unsupported characters with ``\N{...}`` escape sequences."
-msgstr "``'namereplace'`` (এটি কেবল লেখার সময় সমর্থিত) অসমর্থিত অক্ষরগুলিকে ``\N{...}`` escape sequences সাথে প্রতিস্থাপন করে।"
+msgid "``'namereplace'`` (also only supported when writing) replaces unsupported characters with ``\\N{...}`` escape sequences."
+msgstr ""
 
 #: library/functions.rst:1388
-msgid "*newline* determines how to parse newline characters from the stream. It can be ``None``, ``''``, ``'\n'``, ``'\r'``, and ``'\r\n'``.  It works as follows:"
+msgid "*newline* determines how to parse newline characters from the stream. It can be ``None``, ``''``, ``'\\n'``, ``'\\r'``, and ``'\\r\\n'``.  It works as follows:"
 msgstr ""
 
 #: library/functions.rst:1392
-msgid "When reading input from the stream, if *newline* is ``None``, universal newlines mode is enabled.  Lines in the input can end in ``'\n'``, ``'\r'``, or ``'\r\n'``, and these are translated into ``'\n'`` before being returned to the caller.  If it is ``''``, universal newlines mode is enabled, but line endings are returned to the caller untranslated.  If it has any of the other legal values, input lines are only terminated by the given string, and the line ending is returned to the caller untranslated."
+msgid "When reading input from the stream, if *newline* is ``None``, universal newlines mode is enabled.  Lines in the input can end in ``'\\n'``, ``'\\r'``, or ``'\\r\\n'``, and these are translated into ``'\\n'`` before being returned to the caller.  If it is ``''``, universal newlines mode is enabled, but line endings are returned to the caller untranslated.  If it has any of the other legal values, input lines are only terminated by the given string, and the line ending is returned to the caller untranslated."
 msgstr ""
 
 #: library/functions.rst:1400
-msgid "When writing output to the stream, if *newline* is ``None``, any ``'\n'`` characters written are translated to the system default line separator, :data:`os.linesep`.  If *newline* is ``''`` or ``'\n'``, no translation takes place.  If *newline* is any of the other legal values, any ``'\n'`` characters written are translated to the given string."
+msgid "When writing output to the stream, if *newline* is ``None``, any ``'\\n'`` characters written are translated to the system default line separator, :data:`os.linesep`.  If *newline* is ``''`` or ``'\\n'``, no translation takes place.  If *newline* is any of the other legal values, any ``'\\n'`` characters written are translated to the given string."
 msgstr ""
 
 #: library/functions.rst:1406
@@ -1381,15 +1381,15 @@ msgid "The following example uses the :ref:`dir_fd <dir_fd>` parameter of the :f
 msgstr "নিম্নলিখিত উদাহরণটি ব্যবহার করে: রেফ: `Dir_fd <dir_fd>` এর প্যারামিটার: ফানক: `os.open` একটি প্রদত্ত ডিরেক্টরি সম্পর্কিত একটি ফাইল খোলার জন্য ফাংশন ::"
 
 #: library/functions.rst:1422
-msgid ">>> import os
->>> dir_fd = os.open('somedir', os.O_RDONLY)
->>> def opener(path, flags):
-...     return os.open(path, flags, dir_fd=dir_fd)
-...
->>> with open('spamspam.txt', 'w', opener=opener) as f:
-...     print('This will be written to somedir/spamspam.txt', file=f)
-...
->>> os.close(dir_fd)  # don't leak a file descriptor"
+msgid ">>> import os\n"
+">>> dir_fd = os.open('somedir', os.O_RDONLY)\n"
+">>> def opener(path, flags):\n"
+"...     return os.open(path, flags, dir_fd=dir_fd)\n"
+"...\n"
+">>> with open('spamspam.txt', 'w', opener=opener) as f:\n"
+"...     print('This will be written to somedir/spamspam.txt', file=f)\n"
+"...\n"
+">>> os.close(dir_fd)  # don't leak a file descriptor"
 msgstr ""
 
 #: library/functions.rst:1432
@@ -1469,10 +1469,10 @@ msgid "Here's an example of computing an inverse for ``38`` modulo ``97``::"
 msgstr ""
 
 #: library/functions.rst:1525
-msgid ">>> pow(38, -1, mod=97)
-23
->>> 23 * 38 % 97 == 1
-True"
+msgid ">>> pow(38, -1, mod=97)\n"
+"23\n"
+">>> 23 * 38 % 97 == 1\n"
+"True"
 msgstr ""
 
 #: library/functions.rst:1530
@@ -1516,20 +1516,20 @@ msgid "A typical use is to define a managed attribute ``x``::"
 msgstr "একটি সাধারণ ব্যবহার হ'ল একটি পরিচালিত বৈশিষ্ট্য ``x``:: সংজ্ঞায়িত করা"
 
 #: library/functions.rst:1575
-msgid "class C:
-    def __init__(self):
-        self._x = None
-
-    def getx(self):
-        return self._x
-
-    def setx(self, value):
-        self._x = value
-
-    def delx(self):
-        del self._x
-
-    x = property(getx, setx, delx, "I'm the 'x' property.\")"
+msgid "class C:\n"
+"    def __init__(self):\n"
+"        self._x = None\n"
+"\n"
+"    def getx(self):\n"
+"        return self._x\n"
+"\n"
+"    def setx(self, value):\n"
+"        self._x = value\n"
+"\n"
+"    def delx(self):\n"
+"        del self._x\n"
+"\n"
+"    x = property(getx, setx, delx, \"I'm the 'x' property.\")"
 msgstr ""
 
 #: library/functions.rst:1590
@@ -1552,7 +1552,7 @@ msgid "class Parrot:\n"
 msgstr ""
 
 #: library/functions.rst:1606
-msgid "The ``@property`` decorator turns the :meth:`!voltage` method into a "getter" for a read-only attribute with the same name, and it sets the docstring for *voltage* to "Get the current voltage.""
+msgid "The ``@property`` decorator turns the :meth:`!voltage` method into a \"getter\" for a read-only attribute with the same name, and it sets the docstring for *voltage* to \"Get the current voltage.\""
 msgstr ""
 
 #: library/functions.rst:1614
@@ -1603,13 +1603,13 @@ msgid "This class has a custom representation that can be evaluated::"
 msgstr "এই শ্রেণীর একটি কাস্টম উপস্থাপনা রয়েছে যা মূল্যায়ন করা যায় ::"
 
 #: library/functions.rst:1673
-msgid "class Person:
-   def __init__(self, name, age):
-      self.name = name
-      self.age = age
-
-   def __repr__(self):
-      return f"Person('{self.name}', {self.age})\""
+msgid "class Person:\n"
+"   def __init__(self, name, age):\n"
+"      self.name = name\n"
+"      self.age = age\n"
+"\n"
+"   def __repr__(self):\n"
+"      return f\"Person('{self.name}', {self.age})\""
 msgstr ""
 
 #: library/functions.rst:1684
@@ -1709,9 +1709,9 @@ msgid "A static method does not receive an implicit first argument. To declare a
 msgstr "একটি স্থির পদ্ধতি একটি অন্তর্নিহিত প্রথম যুক্তি পায় না।একটি স্থির পদ্ধতি ঘোষণা করতে, এই প্রতিমাটি ব্যবহার করুন ::"
 
 #: library/functions.rst:1817
-msgid "class C:
-    @staticmethod
-    def f(arg1, arg2, argN): ..."
+msgid "class C:\n"
+"    @staticmethod\n"
+"    def f(arg1, arg2, argN): ..."
 msgstr ""
 
 #: library/functions.rst:1821
@@ -1731,11 +1731,11 @@ msgid "Like all decorators, it is also possible to call ``staticmethod`` as a re
 msgstr "সমস্ত সাজসজ্জার মতো, নিয়মিত ফাংশন হিসাবে  ``staticmethod``কল করা এবং এর ফলাফলের সাথে কিছু করাও সম্ভব।"
 
 #: library/functions.rst:1839
-msgid "def regular_function():
-    ...
-
-class C:
-    method = staticmethod(regular_function)"
+msgid "def regular_function():\n"
+"    ...\n"
+"\n"
+"class C:\n"
+"    method = staticmethod(regular_function)"
 msgstr ""
 
 #: library/functions.rst:1845
@@ -1803,10 +1803,10 @@ msgid "For both use cases, a typical superclass call looks like this::"
 msgstr "উভয় ব্যবহারের ক্ষেত্রে, একটি সাধারণ সুপারক্লাস কল এর মতো দেখাচ্ছে ::"
 
 #: library/functions.rst:1930
-msgid "class C(B):
-    def method(self, arg):
-        super().method(arg)    # This does the same thing as:
-                               # super(C, self).method(arg)"
+msgid "class C(B):\n"
+"    def method(self, arg):\n"
+"        super().method(arg)    # This does the same thing as:\n"
+"                               # super(C, self).method(arg)"
 msgstr ""
 
 #: library/functions.rst:1935
@@ -1890,12 +1890,12 @@ msgid "Example::"
 msgstr ""
 
 #: library/functions.rst:2037
-msgid ">>> for item in zip([1, 2, 3], ['sugar', 'spice', 'everything nice']):
-...     print(item)
-...
-(1, 'sugar')
-(2, 'spice')
-(3, 'everything nice')"
+msgid ">>> for item in zip([1, 2, 3], ['sugar', 'spice', 'everything nice']):\n"
+"...     print(item)\n"
+"...\n"
+"(1, 'sugar')\n"
+"(2, 'spice')\n"
+"(3, 'everything nice')"
 msgstr ""
 
 #: library/functions.rst:2044
@@ -1919,8 +1919,8 @@ msgid "By default, :func:`zip` stops when the shortest iterable is exhausted. It
 msgstr "ডিফল্টরূপে,:func:`zip` বন্ধ হয়ে যায় যখন সংক্ষিপ্ততম iterable ক্লান্ত হয়ে পড়ে"
 
 #: library/functions.rst:2064
-msgid ">>> list(zip(range(3), ['fee', 'fi', 'fo', 'fum']))
-[(0, 'fee'), (1, 'fi'), (2, 'fo')]"
+msgid ">>> list(zip(range(3), ['fee', 'fi', 'fo', 'fum']))\n"
+"[(0, 'fee'), (1, 'fi'), (2, 'fo')]
 msgstr ""
 
 #: library/functions.rst:2067
@@ -1928,8 +1928,8 @@ msgid ":func:`zip` is often used in cases where the iterables are assumed to be 
 msgstr ":func:`zip` প্রায়শই এমন ক্ষেত্রে ব্যবহৃত হয় যেখানে পুনরাবৃত্তিগুলি সমান দৈর্ঘ্যের বলে ধরে নেওয়া হয়।"
 
 #: library/functions.rst:2071
-msgid ">>> list(zip(('a', 'b', 'c'), (1, 2, 3), strict=True))
-[('a', 1), ('b', 2), ('c', 3)]"
+msgid ">>> list(zip(('a', 'b', 'c'), (1, 2, 3), strict=True))\n"
+"[('a', 1), ('b', 2), ('c', 3)]"
 msgstr ""
 
 #: library/functions.rst:2074
@@ -1961,13 +1961,13 @@ msgid ":func:`zip` in conjunction with the ``*`` operator can be used to unzip a
 msgstr ""
 
 #: library/functions.rst:2114
-msgid ">>> x = [1, 2, 3]
->>> y = [4, 5, 6]
->>> list(zip(x, y))
-[(1, 4), (2, 5), (3, 6)]
->>> x2, y2 = zip(*zip(x, y))
->>> x == list(x2) and y == list(y2)
-True"
+msgid ">>> x = [1, 2, 3]\n"
+">>> y = [4, 5, 6]\n"
+">>> list(zip(x, y))\n"
+"[(1, 4), (2, 5), (3, 6)]\n"
+">>> x2, y2 = zip(*zip(x, y))\n"
+">>> x == list(x2) and y == list(y2)\n"
+"True"
 msgstr ""
 
 #: library/functions.rst:2122
@@ -2019,13 +2019,13 @@ msgid "On the other hand, the statement ``from spam.ham import eggs, sausage as 
 msgstr "অন্যদিকে, ``from spam.ham import eggs, sausage as saus`` ফলাফল  ::"
 
 #: library/functions.rst:2179
-msgid "_temp = __import__('spam.ham', globals(), locals(), ['eggs', 'sausage'], 0)
-eggs = _temp.eggs
-saus = _temp.sausage"
+msgid "_temp = __import__('spam.ham', globals(), locals(), ['eggs', 'sausage'], 0)\n"
+"eggs = _temp.eggs\n"
+"saus = _temp.sausage"
 msgstr ""
 
 #: library/functions.rst:2183
-msgid "Here, the :func:`importlib.import_module` module is returned from :func:`__import__`.  From this object, the names to import are retrieved and assigned to their respective names."
+msgid "Here, the ``spam.ham`` module is returned from :func:`__import__`.  From this object, the names to import are retrieved and assigned to their respective names."
 msgstr "এখানে আমদানির নামগুলি পুনরুদ্ধার করা হয় এবং তাদের নিজ নিজ নামগুলিতে বরাদ্দ করা হয়।"
 
 #: library/functions.rst:2187
