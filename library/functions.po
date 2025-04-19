@@ -1795,7 +1795,7 @@ msgid "There are two typical use cases for *super*.  In a class hierarchy with s
 msgstr "*super* এর জন্য দুটি সাধারণ ব্যবহারের ক্ষেত্রে রয়েছে।একক উত্তরাধিকার সহ একটি শ্রেণীর শ্রেণিবিন্যাসে, *super* পিতামাতার ক্লাসগুলিকে স্পষ্টভাবে নামকরণ না করে উল্লেখ করতে ব্যবহার করা যেতে পারে, এইভাবে কোডটিকে আরও রক্ষণাবেক্ষণযোগ্য করে তোলে।এটি ব্যবহার অন্যান্য প্রোগ্রামিং ভাষায়  *super* ব্যবহারের সাথে ঘনিষ্ঠভাবে সমান্তরাল।"
 
 #: library/functions.rst:1918
-msgid "The second use case is to support cooperative multiple inheritance in a dynamic execution environment.  This use case is unique to Python and is not found in statically compiled languages or languages that only support single inheritance.  This makes it possible to implement "diamond diagrams" where multiple base classes implement the same method.  Good design dictates that such implementations have the same calling signature in every case (because the order of calls is determined at runtime, because that order adapts to changes in the class hierarchy, and because that order can include sibling classes that are unknown prior to runtime)."
+msgid "The second use case is to support cooperative multiple inheritance in a dynamic execution environment.  This use case is unique to Python and is not found in statically compiled languages or languages that only support single inheritance.  This makes it possible to implement \"diamond diagrams\" where multiple base classes implement the same method.  Good design dictates that such implementations have the same calling signature in every case (because the order of calls is determined at runtime, because that order adapts to changes in the class hierarchy, and because that order can include sibling classes that are unknown prior to runtime)."
 msgstr ""
 
 #: library/functions.rst:1928
@@ -1920,7 +1920,7 @@ msgstr "ডিফল্টরূপে,:func:`zip` বন্ধ হয়ে য
 
 #: library/functions.rst:2064
 msgid ">>> list(zip(range(3), ['fee', 'fi', 'fo', 'fum']))\n"
-"[(0, 'fee'), (1, 'fi'), (2, 'fo')]
+"[(0, 'fee'), (1, 'fi'), (2, 'fo')]"
 msgstr ""
 
 #: library/functions.rst:2067
