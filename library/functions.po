@@ -677,7 +677,7 @@ msgstr "যদি আর্গুমেন্টটি একটি সংখ্
 
 #: library/functions.rst:433
 msgid "If two arguments are provided or keyword arguments are used, each argument may be any numeric type (including complex). If both arguments are real numbers, return a complex number with the real component *real* and the imaginary component *imag*. If both arguments are complex numbers, return a complex number with the real component ``real.real-imag.imag`` and the imaginary component ``real.imag+imag.real``. If one of arguments is a real number, only its real component is used in the above expressions."
-msgstr "যদি দুটি আর্গুমেন্ট প্রদান করা হয় বা কীওয়ার্ড আর্গুমেন্ট ব্যবহার করা হয়, তাহলে প্রতিটি আর্গুমেন্ট যেকোনো সাংখ্যিক ধরনের (কমপ্লেক্সসহ) হতে পারে। যদি উভয় আর্গুমেন্ট বাস্তব সংখ্যা হয়, তবে একটি কমপ্লেক্স সংখ্যা ফেরত দেওয়া হয় যার বাস্তব অংশ *real* এবং কাল্পনিক অংশ *imag*। যদি উভয় আর্গুমেন্ট কমপ্লেক্স সংখ্যা হয়, তবে একটি কমপ্লেক্স সংখ্যা ফেরত দেওয়া হয় যার বাস্তব অংশ ``real.real-imag.imag`` এবং কাল্পনিক অংশ ``real.imag+imag.real``। যদি একটিমাত্র আর্গুমেন্ট বাস্তব সংখ্যা হয়, তবে উপরের প্রকাশে কেবল তার বাস্তব অংশ ব্যবহৃত হয়।"
+msgstr ""
 
 #: library/functions.rst:443
 msgid "If all arguments are omitted, returns ``0j``."
@@ -804,7 +804,7 @@ msgstr "এই ফাংশনটি স্বেচ্ছাসেবী কো
 
 #: library/functions.rst:596
 msgid "The *expression* argument is parsed and evaluated as a Python expression (technically speaking, a condition list) using the *globals* and *locals* dictionaries as global and local namespace.  If the *globals* dictionary is present and does not contain a value for the key ``__builtins__``, a reference to the dictionary of the built-in module :mod:`builtins` is inserted under that key before *expression* is parsed.  That way you can control what builtins are available to the executed code by inserting your own ``__builtins__`` dictionary into *globals* before passing it to :func:`eval`.  If the *locals* dictionary is omitted it defaults to the *globals* dictionary.  If both dictionaries are omitted, the expression is executed with the *globals* and *locals* in the environment where :func:`eval` is called.  Note, *eval()* does not have access to the :term:`nested scopes <nested scope>` (non-locals) in the enclosing environment."
-msgstr "*expression* আর্গুমেন্টটি একটি পাইথন এক্সপ্রেশন (প্রযুক্তিগতভাবে, একটি শর্ত তালিকা) হিসেবে পার্স ও মূল্যায়ন করা হয়, যেখানে *globals* এবং *locals* অভিধানগুলো যথাক্রমে গ্লোবাল এবং লোকাল নেমস্পেস হিসেবে ব্যবহৃত হয়। যদি *globals* অভিধানটি উপস্থিত থাকে এবং এতে ``__builtins__`` কী-এর জন্য কোনো মান না থাকে, তবে :mod:`builtins` মডিউলের অন্তর্নির্মিত অভিধানের একটি রেফারেন্স সেই কী-এর অধীনে প্রবেশ করানো হয় *expression* পার্স করার আগে। এইভাবে, আপনি আপনার নিজস্ব ``__builtins__`` অভিধান *globals*-এ প্রবেশ করিয়ে কার্যকর কোডে কোন বিল্ট-ইন থাকবে তা নিয়ন্ত্রণ করতে পারেন। যদি *locals* অভিধানটি উহ্য থাকে, তবে এটি *globals* অভিধান হিসেবে ব্যবহৃত হয়। যদি উভয় অভিধান উহ্য থাকে, তবে এক্সপ্রেশনটি :func:`eval` যেখান থেকে কল করা হয়েছে সেই পরিবেশের *globals* এবং *locals* সহ কার্যকর হয়। মনে রাখবেন, *eval()* সংজ্ঞায়িত পরিবেশের :term:`nested scopes <nested scope>` (নন-লোকাল) -এ অ্যাক্সেস পায় না।"
+msgstr ""
 
 #: library/functions.rst:611
 msgid "Example:"
@@ -835,11 +835,11 @@ msgstr "কোড অবজেক্টটি আর্গুমেন্ট হ
 
 #: library/functions.rst:647
 msgid "This function supports dynamic execution of Python code. *object* must be either a string or a code object.  If it is a string, the string is parsed as a suite of Python statements which is then executed (unless a syntax error occurs). [#]_ If it is a code object, it is simply executed.  In all cases, the code that's executed is expected to be valid as file input (see the section :ref:`file-input` in the Reference Manual). Be aware that the :keyword:`nonlocal`, :keyword:`yield`,  and :keyword:`return` statements may not be used outside of function definitions even within the context of code passed to the :func:`exec` function. The return value is ``None``."
-msgstr "এই ফাংশনটি পাইথন কোডের ডাইনামিক এক্সিকিউশন সমর্থন করে। *object* অবশ্যই একটি স্ট্রিং অথবা একটি কোড অবজেক্ট হতে হবে। যদি এটি একটি স্ট্রিং হয়, তবে স্ট্রিংটি পাইথনের বিবৃতির একটি স্যুট হিসেবে পার্স করা হয় এবং পরে তা কার্যকর হয় (যদি কোনো সিনট্যাক্স ত্রুটি না ঘটে)। [#]_ যদি এটি একটি কোড অবজেক্ট হয়, তবে সেটি সরাসরি কার্যকর হয়। সব ক্ষেত্রেই, যে কোডটি কার্যকর হয় তা ফাইল ইনপুট হিসেবে বৈধ হওয়ার প্রত্যাশা থাকে (রেফারেন্স ম্যানুয়ালের :ref:`file-input` অংশ দেখুন)। মনে রাখবেন, :keyword:`nonlocal`, :keyword:`yield`, এবং :keyword:`return` স্টেটমেন্টগুলো ফাংশনের সংজ্ঞার বাইরে, এমনকি :func:`exec` ফাংশনে প্রদত্ত কোডের প্রসঙ্গেও, ব্যবহার করা যাবে না। এই ফাংশনের রিটার্ন ভ্যালু হল ``None``।"
+msgstr "এই ফাংশনটি পাইথন কোডের ডাইনামিক এক্সিকিউশন সমর্থন করে।"
 
 #: library/functions.rst:658
 msgid "In all cases, if the optional parts are omitted, the code is executed in the current scope.  If only *globals* is provided, it must be a dictionary (and not a subclass of dictionary), which will be used for both the global and the local variables.  If *globals* and *locals* are given, they are used for the global and local variables, respectively.  If provided, *locals* can be any mapping object.  Remember that at the module level, globals and locals are the same dictionary."
-msgstr "সব ক্ষেত্রেই, যদি ঐচ্ছিক অংশগুলো বাদ দেওয়া হয়, তবে কোডটি বর্তমান স্কোপে কার্যকর হয়। যদি কেবল *globals* প্রদান করা হয়, তবে এটি অবশ্যই একটি ডিকশনারি (ডিকশনারির সাবক্লাস নয়) হতে হবে, যা গ্লোবাল এবং লোকাল ভেরিয়েবলের জন্য ব্যবহৃত হবে। যদি *globals* এবং *locals* উভয়ই প্রদান করা হয়, তবে সেগুলি যথাক্রমে গ্লোবাল এবং লোকাল ভেরিয়েবলের জন্য ব্যবহৃত হবে। *locals* প্রদান করা হলে, এটি যেকোনো ম্যাপিং অবজেক্ট হতে পারে। মনে রাখবেন যে, মডিউল লেভেলে, গ্লোবাল এবং লোকাল একই ডিকশনারি।"
+msgstr ""
 
 #: library/functions.rst:668
 msgid "Most users should just pass a *globals* argument and never *locals*. If exec gets two separate objects as *globals* and *locals*, the code will be executed as if it were embedded in a class definition."
@@ -896,7 +896,7 @@ msgstr ""
 
 #: library/functions.rst:746
 msgid "If the argument is a string, it should contain a decimal number, optionally preceded by a sign, and optionally embedded in whitespace.  The optional sign may be ``'+'`` or ``'-'``; a ``'+'`` sign has no effect on the value produced.  The argument may also be a string representing a NaN (not-a-number), or positive or negative infinity. More precisely, the input must conform to the :token:`~float:floatvalue` production rule in the following grammar, after leading and trailing whitespace characters are removed:"
-msgstr "যদি আর্গুমেন্টটি একটি স্ট্রিং হয়, তবে এটি একটি দশমিক সংখ্যা ধারণ করতে হবে, যা অপশনালভাবে একটি সাইন দ্বারা পূর্বাহ্নিত হতে পারে এবং অপশনালভাবে সাদা স্থান দ্বারা আবদ্ধ হতে পারে। অপশনাল সাইনটি ``'+'`` অথবা ``'-'`` হতে পারে; একটি ``'+'`` সাইন তৈরি হওয়া মানের উপর কোনো প্রভাব ফেলে না। আর্গুমেন্টটি একটি স্ট্রিংও হতে পারে যা NaN (নট-এ-নাম্বার), অথবা ধনাত্মক বা ঋণাত্মক অসীম প্রতিনিধিত্ব করে। আরও সঠিকভাবে, ইনপুটটি নিম্নলিখিত ব্যাকরণে :token:`~float:floatvalue` উৎপাদন রুলের সাথে মিলে থাকতে হবে, প্রারম্ভিক এবং পরবর্তী সাদা স্থান চিহ্নগুলি সরানোর পর:"
+msgstr ""
 
 #: library/functions.rst:767
 msgid "Case is not significant, so, for example, \"inf\", \"Inf\", \"INFINITY\", and \"iNfINity\" are all acceptable spellings for positive infinity."
@@ -1096,7 +1096,7 @@ msgstr ":class:`int`-এর স্ট্রিং ইনপুট এবং স�
 
 #: library/functions.rst:1048
 msgid "Return ``True`` if the *object* argument is an instance of the *classinfo* argument, or of a (direct, indirect, or :term:`virtual <abstract base class>`) subclass thereof.  If *object* is not an object of the given type, the function always returns ``False``. If *classinfo* is a tuple of type objects (or recursively, other such tuples) or a :ref:`types-union` of multiple types, return ``True`` if *object* is an instance of any of the types. If *classinfo* is not a type or tuple of types and such tuples, a :exc:`TypeError` exception is raised. :exc:`TypeError` may not be raised for an invalid type if an earlier check succeeds."
-msgstr "যদি *object* আর্গুমেন্টটি *classinfo* আর্গুমেন্টের একটি ইনস্ট্যান্স হয়, অথবা তার (সরাসরি, পরোক্ষ, অথবা :term:`ভার্চুয়াল <abstract base class>`) সাবক্লাস হয়, তবে ``True`` ফেরত দিন। যদি *object* প্রদত্ত ধরনের একটি অবজেক্ট না হয়, তবে ফাংশনটি সবসময় ``False`` ফেরত দেয়। যদি *classinfo* একটি টাইপ অবজেক্টগুলির tuple (অথবা পুনরাবৃত্তিভাবে, অন্য এই ধরনের tuples) অথবা একাধিক ধরনের একটি :ref:`types-union` হয়, তবে ``True`` ফেরত দিন যদি *object* যে কোনো ধরনের একটি ইনস্ট্যান্স হয়। যদি *classinfo* একটি টাইপ অথবা টাইপগুলির tuple এবং এই ধরনের tuples না হয়, তবে একটি :exc:`TypeError` এক্সেপশন উঠানো হয়। :exc:`TypeError` একটি অবৈধ টাইপের জন্য একটি প্রাথমিক চেক সফল হলে উঠানো নাও হতে পারে।"
+msgstr ""
 
 #: library/functions.rst:1059
 #: library/functions.rst:1073
@@ -1223,7 +1223,7 @@ msgstr "*file* একটি :term:`path-like object` যা খুলতে হ�
 
 #: library/functions.rst:1277
 msgid "*mode* is an optional string that specifies the mode in which the file is opened.  It defaults to ``'r'`` which means open for reading in text mode. Other common values are ``'w'`` for writing (truncating the file if it already exists), ``'x'`` for exclusive creation, and ``'a'`` for appending (which on *some* Unix systems, means that *all* writes append to the end of the file regardless of the current seek position).  In text mode, if *encoding* is not specified the encoding used is platform-dependent: :func:`locale.getencoding` is called to get the current locale encoding. (For reading and writing raw bytes use binary mode and leave *encoding* unspecified.)  The available modes are:"
-msgstr "*mode* একটি ঐচ্ছিক স্ট্রিং যা ফাইলটি কোন মোডে খোলা হবে তা নির্ধারণ করে। এর ডিফল্ট মান হল ``'r'``, যার মানে টেক্সট মোডে পড়ার জন্য ফাইল খোলা। অন্যান্য সাধারণ মানগুলির মধ্যে রয়েছে ``'w'`` লেখার জন্য (ফাইলটি আগে থেকে বিদ্যমান থাকলে সেটি কেটে ফেলে), ``'x'`` একচেটিয়া তৈরি করার জন্য এবং ``'a'`` যুক্ত করার জন্য (যা *কিছু* ইউনিক্স সিস্টেমে ফাইলের বর্তমান অবস্থান যাই হোক না কেন *সব* লেখা ফাইলের শেষে যুক্ত হয়)। টেক্সট মোডে, যদি *encoding* নির্দিষ্ট না করা হয়, তবে ব্যবহৃত এনকোডিং প্ল্যাটফর্ম-নির্ভর: বর্তমান লোকেল এনকোডিং পেতে :func:`locale.getencoding` কল করা হয়। (কাঁচা বাইট পড়া ও লেখার জন্য বাইনারি মোড ব্যবহার করুন এবং *encoding* নির্দিষ্ট করবেন না।) উপলব্ধ মোডগুলো হল:
+msgstr "*mode* একটি ঐচ্ছিক স্ট্রিং যা ফাইলটি কোন মোডে খোলা হবে তা নির্ধারণ করে। এর ডিফল্ট মান হল ``'r'``, যার মানে টেক্সট মোডে পড়ার জন্য ফাইল খোলা। অন্যান্য সাধারণ মানগুলির মধ্যে রয়েছে ``'w'`` লেখার জন্য (ফাইলটি আগে থেকে বিদ্যমান থাকলে সেটি কেটে ফেলে), ``'x'`` একচেটিয়া তৈরি করার জন্য এবং ``'a'`` যুক্ত করার জন্য (যা *কিছু* ইউনিক্স সিস্টেমে ফাইলের বর্তমান অবস্থান যাই হোক না কেন *সব* লেখা ফাইলের শেষে যুক্ত হয়)। টেক্সট মোডে, যদি *encoding* নির্দিষ্ট না করা হয়, তবে ব্যবহৃত এনকোডিং প্ল্যাটফর্ম-নির্ভর: বর্তমান লোকেল এনকোডিং পেতে :func:`locale.getencoding` কল করা হয়। (কাঁচা বাইট পড়া ও লেখার জন্য বাইনারি মোড ব্যবহার করুন এবং *encoding* নির্দিষ্ট করবেন না।) উপলব্ধ মোডগুলো হল:"
 
 #: library/functions.rst:1294
 msgid "Character"
@@ -1304,7 +1304,7 @@ msgstr "পাইথন অন্তর্নিহিত অপারেটি�
 
 #: library/functions.rst:1323
 msgid "*buffering* is an optional integer used to set the buffering policy.  Pass 0 to switch buffering off (only allowed in binary mode), 1 to select line buffering (only usable when writing in text mode), and an integer > 1 to indicate the size in bytes of a fixed-size chunk buffer. Note that specifying a buffer size this way applies for binary buffered I/O, but ``TextIOWrapper`` (i.e., files opened with ``mode='r+'``) would have another buffering. To disable buffering in ``TextIOWrapper``, consider using the ``write_through`` flag for :func:`io.TextIOWrapper.reconfigure`. When no *buffering* argument is given, the default buffering policy works as follows:"
-msgstr "*buffering* একটি ঐচ্ছিক পূর্ণসংখ্যা যা বাফারিং নীতিটি সেট করতে ব্যবহৃত হয়। বাফারিং বন্ধ করতে 0 দিন (শুধুমাত্র বাইনারি মোডে অনুমোদিত), 1 দিন লাইনের বাফারিং নির্বাচন করতে (শুধুমাত্র টেক্সট মোডে লেখার সময় ব্যবহারযোগ্য), এবং একটি পূর্ণসংখ্যা > 1 দিন একটি নির্দিষ্ট আকারের চাঙ্ক বাফারের আকার বাইটে নির্দেশ করতে। লক্ষ্য করুন যে এইভাবে একটি বাফার আকার নির্ধারণ করা বাইনারি বাফারড I/O এর জন্য প্রযোজ্য, তবে ``TextIOWrapper`` (অর্থাৎ, ``mode='r+'`` সহ খোলা ফাইলগুলির জন্য) অন্য বাফারিং থাকতে পারে। ``TextIOWrapper`` এ বাফারিং নিষ্ক্রিয় করতে, :func:`io.TextIOWrapper.reconfigure` এর জন্য ``write_through`` ফ্ল্যাগ ব্যবহার করার কথা বিবেচনা করুন। যখন কোন *buffering* আর্গুমেন্ট দেওয়া হয় না, তখন ডিফল্ট বাফারিং নীতি নিম্নরূপ কাজ করে:"
+msgstr "*buffering* একটি ঐচ্ছিক পূর্ণসংখ্যা যা বাফারিং নীতিটি সেট করতে ব্যবহৃত হয়।"
 
 #: library/functions.rst:1333
 msgid "Binary files are buffered in fixed-size chunks; the size of the buffer is chosen using a heuristic trying to determine the underlying device's "block size" and falling back on :const:`io.DEFAULT_BUFFER_SIZE`.  On many systems, the buffer will typically be 4096 or 8192 bytes long."
@@ -1358,7 +1358,7 @@ msgstr "*newline* স্ট্রীম থেকে নিউলাইন চ�
 
 #: library/functions.rst:1392
 msgid "When reading input from the stream, if *newline* is ``None``, universal newlines mode is enabled.  Lines in the input can end in ``'\\n'``, ``'\\r'``, or ``'\\r\\n'``, and these are translated into ``'\\n'`` before being returned to the caller.  If it is ``''``, universal newlines mode is enabled, but line endings are returned to the caller untranslated.  If it has any of the other legal values, input lines are only terminated by the given string, and the line ending is returned to the caller untranslated."
-msgstr "Stream থেকে ইনপুট পড়ার সময়, যদি *newline* ``None`` হয়, তবে ইউনিভার্সাল নিউলাইন্স মোড সক্রিয় হয়। ইনপুটের লাইনগুলি ``'\\n'``, ``'\\r'``, অথবা ``'\\r\\n'`` তে শেষ হতে পারে, এবং এগুলি কলারকে ফেরত দেওয়ার আগে ``'\\n'`` তে রূপান্তরিত হয়। যদি এটি ``''`` হয়, তবে ইউনিভার্সাল নিউলাইন্স মোড সক্রিয় হয়, কিন্তু লাইন এন্ডিংগুলি কলারকে অপরিবর্তিত অবস্থায় ফেরত দেওয়া হয়। যদি এটি অন্য কোন বৈধ মান ধারণ করে, তবে ইনপুট লাইনগুলি শুধুমাত্র দেওয়া স্ট্রিং দ্বারা শেষ হয়, এবং লাইন এন্ডিংটি কলারকে অপরিবর্তিত অবস্থায় ফেরত দেওয়া হয়।"
+msgstr ""
 
 #: library/functions.rst:1400
 msgid "When writing output to the stream, if *newline* is ``None``, any ``'\\n'`` characters written are translated to the system default line separator, :data:`os.linesep`.  If *newline* is ``''`` or ``'\\n'``, no translation takes place.  If *newline* is any of the other legal values, any ``'\\n'`` characters written are translated to the given string."
@@ -1458,7 +1458,7 @@ msgstr "*base* এর *exp* ঘাত রিটার্ন করে; যদি
 
 #: library/functions.rst:1505
 msgid "The arguments must have numeric types.  With mixed operand types, the coercion rules for binary arithmetic operators apply.  For :class:`int` operands, the result has the same type as the operands (after coercion) unless the second argument is negative; in that case, all arguments are converted to float and a float result is delivered.  For example, ``pow(10, 2)`` returns ``100``, but ``pow(10, -2)`` returns ``0.01``.  For a negative base of type :class:`int` or :class:`float` and a non-integral exponent, a complex result is delivered.  For example, ``pow(-9, 0.5)`` returns a value close to ``3j``. Whereas, for a negative base of type :class:`int` or :class:`float` with an integral exponent, a float result is delivered. For example, ``pow(-9, 2.0)`` returns ``81.0``."
-msgstr "আর্গুমেন্টগুলো অবশ্যই সংখ্যাসূচক ধরনের হতে হবে। ভিন্ন ধরনের অপারেন্ড থাকলে, বাইনারি গাণিতিক অপারেটরের জন্য কেরশন নিয়ম প্রযোজ্য হয়। :class:`int` ধরনের অপারেন্ডের ক্ষেত্রে, দ্বিতীয় আর্গুমেন্ট যদি ঋণাত্মক না হয়, তাহলে ফলাফল অপারেন্ডগুলোর (কেরশনের পর) একই ধরনের হয়। তবে দ্বিতীয় আর্গুমেন্ট ঋণাত্মক হলে, সব আর্গুমেন্টকে float এ রূপান্তর করা হয় এবং একটি float ফলাফল প্রদান করা হয়। যেমন, ``pow(10, 2)`` রিটার্ন করে ``100``, কিন্তু ``pow(10, -2)`` রিটার্ন করে ``0.01``। :class:`int` অথবা :class:`float` ধরনের ঋণাত্মক base এবং অ-পূর্ণসংখ্যা ঘাত থাকলে একটি জটিল সংখ্যা (complex) রিটার্ন করা হয়। যেমন, ``pow(-9, 0.5)`` রিটার্ন করে ``3j``-এর কাছাকাছি একটি মান। কিন্তু, :class:`int` অথবা :class:`float` ধরনের ঋণাত্মক base এবং পূর্ণসংখ্যা ঘাত থাকলে একটি float ফলাফল রিটার্ন করা হয়। যেমন, ``pow(-9, 2.0)`` রিটার্ন করে ``81.0``।"
+msgstr ""
 
 #: library/functions.rst:1517
 msgid "For :class:`int` operands *base* and *exp*, if *mod* is present, *mod* must also be of integer type and *mod* must be nonzero. If *mod* is present and *exp* is negative, *base* must be relatively prime to *mod*. In that case, ``pow(inv_base, -exp, mod)`` is returned, where *inv_base* is an inverse to *base* modulo *mod*."
@@ -1796,7 +1796,7 @@ msgstr "*super* এর জন্য দুটি সাধারণ ব্যব
 
 #: library/functions.rst:1918
 msgid "The second use case is to support cooperative multiple inheritance in a dynamic execution environment.  This use case is unique to Python and is not found in statically compiled languages or languages that only support single inheritance.  This makes it possible to implement "diamond diagrams" where multiple base classes implement the same method.  Good design dictates that such implementations have the same calling signature in every case (because the order of calls is determined at runtime, because that order adapts to changes in the class hierarchy, and because that order can include sibling classes that are unknown prior to runtime)."
-msgstr "দ্বিতীয় ব্যবহার কেসটি একটি ডায়নামিক এক্সিকিউশন পরিবেশে সমবায় মাল্টিপল ইনহেরিটেন্স সমর্থন করতে হয়। এই ব্যবহার কেসটি শুধুমাত্র পাইথনে বিদ্যমান এবং এটি স্ট্যাটিকভাবে কম্পাইল করা ভাষা বা ভাষায় পাওয়া যায় না যেগুলি শুধুমাত্র একক উত্তরাধিকার সমর্থন করে। এটি "ডায়মন্ড ডায়াগ্রাম" বাস্তবায়ন সম্ভব করে যেখানে একাধিক বেস শ্রেণী একই পদ্ধতি বাস্তবায়ন করে। ভালো ডিজাইন নির্দেশ করে যে এমন বাস্তবায়নগুলির প্রতিটি ক্ষেত্রে একই কলিং সিগনেচার থাকা উচিত (কারণ কলের অর্ডার রানটাইমে নির্ধারিত হয়, কারণ সেই অর্ডার শ্রেণী হায়ারার্কিতে পরিবর্তনগুলির সাথে অভিযোজিত হয়, এবং কারণ সেই অর্ডারে সিবলিং ক্লাসগুলি অন্তর্ভুক্ত হতে পারে যা রানটাইমের আগে অজানা)।"
+msgstr ""
 
 #: library/functions.rst:1928
 msgid "For both use cases, a typical superclass call looks like this::"
