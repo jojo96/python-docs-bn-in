@@ -1,7 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
+# Translated PO file
 # Copyright (C) 2001-2025, Python Software Foundation
 # This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Ujjayanta <ujjayanta.bhaumik@ucl.ac.uk>, 2025.
 #
 #, fuzzy
 msgid ""
@@ -9,8 +9,7 @@ msgstr ""
 "Project-Id-Version: Python 3.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-10 20:08+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Ujjayanta <ujjayanta.bhaumik@ucl.ac.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
